@@ -1,3 +1,10 @@
 body {
-  background-color: paleblue;
+
+  font-family: verdana;
+  background-color: silver;
+}
+
+body h1{
+  font-family: Arial;
+  color: gray;
 }
