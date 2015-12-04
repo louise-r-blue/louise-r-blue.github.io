@@ -1,15 +1,15 @@
 body {
   padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 100px;
-  padding-left: 150;
+  padding-right: 200px;
+  padding-bottom: 250px;
+  padding-left: 200px;
   font-family: sans-serif;
-  background-color: #c0c0c0;
+  background-color: #F9F8EE;
 }
 
 body h1{
   font-family: Arial;
-  color: #000000;
+  color: #000001;
 }
 
 body q {
