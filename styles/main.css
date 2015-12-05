@@ -1,15 +1,16 @@
+header {
+  height: 50px;
+  padding: 5px;
+}
+
 h1 {
+  padding-left: 155px;
   color: #000001;
   font-family:  Helvetica;
 }
 
 h2 {
   font-family: Helvetica;
-}
-
-header {
-  height: 50px;
-  padding: 5px;
 }
 
 footer {
@@ -19,26 +20,35 @@ footer {
 article {
   margin-left: 162px;
   padding: 5px;
+  text-align: center, justify;
 }
 
 body {
   font-family: Verdana, Geneva, sans-serif;
   background-color: #F9F8EE;
-  text-align: center, justify;
+}
+
+nav {
+  position: absolute;
+  left: 10px;
+  top: 70px;
+  width: 150px;
+  padding: 5px;
+  background-color: #FFCECE;
 }
 
 a:link {
-  color: blue;
+  color: lightblue;
   text-decoration: none;
 }
 
 a:visited {
-  color: purple;
+  color: pink;
   text-decoration: none;
 }
 
 a:hover {
-  color:red;
+  color:green;
   text-decoration: none;
 }
 
@@ -46,12 +56,4 @@ q {
   font-size: 15px;
 }
 
-nav {
-  position: absolute;
-  left: 10px;
-  top: 70px;
-  width: 150;
-  padding: 5px;
-  background-color: #FFCECE;
-}
 
