@@ -8,27 +8,24 @@ h2 {
 }
 
 header {
-  height: 25px;
-  position: relative;
+  height: 50px;
+  padding: 5px;
 }
 
 footer {
-  height:30px;
-  position: relative;
+  padding: 5px;
 }
 
 article {
-  float: right 75%;
+  margin-left: 162px;
+  padding: 5px;
 }
 
 body {
   font-family: Verdana, Geneva, sans-serif;
   background-color: #F9F8EE;
+  text-align: center, justify;
 }
-
-
-
-
 
 a:link {
   color: blue;
@@ -47,12 +44,14 @@ a:hover {
 
 q {
   font-size: 15px;
-  padding-left: 180px;
 }
 
-aside {
-  float: left;
-  width: 20%;
+nav {
+  position: absolute;
+  left: 10px;
+  top: 70px;
+  width: 150;
+  padding: 5px;
   background-color: #FFCECE;
 }
 
