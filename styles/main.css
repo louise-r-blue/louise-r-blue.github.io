@@ -17,5 +17,6 @@ body q {
 }
 
 body aside {
+  display:block;
   background-color: #888;
-} 
+}
