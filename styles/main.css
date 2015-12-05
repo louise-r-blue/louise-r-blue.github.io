@@ -1,22 +1,24 @@
 body {
   padding-top: 50px;
-  padding-right: 200px;
+  padding-right: 250px;
   padding-bottom: 250px;
-  padding-left: 200px;
+  padding-left: 250px;
   font-family: sans-serif;
   background-color: #F9F8EE;
 }
 
 body h1 {
-  font-family: Arial;
+  font-family:verdana;
   color: #000001;
 }
 
 body q {
   font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 body aside {
   display:block;
-  background-color: #888;
+  background-color: #FFCECE;
 }
