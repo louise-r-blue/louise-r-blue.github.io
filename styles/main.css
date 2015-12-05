@@ -7,13 +7,6 @@ h2 {
   font-family: Helvetica;
 }
 
-body {
-  float: right;
-  width: 75%;
-  font-family: Verdana, Geneva, sans-serif;
-  background-color: #F9F8EE;
-}
-
 header {
   height: 25px;
   position: relative;
@@ -23,6 +16,19 @@ footer {
   height:30px;
   position: relative;
 }
+
+article {
+  float: right 75%;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #F9F8EE;
+}
+
+
+
+
 
 a:link {
   color: blue;
