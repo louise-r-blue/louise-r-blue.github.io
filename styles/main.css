@@ -36,6 +36,7 @@ a:hover {
   left: 10px;
   top: 70px;
   width: 250px;
+  height: 500px;
   border-right-width: 1px solid black;
   padding: 5px;
 }
@@ -45,6 +46,7 @@ a:hover {
   right: 10px;
   top: 70px;
   width: 250px;
+  height: 500px;
   padding: 6px;
   border-left-width: 1px solid black;
 }
@@ -64,6 +66,7 @@ article {
   margin-left: 262px;
   margin-right: 262px;
   margin-bottom: 100px;
+  height: 500px;
   text-align: justify;
 }
 
