@@ -17,19 +17,19 @@ h2 {
 }
 
 a:link {
-  padding-top: 5px;
+  padding-top: 10px;
   text-decoration: none;
   color: #00AFEC;
 }
 
 a:visited {
-  padding-top: 5px;
+  padding-top: 10px;
   text-decoration: none;
   color: #C017CA;
 }
   
 a:hover {
-  padding-top: 5px;
+  padding-top: 10px;
   text-decoration: none;
   color: green;
 }
@@ -40,7 +40,7 @@ a:hover {
   top: 100px;
   width: 250px;
   height: 450px;
-  border-right-width: 1px solid black;
+  border-right-width: 1px solid #C017CA;
   padding: 5px;
 }
 
@@ -71,6 +71,11 @@ article {
   margin-bottom: 100px;
   height: 500px;
   text-align: justify;
+}
+
+.quote {
+font-size: 25px;
+text-align: center;
 }
 
 q {
