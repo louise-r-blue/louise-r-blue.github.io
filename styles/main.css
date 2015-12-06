@@ -40,7 +40,7 @@ a:hover {
   top: 100px;
   width: 230px;
   height: 485px;
-  border-right-width: 2px solid red;
+  border-right: 2px solid red;
   padding: 5px;
 }
 
