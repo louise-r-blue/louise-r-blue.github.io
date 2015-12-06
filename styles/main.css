@@ -17,16 +17,19 @@ h2 {
 }
 
 a:link {
+  padding-top: 5px;
   text-decoration: none;
   color: #00AFEC;
 }
 
 a:visited {
+  padding-top: 5px;
   text-decoration: none;
   color: #C017CA;
 }
   
 a:hover {
+  padding-top: 5px;
   text-decoration: none;
   color: green;
 }
