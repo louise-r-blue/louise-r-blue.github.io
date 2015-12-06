@@ -34,9 +34,9 @@ a:hover {
  .left {
   position: absolute;
   left: 10px;
-  top: 95px;
+  top: 100px;
   width: 250px;
-  height: 500px;
+  height: 450px;
   border-right-width: 1px solid black;
   padding: 5px;
 }
@@ -44,15 +44,15 @@ a:hover {
   .right {
   position: absolute;
   right: 10px;
-  top: 95px;
+  top: 100px;
   width: 250px;
-  height: 500px;
+  height: 450px;
   padding: 6px;
   border-left-width: 1px solid black;
 }
 
 footer {
-  
+  text-align: right;
   border-top: 2px solid red;
   padding: 5px;
 }
