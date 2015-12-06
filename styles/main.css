@@ -4,7 +4,7 @@ header {
 }
 
 h1 {
-  padding-left: 250px;
+  padding-left: 255px;
   color: #000001;
   font-family:  Helvetica;
   font-weight: 300;
@@ -52,8 +52,8 @@ a:hover {
 }
 
 footer {
-  position: absolute;
-  border-top: 1px solid red;
+  position: relative;
+  border-top: 2px solid red;
   padding: 5px;
 }
 
@@ -73,6 +73,10 @@ article {
 q {
   text-align: justify;
   font-size: 15px;
+}
+
+div q {
+  padding-top: 100px;
 }
 
 
