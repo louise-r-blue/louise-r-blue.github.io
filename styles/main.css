@@ -38,9 +38,9 @@ a:hover {
   position: absolute;
   left: 10px;
   top: 100px;
-  width: 250px;
+  width: 230px;
   height: 450px;
-  border-right-width: 1px solid #C017CA;
+  border-right-width: 2px solid red;
   padding: 5px;
 }
 
@@ -69,7 +69,6 @@ article {
   margin-left: 262px;
   margin-right: 262px;
   margin-bottom: 100px;
-  height: 500px;
   text-align: justify;
 }
 
