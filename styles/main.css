@@ -51,7 +51,10 @@ a:hover {
   width: 230px;
   height: 485px;
   padding: 6px;
-  border-left-width: 1px solid black;
+}
+
+.home{
+  margin-top: 300px;
 }
 
 footer {
