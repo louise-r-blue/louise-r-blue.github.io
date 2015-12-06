@@ -16,19 +16,16 @@ h2 {
 }
 
 a:link {
-  font-weight: bold;
   text-decoration: none;
   color: #75D8F9;
 }
 
 a:visited {
-  font-weight: bold;
   text-decoration: none;
   color: #F9A4B4;
 }
   
 a:hover {
-  font-weight: bold;
   text-decoration: none;
   color: orange;
 }
@@ -57,8 +54,8 @@ body {
 }
 
 article {
-  margin-left: 162px;
-  margin-right: 162px;
+  margin-left: 262px;
+  margin-right: 262px;
   margin-bottom: 100px;
   text-align: justify;
 
