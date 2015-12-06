@@ -4,30 +4,30 @@ header {
 }
 
 h1 {
-  padding-left: 155px;
+  padding-left: 185px;
   color: #000001;
   font-family:  Helvetica;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 h2 {
   font-family: Helvetica;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 a:link {
   text-decoration: none;
-  color: #75D8F9;
+  color: lightblue;
 }
 
 a:visited {
   text-decoration: none;
-  color: #F9A4B4;
+  color: pink;
 }
   
 a:hover {
   text-decoration: none;
-  color: orange;
+  color: green;
 }
 
  .left {
@@ -35,7 +35,7 @@ a:hover {
   left: 10px;
   top: 70px;
   width: 250px;
-  border-right-width: 1px solid #000;
+  border-right-width: 1px solid black;
   padding: 5px;
 }
 
@@ -45,7 +45,7 @@ a:hover {
   top: 70px;
   width: 250px;
   padding: 6px;
-  border-right-width: 1px solid #000;
+  border-left-width: 1px solid black;
 }
 
 body {
