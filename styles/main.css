@@ -16,16 +16,19 @@ h2 {
 }
 
 a:link {
+  font-weight: bold;
   text-decoration: none;
   color: #75D8F9;
 }
 
 a:visited {
+  font-weight: bold;
   text-decoration: none;
   color: #F9A4B4;
 }
   
 a:hover {
+  font-weight: bold;
   text-decoration: none;
   color: orange;
 }
