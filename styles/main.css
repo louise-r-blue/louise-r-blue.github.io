@@ -2,7 +2,9 @@ header {
   height: 70px;
   padding: 20px;
 }
+
 h1 {
+  padding-left: 155px;
   color: #000001;
   font-family:  Helvetica;
   font-weight: lighter;
@@ -29,7 +31,6 @@ aside . right {
   width: 150px;
   padding: 6px;
   border-right-width: 1px solid #000;
-}
 
 body {
   font-family: Verdana, Geneva, sans-serif;
@@ -43,24 +44,23 @@ article {
 }
 
 a:link {
-  color: #75D8F9;
   text-decoration: none;
+  color: #75D8F9;
 }
 
 a:visited {
+  text-decoration: none;
   color: #F9A4B4;
-  text-decoration: none;
 }
-
+  
 a:hover {
-  color: orange;
   text-decoration: none;
+  color: orange;
 }
 
 q {
   font-size: 15px;
 }
-
 
 footer {
   height:90px;
