@@ -1,16 +1,17 @@
 header {
   height: 70px;
-  padding: 20px;
+  padding: 5px;
 }
 
 h1 {
-  padding-left: 200px;
+  padding-left: 250px;
   color: #000001;
   font-family:  Helvetica;
   font-weight: 300;
 }
 
 h2 {
+  padding-left: 250px;
   font-family: Helvetica;
   font-weight: 300;
 }
