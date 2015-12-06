@@ -35,17 +35,34 @@ a:hover {
 }
 
 .left {
-  border-right: 2px solid red;
-}
-
- aside {
   position: absolute;
   left: 10px;
   top: 100px;
   width: 230px;
   height: 650px;
   padding: 5px;
+  border-right: 2px solid red;
 }
+
+.reflection {
+  position: absolute;
+  left: 10px;
+  top: 100px;
+  width: 230px;
+  height: 650px;
+  padding: 5px;
+ }
+
+ .habit {
+  position: absolute;
+  left: 10px;
+  top: 100px;
+  width: 230px;
+  height: 650px;
+  padding: 5px;
+ }
+
+
 
   .right {
   position: absolute;
