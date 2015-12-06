@@ -1,5 +1,5 @@
 header {
-  height: 70px;
+  height: 65px;
   padding: 5px;
 }
 
@@ -18,7 +18,7 @@ h2 {
 
 a:link {
   text-decoration: none;
-  color: red;
+  color: orange;
 }
 
 a:visited {
