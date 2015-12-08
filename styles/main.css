@@ -68,6 +68,7 @@ a:hover {
   right: 10px;
   top: 100px;
   width: 250px;
+  height: 665px;
   padding: 6px;
 }
 
@@ -75,8 +76,8 @@ footer {
   margin-top: 250px;
   text-align: right;
   border-top: 2px solid red;
-  padding: 5px;
-}
+  padding: 200px,5px,100px,5px;
+ }
 
 body {
   font-family: Verdana,Geneva,sans-serif;
@@ -99,7 +100,7 @@ opacity: .1;
 
 q {
   text-align: justify;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 
