@@ -45,6 +45,7 @@ a:hover {
   left: 10px;
   width: 230px;
   padding: 5px;
+  height: 665px;
   border-right: 2px solid red;
 }
 
@@ -98,7 +99,7 @@ opacity: .1;
 
 q {
   text-align: justify;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 
