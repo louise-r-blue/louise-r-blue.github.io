@@ -74,17 +74,17 @@ a:hover {
 }
 
 footer {
-  margin-top: 250px;
+  margin-bottom: 200px;
   text-align: right;
   border-top: 2px solid red;
   padding-top: 200px;
  }
 
- footer div p {
-  margin-bottom: 200px;
- }
+footer .home p {
+  height:100px;
+}
 
-body {
+ body {
   font-family: Verdana,Geneva,sans-serif;
   line-height: 1.4;
   background-color: #F9F8EE;
