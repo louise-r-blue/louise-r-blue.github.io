@@ -1,6 +1,7 @@
 header {
   height: 65px;
   padding: 5px;
+  margin-top: 50px;
   margin-bottom: 100px;
   
 }
@@ -8,16 +9,16 @@ header {
 header h1 {
   padding-left: 255px;
   color: #182e4f;
-  font-family:  "effra";
+  font-family:  Helvetica;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 48px;
 }
 
 h2 {
-  font-family: "effra";
+  font-family: Helvetica;
   font-weight: 300;
   text-align: left;
-  font-size: 20px;
+  font-size: 28px;
   color: #182e4f;
 }
 
@@ -43,7 +44,6 @@ a:hover {
   position: fixed;
   left: 10px;
   width: 230px;
-  height: 650px;
   padding: 5px;
   border-right: 2px solid red;
 }
@@ -52,7 +52,6 @@ a:hover {
   position: fixed;
   left: 10px;
   width: 230px;
-  height: 650px;
   padding: 5px;
  }
 
@@ -60,7 +59,6 @@ a:hover {
   position: fixed;
   left: 10px;
   width: 230px;
-  height: 650px;
   padding: 5px;
  }
 
@@ -69,10 +67,8 @@ a:hover {
   right: 10px;
   top: 100px;
   width: 250px;
-  height: 450px;
   padding: 6px;
-
- }
+}
 
 footer {
   margin-top: 250px;
@@ -82,7 +78,7 @@ footer {
 }
 
 body {
-  font-family: "effra";
+  font-family: Verdana,Geneva,sans-serif;
   line-height: 1.4;
   background-color: #F9F8EE;
 }
@@ -102,7 +98,7 @@ opacity: .1;
 
 q {
   text-align: justify;
-  font-size: 15px;
+  font-size: 22px;
 }
 
 
