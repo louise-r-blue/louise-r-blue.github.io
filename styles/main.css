@@ -19,7 +19,7 @@ h2 {
   font-family: Helvetica;
   font-weight: 300;
   text-align: left;
-  font-size: 28px;
+  font-size: 22px;
   color: #182e4f;
 }
 
@@ -64,13 +64,17 @@ a:hover {
   padding: 5px;
  }
 
+ .experience {
+  margin-top:30px;
+ }
+
   .right {
   position: absolute;
   right: 10px;
   top: 100px;
   width: 250px;
   height: 665px;
-  padding: 6px;
+  padding-left: 10px;
 }
 
 footer {
@@ -80,8 +84,9 @@ footer {
   padding-top: 200px;
  }
 
-footer .home p {
+.who-am-I{
   height:100px;
+  padding-top:100px;
 }
 
  body {
