@@ -69,7 +69,7 @@ a:hover {
  }
 
  .impressions {
-  margin-top: 22px;
+  margin-top: 52px;
 }
 
  .engage {
@@ -107,6 +107,18 @@ a:hover {
 
 .experiment {
   margin-top: 30px;
+}
+
+.html-css-dom {
+margin-top: 30px;
+}
+
+.boxifying {
+margin-top: 60px;
+}
+
+.box-model {
+margin-top: 100px;
 }
 
 .home {
