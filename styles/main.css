@@ -65,14 +65,14 @@ a:hover {
  }
 
  .experience {
-  margin-top:30px;
+  margin-top: 30px;
  }
 
- .impressions {
+.impressions {
   margin-top: 52px;
 }
 
- .engage {
+.engage {
   margin-top: 96px;
  }
 
@@ -84,17 +84,17 @@ a:hover {
   margin-top: 119px;
 }
 
-  .right {
+.right {
+  height: 665px;
+  padding-left: 10px;
   position: absolute;
   right: 10px;
   top: 195px;
   width: 250px;
-  height: 665px;
-  padding-left: 10px;
 }
 
 .habits {
-  margin-top:30px;
+  margin-top: 30px;
 }
 
 .interesting {
@@ -110,53 +110,65 @@ a:hover {
 }
 
 .html-css-dom {
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 .boxifying {
-margin-top: 97px;
+  margin-top: 97px;
 }
 
 .box-model {
-margin-top: 376px;
+  margin-top: 376px;
+}
+
+.grid-design {
+  margin-top: 30px;
+}
+
+.respond {
+  margin-top: 100px;
+}
+
+.structure {
+  margin-top: 300px;
 }
 
 .home {
-  margin-bottom: 50px;
-  text-align: right;
   border-top: 2px solid red;
+  margin-bottom: 50px;
   padding-top: 5px;
+  text-align: right;
  }
 
-.who-am-I{
-  height:50px;
-  padding-top:50px;
+.who-am-i {
+  height: 50px;
+  padding-top: 50px;
 }
 
- body {
-  font-family: Verdana,Geneva,sans-serif;
-  line-height: 1.4;
+body {
   background-color: #F9F8EE;
   color: #4F5256;
+  font-family: Verdana,Geneva,sans-serif;
+  line-height: 1.4;
 }
 
 article {
+  margin-bottom: 100px;
   margin-left: 262px;
   margin-right: 262px;
-  margin-bottom: 100px;
   text-align: justify;
 }
 
 .quote {
-font-size: 50px;
-text-align: center;
-opacity: .1;
+  font-size: 50px;
+  opacity: .1;
+  text-align: center;
 }
 
 q {
+  font-size: 15px;
   margin-bottom: 300px;
   text-align: justify;
-  font-size: 15px;
 }
 
 
