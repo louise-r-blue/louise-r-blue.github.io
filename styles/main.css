@@ -145,6 +145,14 @@ a:hover {
   padding-top: 50px;
 }
 
+.learnings {
+margin-top: 30px;
+}
+
+.two-minutes {
+margin-top: 350px;
+}
+
 body {
   background-color: #F9F8EE;
   color: #4F5256;
