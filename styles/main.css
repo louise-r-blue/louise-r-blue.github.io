@@ -1,0 +1,183 @@
+header {
+  height: 65px;
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  }
+
+header h1 {
+  padding-left: 255px;
+  color: #4F5256;
+  font-family:  Helvetica;
+  font-weight: 300;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-weight: 300;
+  text-align: left;
+  font-size: 21px;
+  color: #4F5256;
+}
+
+a:link {
+  padding-top: 10px;
+  text-decoration: none;
+  color: #00AFEC;
+}
+
+a:visited {
+  padding-top: 10px;
+  text-decoration: none;
+  color: #C017CA;
+}
+  
+a:hover {
+  padding-top: 10px;
+  text-decoration: none;
+  color: green;
+}
+
+.left {
+  position: fixed;
+  left: 10px;
+  width: 230px;
+  padding: 5px;
+  height: 665px;
+  border-right: 2px solid red;
+}
+
+.reflection {
+  position: fixed;
+  left: 10px;
+  width: 230px;
+  padding: 5px;
+ }
+
+ .habit {
+  position: fixed;
+  left: 10px;
+  width: 230px;
+  padding: 5px;
+ }
+
+ .experience {
+  margin-top: 30px;
+ }
+
+.impressions {
+  margin-top: 52px;
+}
+
+.engage {
+  margin-top: 96px;
+ }
+
+.expect {
+  margin-top: 114px;
+}
+
+.excited {
+  margin-top: 119px;
+}
+
+.right {
+  height: 665px;
+  padding-left: 10px;
+  position: absolute;
+  right: 10px;
+  top: 195px;
+  width: 250px;
+}
+
+.habits {
+  margin-top: 30px;
+}
+
+.interesting {
+  margin-top: 95px;
+}
+
+.worked {
+  margin-top: 55px;
+}
+
+.experiment {
+  margin-top: 30px;
+}
+
+.html-css-dom {
+  margin-top: 30px;
+}
+
+.boxifying {
+  margin-top: 310px;
+}
+
+.box-model {
+  margin-top: 163px;
+}
+
+.grid-design {
+  margin-top: 30px;
+}
+
+.respond {
+  margin-top: 222px;
+}
+
+.structure {
+  margin-top: 323px;
+}
+
+.home {
+  border-top: 2px solid red;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  text-align: right;
+ }
+
+.who-am-i {
+  height: 50px;
+  padding-top: 50px;
+}
+
+.learnings {
+margin-top: 30px;
+}
+
+.two-minutes {
+margin-top: 423px;
+}
+
+body {
+  background-color: #F9F8EE;
+  color: #4F5256;
+  font-family: Verdana,Geneva,sans-serif;
+  line-height: 1.4;
+}
+
+article {
+  margin-bottom: 100px;
+  margin-left: 262px;
+  margin-right: 262px;
+  text-align: justify;
+}
+
+.quote {
+  font-size: 50px;
+  opacity: .1;
+  text-align: center;
+}
+
+q {
+  font-size: 15px;
+  margin-bottom: 300px;
+  text-align: justify;
+}
+
+
+
+
