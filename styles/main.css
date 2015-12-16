@@ -3,13 +3,7 @@ body {
 	max-height: 100%
 }
 
-
-.header {
-	max-width: 98%;
-	height: 65px;
-}
-
- h1 {
+h1 {
 	padding-left: 255px;
 	color: #4F5256;
 	font-family:  Helvetica;
