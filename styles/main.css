@@ -10,6 +10,7 @@ article {
 	font-size: 50px;
 	opacity: .1;
 	text-align: center;
+	padding-left: 275;
 }
 
 .header-container {
@@ -17,12 +18,12 @@ article {
 	height: 65px;
 	padding: 5px;
 	margin-top: 20px;
-	margin-bottom: 120px;
+	margin-bottom: 60px;
 }
 	
 
 h1 {
-	padding-left: 250px;
+	padding-left: 266px;
 	color: #4F5256;
 	/*font-family:  Helvetica;*/
 	font-weight: 300;
@@ -46,18 +47,21 @@ a:link {
 	padding-top: 10px;
 	text-decoration: none;
 	color: #00AFEC;
+	font-size: 2em;
 }
 
 a:visited {
 	padding-top: 10px;
 	text-decoration: none;
 	color: #C017CA;
+	font-size: 2em;
 }
 	
 a:hover {
 	padding-top: 10px;
 	text-decoration: none;
 	color: green;
+	font-size: 2em;
 }
 	
 
@@ -73,6 +77,7 @@ h2 {
 	text-align: left;
 	font-size: 34px;
 	color: #4F5256;
+	padding-left: 10px;
 }
 
 
