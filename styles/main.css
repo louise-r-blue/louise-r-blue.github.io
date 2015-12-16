@@ -3,7 +3,7 @@ body {
 }
 
 article {
-	position:fixed;
+	
 }
 
 .quote {
@@ -31,10 +31,11 @@ h1 {
 }
 
 .left {
-	max-width: 30%;
+	/*max-width: 30%;*/
 	height: 665px;
 	position: fixed;
 	left: 10px;
+	padding-right: 80px;
 	padding: 5px;
 	border-right: 2px solid red;
 }
