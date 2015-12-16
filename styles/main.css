@@ -51,21 +51,21 @@ a:link {
 	padding-top: 10px;
 	text-decoration: none;
 	color: #00AFEC;
-	font-size: 24px;
+	font-size: 18px;
 }
 
 a:visited {
 	padding-top: 10px;
 	text-decoration: none;
 	color: #C017CA;
-	font-size: 24px;
+	font-size: 18px;
 }
 	
 a:hover {
 	padding-top: 10px;
 	text-decoration: none;
 	color: green;
-	font-size: 24px;
+	font-size: 18px;
 }
 	
 
@@ -77,6 +77,7 @@ a:hover {
 
 h2 {
 	/*font-family: Helvetica;*/
+	width: 660px;
 	font-weight: 300;
 	text-align: left;
 	font-size: 34px;
