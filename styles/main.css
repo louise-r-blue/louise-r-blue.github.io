@@ -1,25 +1,31 @@
 body {
 	max-width: 100%;
+	max-height: 100%
 }
 
 article {
 	max-width: 98%;
+	max-height: 98%
 }
 
 header {
 	max-width: 98%;
+	height: 65px;
 }
 
 section .left {
 	max-width: 24%;
+	height: 665px;
 }
 
 section .middle-section {
-	max-width: 48%
+	max-width: 48%;
+	height: 665px;
 }
 
 section .right {
 	max-width: 24%;
+	height: 665px;
 }
 
 footer {
