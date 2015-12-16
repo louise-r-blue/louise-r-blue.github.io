@@ -1,5 +1,34 @@
+body {
+	max-width: 100%;
+}
 
-/*body {
+article {
+	max-width: 98%;
+}
+
+header {
+	max-width: 98%;
+}
+
+section .left {
+	max-width: 24%;
+}
+
+section .middle-section {
+	max-width: 48%
+}
+
+section .right {
+	max-width: 24%;
+}
+
+footer {
+	max-width: 98%
+}
+
+/* 
+
+body {
 max-width: 100%;
 }
 
