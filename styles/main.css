@@ -5,13 +5,22 @@ header {
   margin-bottom: 100px;
   }
 
-header h1 {
+h1 {
   padding-left: 255px;
   color: #4F5256;
   font-family:  Helvetica;
   font-weight: 300;
   font-size: 48px;
   letter-spacing: 2px;
+}
+
+section .left {
+  position: fixed;
+  left: 10px;
+  width: 230px;
+  padding: 5px;
+  height: 665px;
+  border-right: 2px solid red;
 }
 
 h2 {
@@ -40,13 +49,23 @@ a:hover {
   color: green;
 }
 
-.left {
-  position: fixed;
-  left: 10px;
-  width: 230px;
-  padding: 5px;
+.middle.section {
+  padding: 0;
+}
+
+.quote {
+  font-size: 50px;
+  opacity: .1;
+  text-align: center;
+}
+
+section .right {
   height: 665px;
-  border-right: 2px solid red;
+  padding-left: 10px;
+  position: absolute;
+  right: 10px;
+  top: 195px;
+  width: 250px;
 }
 
 .reflection {
@@ -83,14 +102,7 @@ a:hover {
   margin-top: 119px;
 }
 
-.right {
-  height: 665px;
-  padding-left: 10px;
-  position: absolute;
-  right: 10px;
-  top: 195px;
-  width: 250px;
-}
+
 
 .habits {
   margin-top: 30px;
@@ -166,17 +178,13 @@ article {
   text-align: justify;
 }
 
-.quote {
-  font-size: 50px;
-  opacity: .1;
-  text-align: center;
-}
-
 q {
   font-size: 15px;
   margin-bottom: 300px;
   text-align: justify;
 }
+
+
 
 
 
