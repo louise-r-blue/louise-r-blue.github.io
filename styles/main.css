@@ -27,9 +27,9 @@ h1 {
 	position: fixed;
 	left: 10px;
 	padding: 5px;
-	height: 665px;
 	border-right: 2px solid red;
 }
+	
 
 a:link {
 	padding-top: 10px;
@@ -52,6 +52,7 @@ a:hover {
 
 .middle-section {
 	max-width: 48%;
+	margin-left: 265px;
 	height: 665px;
 }
 
