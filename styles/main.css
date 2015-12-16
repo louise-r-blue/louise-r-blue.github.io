@@ -3,7 +3,7 @@ body {
 	/*font-family: 'Ubuntu', sans-serif;
 	font-family: 'Noto Sans', sans-serif;
 	font-family: 'Duru Sans', sans-serif;*/
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 	
 
@@ -32,7 +32,7 @@ h1 {
 	padding-left: 266px;
 	width: 600px;
 	color: #4F5256;
-	/*font-family:  Helvetica;*/
+	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	font-size: 48px;
 	letter-spacing: 2px;
@@ -47,6 +47,10 @@ h1 {
 	padding-right: 80px;
 	padding: 5px;
 	border-right: 2px solid red;
+}
+
+h3 {
+	font-family: 'Poppins', sans-serif;
 }
 	
 a:link :visited :hover {
@@ -73,6 +77,11 @@ a:hover {
 	color: green;
 	font-size: 18px;
 }
+
+.color-block {
+	background-color: yellow;
+	opacity: 2;
+}
 	
 
 .middle-section {
@@ -82,13 +91,14 @@ a:hover {
 }
 
 h2 {
-	/*font-family: Helvetica;*/
-	width: 660px;
+	font-family: 'Poppins', sans-serif;
+	width: 680px;
 	font-weight: 300;
 	text-align: left;
 	font-size: 34px;
 	color: #4F5256;
 	padding-left: 10px;
+	letter-spacing: .5px;
 }
 
 
