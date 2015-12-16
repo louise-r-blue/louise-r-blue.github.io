@@ -171,12 +171,12 @@ body {
 	line-height: 1.4;
 }
 
-/*article {
+.blog-text {
 	margin-bottom: 100px;
 	margin-left: 262px;
 	margin-right: 262px;
 	text-align: justify;
-}*/
+}
 
 q {
 	font-size: 15px;
