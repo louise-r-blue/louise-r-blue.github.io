@@ -9,11 +9,11 @@ body {
 
 
 .quote {
-	margin-bottom: 250px;
+	margin-bottom: 240px;
 	font-size: 50px;
 	opacity: .1;
 	text-align: center;
-	margin-left: 235px;
+	margin-left: 253px;
 }
 
 .header-section {
@@ -108,7 +108,7 @@ h2 {
 	text-align: left;
 	font-size: 34px;
 	color: #4F5256;
-	padding-left: 10px;
+	padding-left: 0;
 	letter-spacing: .5px;
 
 }
