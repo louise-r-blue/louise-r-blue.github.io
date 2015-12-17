@@ -8,7 +8,7 @@ body {
 	
 
 article {
-	
+
 }
 
 .quote {
@@ -16,7 +16,7 @@ article {
 	font-size: 50px;
 	opacity: .1;
 	text-align: center;
-	margin-left: 235px;;
+	margin-left: 235px;
 }
 
 .header-container {
@@ -78,9 +78,28 @@ a:hover {
 	font-size: 18px;
 }
 
-.color-block {
+.1-color-block {
 	color: yellow;
-	opacity: 8;
+	opacity: 4;
+	width: 525px;
+	height: 370px;
+}
+
+.2-color-block {
+	margin-left: 250px;
+	color: gray;
+	opacity: 3;
+	width: 425px;
+	height: 670px;
+}
+
+.3-color-block {
+	margin-bottom: 150px;
+	margin-right: 75px;
+	color: blue;
+	opacity: 2;
+	width: 650px;
+	height: 450px;
 }
 	
 
@@ -100,7 +119,6 @@ h2 {
 	letter-spacing: .5px;
 }
 
-
 .right {
 	width: 245px;
 	height: 665px;
@@ -109,9 +127,6 @@ h2 {
 	right: 10px;
 	top: 195px;
 }
-
-
-	
 
 .footer-home {
 	border-top: 2px solid red;
@@ -126,6 +141,19 @@ h2 {
 	padding-top: 50px;
 }
 
+/* Bigger than 550 */
+@media (min-width: 550px){
+
+}
+/*Bigger than 750 */
+	@media (min-width: 750px){
+
+	}
+
+/*Bigger than 1000*/
+@media (min-width: 1000px){
+	
+}
 /* 
 
 body {
