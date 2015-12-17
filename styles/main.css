@@ -39,7 +39,6 @@ h1 {
 }
 
 .left {
-	/*max-width: 30%;*/
 	width: 245px;
 	height: 665px;
 	position: fixed;
@@ -48,6 +47,7 @@ h1 {
 	padding: 5px;
 	border-right: 2px solid red;
 }
+	
 
 h3 {
 	font-family: 'Poppins', sans-serif;
@@ -85,11 +85,10 @@ a:hover {
 	
 
 .middle-section {
-	/*max-width: 48%;*/
 	margin-left: 265px;
 	height: 665px;
 }
-
+	
 h2 {
 	font-family: 'Poppins', sans-serif;
 	width: 680px;
@@ -102,9 +101,7 @@ h2 {
 }
 
 
-
 .right {
-	/*max-width: 30%;*/
 	width: 245px;
 	height: 665px;
 	padding-left: 10px;
@@ -113,13 +110,16 @@ h2 {
 	top: 195px;
 }
 
+
+	
+
 .footer-home {
-	/*max-width: 96%;*/
 	border-top: 2px solid red;
 	margin-bottom: 50px;
 	padding-top: 5px;
 	text-align: right;
 }
+	
 
 .who-am-i {
 	height: 50px;
