@@ -52,52 +52,56 @@ h1 {
 h3 {
 	font-family: 'Poppins', sans-serif;
 }
-	
+
+.blog-link {
+width: 175px;
+word-wrap: none;
+}
+
 a:link :visited :hover {
-	width: 200px;
+	width: 175px;
+	padding-top: 10px;
+	text-decoration: none;
 }
 
 a:link {
-	padding-top: 10px;
-	text-decoration: none;
+	
 	color: #00AFEC;
 	font-size: 18px;
 }
 
 a:visited {
-	padding-top: 10px;
-	text-decoration: none;
 	color: #C017CA;
 	font-size: 18px;
 }
 	
 a:hover {
-	padding-top: 10px;
-	text-decoration: none;
 	color: green;
 	font-size: 18px;
 }
+	
+	
 
-.1-color-block {
+.one-color-block {
 	color: yellow;
 	opacity: 4;
 	width: 525px;
 	height: 370px;
 }
 
-.2-color-block {
+.two-color-block {
 	margin-left: 250px;
 	color: gray;
-	opacity: 3;
+	opacity: 8;
 	width: 425px;
 	height: 670px;
 }
 
-.3-color-block {
+.three-color-block {
 	margin-bottom: 150px;
 	margin-right: 75px;
 	color: blue;
-	opacity: 2;
+	opacity: 6;
 	width: 650px;
 	height: 450px;
 }
@@ -152,7 +156,7 @@ h2 {
 
 /*Bigger than 1000*/
 @media (min-width: 1000px){
-	
+
 }
 /* 
 
