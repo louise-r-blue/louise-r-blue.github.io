@@ -9,11 +9,11 @@ body {
 
 
 .quote {
-	margin-bottom: 240px;
+	margin-bottom: 255px;
 	font-size: 50px;
 	opacity: .1;
 	text-align: center;
-	margin-left: 253px;
+	margin-left: 220px;
 }
 
 .header-section {
@@ -27,7 +27,7 @@ body {
 
 h1 {
 	padding-left: 100px;
-	width: 600px;
+	width: 680px;
 	color: #4F5256;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
@@ -88,7 +88,7 @@ a:hover {
 .three-color-block {
 	margin-bottom: 150px;
 	margin-right: 75px;
-	color: blue;
+	color: #4F5256;
 	opacity: 6;
 	width: 650px;
 	height: 450px;
