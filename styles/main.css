@@ -7,9 +7,6 @@ body {
 }
 	
 
-article {
-
-}
 
 .quote {
 	margin-bottom: 250px;
@@ -29,7 +26,7 @@ article {
 	
 
 h1 {
-	padding-left: 266px;
+	padding-left: 100px;
 	width: 600px;
 	color: #4F5256;
 	font-family: 'Poppins', sans-serif;
@@ -103,23 +100,25 @@ a:hover {
 	height: 665px;
 }
 
-
-
-
-	
-	
-
-	
 h2 {
+	margin-right: 350px;
 	font-family: 'Poppins', sans-serif;
-	width: 680px;
+	/*width: 680px; */
 	font-weight: 300;
 	text-align: left;
 	font-size: 34px;
 	color: #4F5256;
 	padding-left: 10px;
 	letter-spacing: .5px;
+
 }
+
+
+
+	
+	
+
+	
 
 .right-section {
 	width: 245px;
@@ -144,10 +143,7 @@ h2 {
 
 /*Bigger than 400 */
 @media (min-width: 400px){
-	.main-container{
-		width: 85%;
-		padding: 0;
-	}
+	
 }
 
 /* Bigger than 550 */
