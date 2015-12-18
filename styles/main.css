@@ -110,7 +110,16 @@ h2 {
 	color: #4F5256;
 	padding-left: 0;
 	letter-spacing: .5px;
+}
 
+h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	text-align: left;
+	font-size: 34px;
+	color: #4F5256;
+	padding-left: 0;
+	letter-spacing: .5px;
 }
 
 .right-section {
@@ -167,11 +176,7 @@ h2 {
 	width: 230px;
 	padding: 5px;
  }
-
-
-	
-	
-
+*/
  .experience {
 	margin-top: 30px;
  }
@@ -192,7 +197,11 @@ h2 {
 	margin-top: 119px;
 }
 
+	
+	
 
+
+/*
 
 .habits {
 	margin-top: 30px;
@@ -261,6 +270,7 @@ body {
 	font-family: Verdana,Geneva,sans-serif;
 	line-height: 1.4;
 }
+*/
 
 .blog-text {
 	margin-bottom: 100px;
@@ -268,13 +278,14 @@ body {
 	margin-right: 262px;
 	text-align: justify;
 }
-
 q {
 	font-size: 15px;
 	margin-bottom: 300px;
 	text-align: justify;
 }
 	
+
+
 
 
 
