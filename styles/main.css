@@ -6,8 +6,6 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 	
-
-
 .quote {
 	margin-bottom: 255px;
 	font-size: 50px;
@@ -23,7 +21,6 @@ body {
 	margin-top: 30px;
 	margin-bottom: 40px;
 }
-	
 
 h1 {
 	padding-left: 100px;
@@ -44,12 +41,21 @@ h1 {
 	padding: 5px;
 	border-right: 2px solid red;
 }
-	
 
 h3 {
+	color: #4F5256;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: .5px;
+	width: 230px;
+	margin-right:400px;
 	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	padding-left: 0;
 }
-
+	
+	
+	
 a:link {
 	padding-top: 10px;
 	text-decoration: none;
@@ -58,71 +64,59 @@ a:link {
 }
 
 a:visited {
+	color: #C017CA;
+	font-size: 18px;
+  padding-top: 10px;
+  text-decoration: none;
+  }
+
+a:hover {
+	color: green;
 	padding-top: 10px;
 	text-decoration: none;
-	color: #C017CA;
 	font-size: 18px;
 }
 	
-a:hover {
-	padding-top: 10px;
-	text-decoration: none;
-	color: green;
-	font-size: 18px;
-}
 .one-color-block {
 	color: yellow;
 	opacity: 4;
 	width: 525px;
 	height: 370px;
 }
-
+	
 .two-color-block {
-	margin-left: 250px;
 	color: gray;
+	margin-left: 250px;
 	opacity: 8;
 	width: 425px;
 	height: 670px;
 }
 
 .three-color-block {
+	color: #4F5256;
+	height: 450px;
 	margin-bottom: 150px;
 	margin-right: 75px;
-	color: #4F5256;
 	opacity: 6;
 	width: 650px;
-	height: 450px;
 }
-	
-
 .middle-section {
 	margin-left: 265px;
 	height: 665px;
 }
 
 h2 {
+	color: #4F5256;
 	margin-right: 350px;
 	font-family: 'Poppins', sans-serif;
 	width: 680px; 
 	font-weight: 300;
 	text-align: left;
 	font-size: 34px;
-	color: #4F5256;
 	padding-left: 0;
 	letter-spacing: .5px;
 }
-
-h3 {
-	width: 230px;
-	margin-right:400px;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 300;
-	text-align: left;
-	font-size: 20px;
-	color: #4F5256;
-	padding-left: 0;
-	letter-spacing: .5px;
-}
+	
 
 .right-section {
 	width: 245px;
@@ -145,41 +139,7 @@ h3 {
 	padding-top: 50px;
 }
 
-/*Bigger than 400 */
-@media (min-width: 400px){
-	
-}
-/* Bigger than 550 */
-@media (min-width: 550px){
-	
-	
-}
-/*Bigger than 750 */
-	@media (min-width: 750px){
-
-	}
-
-/*Bigger than 1000*/
-@media (min-width: 1000px){
-
-}
-/*
-.reflection {
-	position: fixed;
-	left: 10px;
-	width: 230px;
-	padding: 5px;
- } */
-
-/*
- .habit {
-	position: fixed;
-	left: 10px;
-	width: 230px;
-	padding: 5px;
- }
-*/
- .experience {
+.experience {
 	margin-top: 30px;
  }
 
@@ -199,10 +159,63 @@ h3 {
 	margin-top: 119px;
 }
 
+.blog-text {
+	margin-bottom: 100px;
+	margin-left: 262px;
+	margin-right: 262px;
+	text-align: justify;
+}
+q {
+	font-size: 15px;
+	margin-bottom: 300px;
+	text-align: justify;
+}
 	
+/*Bigger than 400 */
+@media (min-width: 400px){
+	
+}
+/* Bigger than 550 */
+@media (min-width: 550px){
+	
+	
+}
+/*Bigger than 750 */
+	@media (min-width: 750px){
+
+	}
+
+/*Bigger than 1000*/
+@media (min-width: 1000px){
+
+}
+	
+
 	
 
 
+	
+
+
+
+
+
+/*
+.reflection {
+	position: fixed;
+	left: 10px;
+	width: 230px;
+	padding: 5px;
+ } */
+
+/*
+ .habit {
+	position: fixed;
+	left: 10px;
+	width: 230px;
+	padding: 5px;
+ }
+*/
 /*
 
 .habits {
@@ -220,6 +233,11 @@ h3 {
 .experiment {
 	margin-top: 30px;
 }
+ 
+	
+	
+
+
 
 .html-css-dom {
 	margin-top: 30px;
@@ -271,29 +289,4 @@ body {
 	color: #4F5256;
 	font-family: Verdana,Geneva,sans-serif;
 	line-height: 1.4;
-}
-*/
-
-.blog-text {
-	margin-bottom: 100px;
-	margin-left: 262px;
-	margin-right: 262px;
-	text-align: justify;
-}
-q {
-	font-size: 15px;
-	margin-bottom: 300px;
-	text-align: justify;
-}
-	
-
-
-
-
-
-
-
-
-	
-
-
+	} */
