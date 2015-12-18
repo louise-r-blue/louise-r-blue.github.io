@@ -113,10 +113,12 @@ h2 {
 }
 
 h3 {
+	width: 230px;
+	margin-right:400px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	text-align: left;
-	font-size: 34px;
+	font-size: 20px;
 	color: #4F5256;
 	padding-left: 0;
 	letter-spacing: .5px;
