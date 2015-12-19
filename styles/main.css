@@ -213,9 +213,10 @@ h2 {
 .blog-text {
 	margin-bottom: 100px;
 	margin-left: 262px;
-	margin-right: 262px;
+	margin-right: 0;
 	text-align: justify;
 }
+
 q {
 	font-size: 15px;
 	margin-bottom: 300px;
