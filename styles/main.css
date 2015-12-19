@@ -136,24 +136,26 @@ a:hover {
 }
 
 .responsiveness {
-  padding-bottom: 100px;
-  margin-right: 200px;
+  margin-right: 400px;
+  margin-bottom: 200px;
+  margin-top: 0;
 }
+  
 
 .mobile-first {
-  padding-top: 200px;
+  margin-top: 250px;
 }
 
 .framework {
-  padding-top: 150px;
+  margin-top: 500px;
 }
 
 .wireframe {
-  padding-top: 360px;
+  margin-top: 650px;
 }
 
 .difficult {
-  padding-top: 550px;
+  margin-top: 900px;
 }
 
 h2 {
