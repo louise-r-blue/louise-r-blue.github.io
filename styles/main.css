@@ -21,9 +21,31 @@ body {
 	margin-top: 30px;
 	margin-bottom: 40px;
 }
+
 .design-to-web {
-	padding-left: 140px;
+	padding-left: 142px;
 }
+
+.fireside {
+	padding-left: 142px;
+}
+
+.time-habit {
+	padding-left: 142px;
+}
+
+.cult {
+	padding-left: 142px;
+}
+
+.tech-one {
+	padding-left: 142px;
+}
+
+.tech-two {
+	.padding-left: 142px;
+}
+
 
 h1 {
 	padding-left: 178px;
@@ -44,6 +66,7 @@ h1 {
 	padding: 5px;
 	border-right: 2px solid red;
 }
+
 .blog-header {
 font-weight: 400;
 font-size: 24px;
@@ -113,11 +136,12 @@ a:hover {
 }
 
 .responsiveness {
-  padding-bottom: 30px;
+  padding-bottom: 60px;
+  margin-right: 200px;
 }
 
 .mobile-first {
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .framework {
@@ -125,7 +149,7 @@ a:hover {
 }
 
 .wireframe {
-  padding-top: 250px;
+  padding-top: 360px;
 }
 
 .difficult {
