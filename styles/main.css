@@ -22,7 +22,7 @@ body {
 	margin-bottom: 40px;
 }
 .design-to-web {
-	padding-left: 128px;
+	padding-left: 140px;
 }
 
 h1 {
@@ -110,6 +110,26 @@ a:hover {
 .middle-section {
 	margin-left: 265px;
 	height: 665px;
+}
+
+.responsiveness {
+  padding-bottom: 30px;
+}
+
+.mobile-first {
+  padding-top: 100px;
+}
+
+.framework {
+  padding-top: 150px;
+}
+
+.wireframe {
+  padding-top: 250px;
+}
+
+.difficult {
+  padding-top: 550px;
 }
 
 h2 {
