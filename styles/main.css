@@ -27,23 +27,23 @@ body {
 }
 
 .fireside {
-	padding-left: 144px;
+	padding-left: 169px;
 }
 
 .time-habit {
-	padding-left: 142px;
+	padding-left: 162px;
 }
 
 .cult {
-	padding-left: 144px;
+	padding-left: 174px;
 }
 
 .tech-one {
-	padding-left: 144px;
+	padding-left: 164px;
 }
 
 .tech-two {
-	.padding-left: 122px;
+	.padding-left: 119px;
 }
 
 
@@ -72,6 +72,46 @@ font-weight: 400;
 font-size: 24px;
 }
 
+.habits {
+	margin-top: 30px;
+}
+
+.interesting {
+	margin-top: 95px;
+}
+
+.worked {
+	margin-top: 55px;
+}
+
+.experiment {
+	margin-top: 30px;
+}
+
+.html-css-dom {
+	margin-top: 30px;
+}
+
+.boxifying {
+	margin-top: 310px;
+}
+
+.box-model {
+	margin-top: 163px;
+}
+
+.grid-design {
+	margin-top: 30px;
+}
+
+.respond {
+	margin-top: 222px;
+}
+
+.structure {
+	margin-top: 323px;
+}
+
 h3 {
 	color: #4F5256;
 	font-size: 18px;
@@ -82,7 +122,11 @@ h3 {
 	font-family: 'Poppins', sans-serif;
 	text-align: left;
 	padding-left: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-top: 0;
 }
+
 	
 	
 	
@@ -107,29 +151,15 @@ a:hover {
 	font-size: 18px;
 }
 	
-.one-color-block {
+/*.one-color-block {
 	color: yellow;
 	opacity: 4;
 	width: 525px;
 	height: 370px;
-}
+} */
 	
-.two-color-block {
-	color: gray;
-	margin-left: 250px;
-	opacity: 8;
-	width: 425px;
-	height: 670px;
-}
 
-.three-color-block {
-	color: #4F5256;
-	height: 450px;
-	margin-bottom: 150px;
-	margin-right: 75px;
-	opacity: 6;
-	width: 650px;
-}
+
 .middle-section {
 	margin-left: 265px;
 	height: 665px;
@@ -198,14 +228,15 @@ h2 {
 
 .impressions {
 	margin-top: 52px;
+	margin-bottom: 40px;
 }
 
 .engage {
-	margin-top: 96px;
+	margin-top: 116px;
  }
 
 .expect {
-	margin-top: 114px;
+	margin-top: 100px;
 }
 
 .excited {
@@ -269,54 +300,8 @@ q {
 	width: 230px;
 	padding: 5px;
  }
-*/
+
 /*
-
-.habits {
-	margin-top: 30px;
-}
-
-.interesting {
-	margin-top: 95px;
-}
-
-.worked {
-	margin-top: 55px;
-}
-
-.experiment {
-	margin-top: 30px;
-}
- 
-	
-	
-
-
-
-.html-css-dom {
-	margin-top: 30px;
-}
-
-.boxifying {
-	margin-top: 310px;
-}
-
-.box-model {
-	margin-top: 163px;
-}
-
-.grid-design {
-	margin-top: 30px;
-}
-
-.respond {
-	margin-top: 222px;
-}
-
-.structure {
-	margin-top: 323px;
-}
-
 .home {
 	border-top: 2px solid red;
 	margin-bottom: 50px;
