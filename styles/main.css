@@ -22,6 +22,7 @@ body {
 	margin-bottom: 40px;
 }
 .navbar {
+	height: 50px;
 	color: blue;
 }
 .design-to-web {
