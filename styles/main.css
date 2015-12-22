@@ -64,6 +64,9 @@ body {
 li .blog-link {
 	list-style-type: none;
 }
+.clear-list .blog-link {
+	list-style-type: none;
+}
 a:link {
 	padding-top: 10px;
 	text-decoration: none;
