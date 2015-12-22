@@ -20,6 +20,7 @@ body {
   .header {
   	text-align: left;
   	margin-top: 65px;
+  	height: 55px;
   }
 
   h2 {
@@ -54,11 +55,13 @@ body {
 
 .navbar {
 	display: none;
+	height: 30px;
 }
 .navbar-link {
 	color: #4F5256;
 }
-.clear-list {
+
+li .blog-link {
 	list-style-type: none;
 }
 a:link {
