@@ -97,9 +97,7 @@ body {
 	list-style-type: none;
 }*/
 
-.first-row, .second-row, .third-row {
-	display: inline;
-}
+
 a:link {
 	padding-top: 10px;
 	text-decoration: none;
