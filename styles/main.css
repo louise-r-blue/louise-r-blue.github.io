@@ -54,13 +54,17 @@ body {
 	margin-bottom: 0;
 	margin-top: 0;
 }
-
-.navbar {
-	display: none;
+.navbar-list li {
+	list-style: none;
+	display: inline;
 }
 
+/*.navbar {
+	display: none;
+}*/
+
 .navbar-link {
-	color: #4F5256;
+	color: gray;
 }
 
 @media(min-width: 750px){
@@ -92,6 +96,10 @@ body {
 .clear-list .blog-link {
 	list-style-type: none;
 }*/
+
+.first-row, .second-row, .third-row {
+	display: inline;
+}
 a:link {
 	padding-top: 10px;
 	text-decoration: none;
