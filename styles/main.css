@@ -57,20 +57,20 @@ body {
 .navbar-list li {
 	list-style: none;
 	display: inline;
-	background-color: #4F5256;
 	padding-right: 10px;
 }
+	
 
 /*.navbar {
 	display: none;
 }*/
 
 .navbar-link {
-	background-color: #4F5256;
-}
+	/* background-color: #4F5256; */
 }
 
-@media(min-width: 750px){
+
+@media (min-width: 750px) {
 	.navbar-spacer{
 		display: none;
 	}
@@ -78,7 +78,7 @@ body {
 
 @media (min-width: 750px){
 	.navbar, navbar-spacer {
-		display: block;
+		/*display: block; */
 		width: 100%;
 		height: 6.5rem;
 		background-color: #4F5256;
@@ -124,6 +124,7 @@ a:hover {
 
 .first-blog-links row, .second-blog-links row, .third-blog-links row {
 	padding-right: 10px;
+	padding-bottom: 10px;
 }
 
 .quote {
