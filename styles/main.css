@@ -85,6 +85,7 @@ body {
 		
 		z-index: 99;
 		border-top: 1px solid #eee;
+		display: none;
 	}
 }
 
@@ -124,8 +125,8 @@ a:hover {
 }
 
 .first-blog-links row, .second-blog-links row, .third-blog-links row {
-	padding-right: 10px;
-	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-bottom: 20px;
 }
 
 .quote {
