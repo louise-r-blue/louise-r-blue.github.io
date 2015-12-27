@@ -152,10 +152,9 @@ a:hover {
 	margin-left: 0;
 }
 
-.blog-header {
+.blog-header title {
 	margin-bottom: 20px;
 	font-weight: 400;
-	font-size: 24px;
 }
 
 .reflection {
