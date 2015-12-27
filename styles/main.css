@@ -152,6 +152,12 @@ a:hover {
 	margin-left: 0;
 }
 
+.blog-header {
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 24px;
+}
+
 .reflection {
 	padding-bottom: 20px;
 }
@@ -202,10 +208,7 @@ h1 {
   margin-left: 0;
 }
 
-.blog-header {
-font-weight: 400;
-font-size: 24px;
-}
+
 
 .habits {
 	margin-top: 30px;
