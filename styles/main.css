@@ -21,19 +21,18 @@ p {
 	line-height: 1.2rem;
 }
 
-@media (min-width: 550px){
-  .header {
-  	margin-top: 18rem;
-  }
-}
-
-  .header {
+.header {
   	text-align: left;
   	margin-top: 65px;
   	height: 55px;
   }
 
-  h2 {
+@media (min-width: 550px){
+  .header {
+  	margin-top: 18rem;
+  }
+}
+h2 {
 	color: #4F5256;
 	margin-right: 0;
 	/*font-family: 'Poppins', sans-serif;*/
@@ -51,12 +50,15 @@ p {
 	margin-bottom: 2.5rem;
 }
 
+  
+
+
 h3 {
 	color: #4F5256;
 	font-size: 2.5rem;
 	font-weight: 400;
 	letter-spacing: 1.5px;
-	line-height: 1rem;
+	line-height: 2.6rem;
 	margin-right:0;
 	/*font-family: 'Poppins', sans-serif;*/
 	font-family: 'Work Sans', sans-serif;
@@ -122,12 +124,7 @@ h3 {
 		margin-bottom: 0;
 	}
 }
-/*li .blog-link {
-	list-style-type: none;
-}
-.clear-list .blog-link {
-	list-style-type: none;
-}*/
+
 
 
 a:link {
@@ -151,17 +148,20 @@ a:hover {
 	font-size: 18px;
 }
 
+.blog-link-section {
+	line-height: 0;
+}
 .first-blog-links row, .second-blog-links row, .third-blog-links row {
 	padding-right: 2rem;
 	padding-bottom: 2rem;
 }
-.blog-links {
+.blog-link-section {
 	margin-top: 4rem;
 	margin-bottom: 4rem;
 }
 
 @media (min-width: 550px)
-.blog-links {
+.blog-link-section {
 	margin-top: 9rem;
 	margin-bottom: 7rem;
 }
@@ -175,10 +175,7 @@ a:hover {
 	margin-left: 0;
 }
 
-/*.title {
-	margin-bottom: 20px;
-	font-weight: 400;
-}*/
+
 
 .reflection {
 	padding-bottom: 20px;
@@ -196,22 +193,6 @@ a:hover {
 	padding-bottom: 20px;
 }
 
-.fireside {
-	padding-left: 169px;
-}
-.time-habit {
-	padding-left: 162px;
-}
-.cult {
-	padding-left: 174px;
-}
-.tech-one {
-	padding-left: 164px;
-}
-.tech-two {
-	.padding-left: 119px;
-}
-
 h1 {
 	padding-left: 178px;
 	width: 600px;
@@ -223,89 +204,16 @@ h1 {
 	letter-spacing: 2px;
 }
 
-
 .novice {
 	width: 400px;
 	margin-right: 0;
   margin-left: 0;
 }
 
-
-
-.habits {
-	margin-top: 30px;
-}
-
-.interesting {
-	margin-top: 95px;
-}
-
-.worked {
-	margin-top: 55px;
-}
-
-.experiment {
-	margin-top: 30px;
-}	
-.html-css-dom {
-	margin-top: 30px;
-}
-
-.boxifying {
-	margin-top: 310px;
-}
-
-.box-model {
-	margin-top: 163px;
-}
-
-.grid-design {
-	margin-top: 30px;
-}
-
-.respond {
-	margin-top: 222px;
-}
-
-.structure {
-	margin-top: 323px;
-}
-
-.mobile-first {
-  margin-top: 265px;
-}
-.framework {
-  margin-top: 340px;
-}
-.wireframe {
-  margin-top: 360px;
-}
-
-/*.difficult {
-  margin-top: 1200px;
-}*/
-
 .who-am-i {
 	height: 50px;
 	padding-top: 50px;
 	text-align: right;
-}
-
-
-.process {
-margin-bottom: 0;
-}
-.mediate {
-margin-top: 268px;
-}
-.learnt {
-margin-top: 41px;
-}
-.stand-out {
-margin-top: 60px;
-}
-.musings {
-margin-top: 41px;
 }
 
 .responsiveness {
@@ -320,12 +228,7 @@ margin-top: 41px;
 	padding-top: 5px;
 	text-align: right;
 }
-.blog-text {
-	margin-bottom: 100px;
-	margin-left: 262px;
-	margin-right: 0;
-	text-align: justify;
-}
+
 q {
 	font-size: 15px;
 	margin-bottom: 300px;
@@ -341,40 +244,9 @@ q {
 @media (min-width: 1000px){}
 /*
 
-.reflection {
-	position: fixed;
-	left: 10px;
-	width: 230px;
-	padding: 5px;
- } */
-
-
-/*
- .habit {
-	position: fixed;
-	left: 10px;
-	width: 230px;
-	padding: 5px;
- }
-
-/*
-.home {
-	border-top: 2px solid red;
-	margin-bottom: 50px;
-	padding-top: 5px;
-	text-align: right;
-	max-width: 96%
- }
-
-.who-am-i {
-	height: 50px;
-	padding-top: 50px;
-}
-
-.learnings {
-margin-top: 30px;
-}
-
-.two-minutes {
-margin-top: 423px;
-}
+/*.blog-text {
+	margin-bottom: 100px;
+	margin-left: 262px;
+	margin-right: 0;
+	text-align: justify;
+}*/
