@@ -15,6 +15,11 @@ body {
 	margin-bottom: 40px;*/
 }
 
+p {
+	letter-spacing: 1rem;
+	line-height: 1rem;
+}
+
 @media (min-width: 550px){
   .header {
   	margin-top: 18rem;
@@ -48,7 +53,7 @@ body {
 h3 {
 	color: #4F5256;
 	font-size: 2.5rem;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 1.5px;
 	line-height: 1rem;
 	margin-right:0;
