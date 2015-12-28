@@ -148,10 +148,11 @@ a:hover {
 	font-size: 18px;
 }
 
-.blog-link-section {
+/*.blog-link-section {
 	line-height: 0;
-}
-.first-blog-links row, .second-blog-links row, .third-blog-links row {
+}*/
+
+.first-blog-links, .second-blog-links, .third-blog-links {
 	padding-right: 2rem;
 	padding-bottom: 2rem;
 }
@@ -166,14 +167,14 @@ a:hover {
 	margin-bottom: 7rem;
 }
 
-.quote {
+/*.quote {
 	font-style: 'Raleway', sans-serif;
 	margin-bottom: 0;
 	font-size: 50px;
 	opacity: .1;
 	text-align: left;
 	margin-left: 0;
-}
+}*/
 
 
 
@@ -230,7 +231,8 @@ h1 {
 }
 
 q {
-	font-size: 15px;
+	font-size: 2rem;
+	letter-spacing: 1.2rem
 	margin-bottom: 300px;
 	text-align: justify;
 }
