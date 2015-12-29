@@ -19,8 +19,8 @@ body {
 p {
 	letter-spacing: .14rem;
 	line-height: 1.8rem;
-	font-size: 1.7rem;
-	font-weight: 300;
+	font-size: 1.8rem;
+	font-weight: 400;
 }
 .header {
   	text-align: left;
@@ -36,6 +36,7 @@ p {
  .blog-header {
  	text-align: left;
  	margin-top: 2.5rem;
+ 	margin-bottom: 2.5rem;
  	height: 3rem;
  }
 
@@ -44,7 +45,7 @@ p {
  		margin-top: 8rem;
  	}
  }
-h2 .header {
+h2 {
 	color: #4F5256;
 	margin-right: 0;
 	/*font-family: 'Poppins', sans-serif;*/
@@ -53,14 +54,20 @@ h2 .header {
 	text-align: left;
 	font-size: 4rem;
 	padding-left: 0;
-	letter-spacing: .5px;
+	letter-spacing: 1rem;
+}
+.experiment p {
+	margin-bottom: 3rem;
+}
+.excite p {
+	margin-bottom: 3rem;
 }
 .my-experience {
 	margin-top: 1.5rem;
-	margin-bottom: 3.5rem;
+	margin-bottom: 2.5rem;
 }
 .blog-header .title {
-	margin-bottom: 3.5rem;
+	margin-bottom: 2.5rem;
 }
 h3 .my-expereince .title .blogs {
 	color: #4F5256;
