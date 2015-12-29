@@ -19,7 +19,7 @@ body {
 p {
 	letter-spacing: .14rem;
 	line-height: 1.8rem;
-	font-size: 1.6rem;
+	font-size: 1.7rem;
 	font-weight: 300;
 }
 .header {
@@ -62,7 +62,7 @@ h2 .header {
 .blog-header .title {
 	margin-bottom: 3.5rem;
 }
-h3 .my-expereince .title {
+h3 .my-expereince .title .blogs {
 	color: #4F5256;
 	font-size: 2.5rem;
 	font-weight: 300;
@@ -77,12 +77,6 @@ h3 .my-expereince .title {
 	margin-bottom: 0;
 	margin-top: 0;
 }
-	
-
-
-  
-
-
 	
 .navbar-list li {
 	list-style: none;
@@ -99,6 +93,12 @@ h3 .my-expereince .title {
 .navbar-link {
 	/* background-color: #4F5256; */
 }
+
+
+  
+
+
+	
 
 
 @media (min-width: 750px) {
@@ -122,9 +122,6 @@ h3 .my-expereince .title {
 		border-top: 1px solid #eee;
 	}
 }
-		
-		
-
 @media (min-width: 750px){
 	.navbar-list {
 		list-style: none;
@@ -139,40 +136,43 @@ h3 .my-expereince .title {
 		margin-bottom: 0;
 	}
 }
-
-a :link .visited .hover #top {
+		
+a: .link, .visited, .hover, #top {
 	font-style: 'Poppins', sans-serif;
 	padding-top: 10px;
 	text-decoration: none;
-	font-size: 2rem;
+	font-size: 1.9rem;
 }
 
 a:link {
 	color: #00AFEC;
-	/*padding-top: 10px;
+	padding-top: 10px;
 	text-decoration: none;
-	font-size: 2rem;*/
+	font-size: 2rem;
 }
 a:visited {
 	color: #C017CA;
-	/*font-size: 2rem;
-  padding-top: 10px;
-  text-decoration: none;*/
+	font-size: 0;
+  padding-top: 0;
+  text-decoration: none;
   }
 a:hover {
 	color: green;
-	/*padding-top: 10px;
-	text-decoration: none;
-	font-size: 2rem;*/
+	padding-top: 0;
+	text-decoration: 0;
+	font-size: 0;
 }
-
-
-
-
-
+		
 /*.blog-link-section {
 	line-height: 0;
 }*/
+
+
+
+
+
+
+
 
 .first-blog-links, .second-blog-links, .third-blog-links {
 	padding-right: 2rem;
@@ -198,9 +198,6 @@ a:hover {
 	text-align: left;
 	margin-left: 0;
 }*/
-
-
-
 .reflection {
 	padding-bottom: 20px;
 }
@@ -216,18 +213,6 @@ a:hover {
 .culturalp1, .culturalp2 {
 	padding-bottom: 20px;
 }
-
-h1 {
-	padding-left: 178px;
-	width: 600px;
-	color: #4F5256;
-	font-family: 'Work Sans', sans-serif;
-	/*font-family: 'Poppins', sans-serif;*/
-	font-weight: 300;
-	font-size: 48px;
-	letter-spacing: 2px;
-}
-
 .novice {
 	width: 400px;
 	margin-right: 0;
@@ -254,11 +239,17 @@ h1 {
 }
 
 q {
-	font-size: 2rem;
+	font-size: 1.4rem;
 	letter-spacing: 1.2rem
 	margin-bottom: 300px;
 	text-align: justify;
 }
+
+
+
+
+
+
 /*Bigger than 400 */
 @media (min-width: 400px){}
 /* Bigger than 550 */
