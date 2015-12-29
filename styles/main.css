@@ -17,19 +17,14 @@ body {
 }
 
 p {
-	letter-spacing: .15rem;
-	line-height: 1.5rem;
-	font-size: 16px;
+	letter-spacing: .14rem;
+	line-height: 1.8rem;
+	font-size: 1.6rem;
 	font-weight: 300;
 }
-
-a {
-	font-style: 'Poppins', sans-serif;
-}
-
 .header {
   	text-align: left;
-  	margin-top: 6.5rem;
+  	margin-top: 4.5rem;
   	height: 5.5rem;
   }
 
@@ -49,13 +44,7 @@ a {
  		margin-top: 8rem;
  	}
  }
-
- .my-experience {
-	margin-top: 2.5rem;
-	margin-bottom: 1.5rem;
-}
-
-h2 {
+h2 .header {
 	color: #4F5256;
 	margin-right: 0;
 	/*font-family: 'Poppins', sans-serif;*/
@@ -66,12 +55,18 @@ h2 {
 	padding-left: 0;
 	letter-spacing: .5px;
 }
-
-h3 {
+.my-experience {
+	margin-top: 1.5rem;
+	margin-bottom: 3.5rem;
+}
+.blog-header .title {
+	margin-bottom: 3.5rem;
+}
+h3 .my-expereince .title {
 	color: #4F5256;
 	font-size: 2.5rem;
 	font-weight: 300;
-	letter-spacing: 1.4rem;
+	letter-spacing: 1.3rem;
 	line-height: 2.6rem;
 	margin-right:0;
 	/*font-family: 'Poppins', sans-serif;*/
@@ -145,28 +140,35 @@ h3 {
 	}
 }
 
-
+a :link .visited .hover #top {
+	font-style: 'Poppins', sans-serif;
+	padding-top: 10px;
+	text-decoration: none;
+	font-size: 2rem;
+}
 
 a:link {
-	padding-top: 10px;
-	text-decoration: none;
 	color: #00AFEC;
-	font-size: 18px;
+	/*padding-top: 10px;
+	text-decoration: none;
+	font-size: 2rem;*/
 }
-
 a:visited {
 	color: #C017CA;
-	font-size: 18px;
+	/*font-size: 2rem;
   padding-top: 10px;
-  text-decoration: none;
+  text-decoration: none;*/
   }
-
 a:hover {
 	color: green;
-	padding-top: 10px;
+	/*padding-top: 10px;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 2rem;*/
 }
+
+
+
+
 
 /*.blog-link-section {
 	line-height: 0;
