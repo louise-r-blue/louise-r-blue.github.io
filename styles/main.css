@@ -137,43 +137,38 @@ h3 .my-expereince .title .blogs {
 	}
 }
 		
-a: .link, .visited, .hover, #top {
+#top {
 	font-style: 'Poppins', sans-serif;
 	padding-top: 10px;
 	text-decoration: none;
-	font-size: 1.9rem;
+	font-size: 1.8rem;
 }
 
 a:link {
 	color: #00AFEC;
 	padding-top: 10px;
 	text-decoration: none;
-	font-size: 2rem;
+	font-size: 1.8rem;
+	font-style: 'Poppins', sans-serif;
 }
 a:visited {
 	color: #C017CA;
-	font-size: 0;
-  padding-top: 0;
-  text-decoration: none;
+	padding-top: 10px;
+	text-decoration: none;
+	font-size: 1.8rem;
+	font-style: 'Poppins', sans-serif;
   }
 a:hover {
 	color: green;
-	padding-top: 0;
-	text-decoration: 0;
-	font-size: 0;
+	padding-top: 10px;
+	text-decoration: none;
+	font-size: 1.8rem;
+	font-style: 'Poppins', sans-serif;
 }
 		
 /*.blog-link-section {
 	line-height: 0;
 }*/
-
-
-
-
-
-
-
-
 .first-blog-links, .second-blog-links, .third-blog-links {
 	padding-right: 2rem;
 	padding-bottom: 0;
@@ -189,6 +184,8 @@ a:hover {
 	margin-bottom: 8rem;
 	text-align: center;
 }
+
+
 
 /*.quote {
 	font-style: 'Raleway', sans-serif;
@@ -225,6 +222,12 @@ a:hover {
 	text-align: right;
 }
 
+
+
+
+
+
+
 .responsiveness {
   margin-right: 400px;
   margin-bottom: 200px;
@@ -245,11 +248,6 @@ q {
 	text-align: justify;
 }
 
-
-
-
-
-
 /*Bigger than 400 */
 @media (min-width: 400px){}
 /* Bigger than 550 */
@@ -266,3 +264,8 @@ q {
 	margin-right: 0;
 	text-align: justify;
 }*/
+
+
+
+
+
