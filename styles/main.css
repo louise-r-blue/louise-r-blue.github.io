@@ -54,9 +54,9 @@ h2 {
 	text-align: left;
 	font-size: 4rem;
 	padding-left: 0;
-	letter-spacing: 1rem;
+	letter-spacing: .1rem;
 }
-.experiment p {
+.experiment {
 	margin-bottom: 3rem;
 }
 .excite p {
@@ -187,9 +187,9 @@ a:hover {
 
 @media (min-width: 550px)
 .blog-link-section {
-	margin-top: 8rem;
+	margin-top: 10rem;
 	margin-bottom: 8rem;
-	text-align: center;
+	text-align: left;
 }
 
 
