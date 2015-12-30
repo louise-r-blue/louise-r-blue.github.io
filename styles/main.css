@@ -31,7 +31,7 @@ p {
 @media (min-width: 550px){
   .header {
   	margin-top: 18rem;
-  	margin-bottom: 3.8rem;
+  	margin-bottom: .5rem;
   }
 }
  .blog-header {
@@ -46,17 +46,7 @@ p {
  		margin-top: 4rem;
  	}
  }
-h2 .title {
-	color: #4F5256;
-	margin-right: 0;
-	/*font-family: 'Poppins', sans-serif;*/
-	font-family: 'Work Sans',sans-serif;
-	font-weight: 300;
-	text-align: left;
-	font-size: 4rem;
-	padding-left: 0;
-	letter-spacing: .1rem;
-}
+
 h2 {
 	color: #4F5256;
 	margin-right: 0;
@@ -68,11 +58,12 @@ h2 {
 	padding-left: 0;
 	letter-spacing: .1rem;
 }
-@media (min-width: 550px){
+@media (min-width: 550px){}
 	h2 {
 		margin-bottom: 6rem;
 	}
 }
+
 
 .experiment {
 	margin-bottom: 2rem;
@@ -89,7 +80,7 @@ h2 {
 }
 
 
-h3  .titles/*.my-expereince .title .blogs*/{
+h3  /*.my-expereince .title .blogs*/{
 	color: #4F5256;
 	font-size: 2.3rem;
 	font-weight: 300;
