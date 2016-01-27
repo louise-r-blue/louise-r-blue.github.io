@@ -34,7 +34,11 @@ h2 {
 	letter-spacing: .5px;
 }
 .navbar {
-	display:none;
+	/*display:none;*/
+}
+.navbar-item {
+	margin-right: .8rem;
+	float:left;
 }
 a:link {
 	padding-top: 10px;
@@ -63,14 +67,16 @@ a:hover {
 }
 h3 {
 	color: #4F5256;
-  width: 230px;
 	margin-right:400px;
 	font-family: 'Poppins', sans-serif;
 	text-align: left;
 	padding-left: 0;
 	margin-left: 0;
-	margin-bottom: 0;
+	margin-bottom: .5rem;
 	margin-top: 0;
+}
+.blog-link-section {
+	margin-bottom: 6rem;
 }
 .who-am-i {
 	height: 50px;
@@ -78,6 +84,7 @@ h3 {
 }
 .footer-home {
 	border-top: 3px solid red;
+	float:right;
 }
 /*Bigger than 400 */
 @media (min-width: 400px){}
