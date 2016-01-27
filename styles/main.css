@@ -221,51 +221,6 @@ h2 {
 	letter-spacing: .5px;
 }
 
-
-
-
-
-
-/*.one-color-block {
-	color: yellow;
-	opacity: 4;
-	width: 525px;
-	height: 370px;
-} */
-
-
-
-
-
-
-
-
-	
-.right-section {
-	height: 665px;
-	padding-left: 10px;
-	position: absolute;
-	right: 10px;
-	top: 195px;
-	width: 245px;
-}
-.footer-home {
-	border-top: 2px solid red;
-	margin-bottom: 50px;
-	padding-top: 5px;
-	text-align: right;
-}
-.blog-text {
-	margin-bottom: 100px;
-	margin-left: 262px;
-	margin-right: 0;
-	text-align: justify;
-}
-q {
-	font-size: 15px;
-	margin-bottom: 300px;
-	text-align: justify;
-}
 /*Bigger than 400 */
 @media (min-width: 400px){}
 /* Bigger than 550 */
@@ -275,48 +230,3 @@ q {
 /*Bigger than 1000*/
 @media (min-width: 1000px){}
 /*
-.reflection {
-	position: fixed;
-	left: 10px;
-	width: 230px;
-	padding: 5px;
- } */
-
-
-/*
- .habit {
-	position: fixed;
-	left: 10px;
-	width: 230px;
-	padding: 5px;
- }
-
-/*
-.home {
-	border-top: 2px solid red;
-	margin-bottom: 50px;
-	padding-top: 5px;
-	text-align: right;
-	max-width: 96%
- }
-
-.who-am-i {
-	height: 50px;
-	padding-top: 50px;
-}
-
-.learnings {
-margin-top: 30px;
-}
-
-.two-minutes {
-margin-top: 423px;
-}
-
-body {
-	background-color: #F9F8EE;
-	color: #4F5256;
-	font-family: Verdana,Geneva,sans-serif;
-	line-height: 1.4;
-	} */
-	
