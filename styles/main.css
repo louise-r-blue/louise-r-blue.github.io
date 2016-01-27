@@ -5,7 +5,9 @@ body {
 	font-family: 'Duru Sans', sans-serif;*/
 	font-family: 'Raleway', sans-serif;
 }
-
+.container {
+	max-width: 800px;
+}
 .quote {
 	margin-bottom: 255px;
 	font-size: 50px;
@@ -17,167 +19,22 @@ body {
 	max-width: 100%;
 	height: 65px;
 	padding: 5px;
-	margin-top: 60px;
+	margin-top: 6rem;
 	margin-bottom: 5px;
 }
-/*.design-to-web {
-	padding-left: 178px;
-}*/
-.fireside {
-	padding-left: 169px;
-}
-.time-habit {
-	padding-left: 162px;
-}
-.cult {
-	padding-left: 174px;
-}
-.tech-one {
-	padding-left: 164px;
-}
-.tech-two {
-	.padding-left: 119px;
-}
-h1 {
-	padding-left: 178px;
-	width: 600px;
+h2 {
 	color: #4F5256;
+	margin-right: 350px;
 	font-family: 'Poppins', sans-serif;
+	width: 680px; 
 	font-weight: 300;
-	font-size: 48px;
-	letter-spacing: 2px;
-}
-.left-section {
-	width: 245px;
-	height: 665px;
-	position: fixed;
-	left: 10px;
-	padding-right: 80px;
-	padding: 5px;
-	border-right: 2px solid red;
-}
-
-.blog-header {
-font-weight: 400;
-font-size: 24px;
-}
-
-.habits {
-	margin-top: 30px;
-}
-
-.interesting {
-	margin-top: 95px;
-}
-
-.worked {
-	margin-top: 55px;
-}
-
-.experiment {
-	margin-top: 30px;
-}	
-.html-css-dom {
-	margin-top: 30px;
-}
-
-.boxifying {
-	margin-top: 310px;
-}
-
-.box-model {
-	margin-top: 163px;
-}
-
-.grid-design {
-	margin-top: 30px;
-}
-
-.respond {
-	margin-top: 222px;
-}
-
-.structure {
-	margin-top: 323px;
-}
-
-.mobile-first {
-  margin-top: 265px;
-}
-.framework {
-  margin-top: 340px;
-}
-.wireframe {
-  margin-top: 360px;
-}
-.java-html-css {
-  margin-top: 50px;
-}
-.cfloop {
-  margin-top: 200px;
-}
-.data-access {
-  margin-top: 300px;
-}
-.functy {
-  margin-top: 360px;
-}
-/*.difficult {
-  margin-top: 1200px;
-}*/
-
-.who-am-i {
-	height: 50px;
-	padding-top: 50px;
-}
-
-.experience {
-	margin-top: 30px;
- }
-
-.impressions {
-	margin-top: 52px;
-	margin-bottom: 40px;
-}
-.engage {
-	margin-top: 116px;
- }
-
-.expect {
-	margin-top: 100px;
-}
-.excited {
-	margin-top: 119px;
-}
-.process {
-margin-bottom: 0;
-}
-.mediate {
-margin-top: 268px;
-}
-.learnt {
-margin-top: 41px;
-}
-.stand-out {
-margin-top: 60px;
-}
-.musings {
-margin-top: 41px;
-}
-
-h3 {
-	color: #4F5256;
-	font-size: 18px;
-	font-weight: 300;
-	letter-spacing: .5px;
-	width: 230px;
-	margin-right:400px;
-	font-family: 'Poppins', sans-serif;
 	text-align: left;
+	font-size: 34px;
 	padding-left: 0;
-	margin-left: 0;
-	margin-bottom: 0;
-	margin-top: 0;
+	letter-spacing: .5px;
+}
+.navbar {
+	display:none;
 }
 a:link {
 	padding-top: 10px;
@@ -199,26 +56,25 @@ a:hover {
 	text-decoration: none;
 	font-size: 18px;
 }
-.middle-section {
-	margin-left: 265px;
-	height: 665px;
+.para-header{
+	font-size: 1.6rem;
+	letter-spacing: .2rem;
+	font-weight: 400;
 }
-	
-.responsiveness {
-  margin-right: 400px;
-  margin-bottom: 200px;
-  margin-top: 0;
-}
-h2 {
+h3 {
 	color: #4F5256;
-	margin-right: 350px;
+  width: 230px;
+	margin-right:400px;
 	font-family: 'Poppins', sans-serif;
-	width: 680px; 
-	font-weight: 300;
 	text-align: left;
-	font-size: 34px;
 	padding-left: 0;
-	letter-spacing: .5px;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.who-am-i {
+	height: 50px;
+	padding-top: 50px;
 }
 .footer-home {
 	border-top: 3px solid red;
@@ -244,6 +100,10 @@ h2 {
 			position: fixed;
 			top: 0;
 			left: 0;
+		}
+		.navbar-list{
+			list-style: none;
+			margin-bottom: 0;
 		}
 	}
 /*Bigger than 1000*/
