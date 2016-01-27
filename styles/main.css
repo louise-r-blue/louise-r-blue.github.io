@@ -25,13 +25,13 @@ body {
 h2 {
 	color: #4F5256;
 	margin-right: 350px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Work+Sans', sans-serif;
 	width: 680px; 
 	font-weight: 300;
 	text-align: left;
-	font-size: 3.5rem;
+	font-size: 3.8rem;
 	padding-left: 0;
-	letter-spacing: .5rem;
+	letter-spacing: .3rem;
 }
 .navbar {
 	/*display:none;*/
@@ -44,12 +44,12 @@ a:link {
 	padding-top: 10px;
 	text-decoration: none;
 	color: #00AFEC;
-	font-size: .8rem;
+	font-size: 18rem;
 }
 
 a:visited {
 	color: #C017CA;
-	font-size: .8rem;
+	font-size: 18rem;
   padding-top: 10px;
   text-decoration: none;
   }
@@ -58,10 +58,10 @@ a:hover {
 	color: green;
 	padding-top: 10px;
 	text-decoration: none;
-	font-size: .8rem;
+	font-size: 18rem;
 }
 .para-header{
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	letter-spacing: .2rem;
 	font-weight: 400;
 }
