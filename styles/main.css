@@ -4,6 +4,7 @@ body {
 	font-family: 'Noto Sans', sans-serif;
 	font-family: 'Duru Sans', sans-serif;*/
 	font-family: 'Raleway', sans-serif;
+	font-size: .7rem;
 }
 .container {
 	max-width: 800px;
@@ -40,35 +41,29 @@ h2 {
 	margin-right: .8rem;
 	float:left;
 }
-a:link {
+a {
+	font-size: .9rem;
 	padding-top: 10px;
-	text-decoration: none;
-	color: #00AFEC;
-	font-size: 18rem;
+  text-decoration: none;
 }
-
+a:link {
+	color: #00AFEC;
+}
 a:visited {
 	color: #C017CA;
-	font-size: 18rem;
-  padding-top: 10px;
-  text-decoration: none;
-  }
-
+}
 a:hover {
 	color: green;
-	padding-top: 10px;
-	text-decoration: none;
-	font-size: 18rem;
 }
 .para-header{
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	letter-spacing: .2rem;
-	font-weight: 400;
+	font-weight: 300;
 }
 h3 {
 	color: #4F5256;
 	margin-right:400px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Works+Sans', sans-serif;
 	text-align: left;
 	padding-left: 0;
 	margin-left: 0;
