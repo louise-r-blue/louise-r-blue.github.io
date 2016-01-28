@@ -64,9 +64,10 @@ a:hover {
 	color: gray;
 }
 .para-header{
-	font-size: 1.5rem;
+	font-size: 2.1rem;
 	letter-spacing: .2rem;
 	font-weight: 300;
+	padding-bottom: 6rem;
 }
 h3 {
 	color: #4F5256;
@@ -74,6 +75,7 @@ h3 {
 	font-family: 'Works+Sans', sans-serif;
 	text-align: left;
 	padding-left: 0;
+	padding-bottom: 6rem;
 	margin-left: 0;
 	margin-bottom: .6rem;
 	margin-top: 0;
@@ -115,11 +117,6 @@ h3 {
 		}
 		.navbar > .container{
 			max-width: 100%;
-		}
-		.navbar-spacer, .navbar > .container{
-			position: fixed;
-			top: 0;
-			left: 0;
 		}
 		.navbar-list{
 			list-style: none;
