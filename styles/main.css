@@ -11,6 +11,8 @@ body {
 }
 .navbar .container{
 margin-left: none;
+border-bottom: .1rem gray;
+padding-bottom: .5rem;
 }
 .quote {
 	margin-bottom: 255px;
@@ -38,11 +40,7 @@ h2 {
 	letter-spacing: .2rem;
 }
 .navbar {
-	float:left;
-}
-.navbar-item {
-	margin-right: .8rem;
-	float:left;
+	
 }
 a {
 	font-size: 2rem;
@@ -58,6 +56,11 @@ a:visited {
 }
 a:hover {
 	color: green;
+}
+.navbar-item {
+	margin-right: .8rem;
+	float:left;
+	color: black;
 }
 .para-header{
 	font-size: 2.2rem;
