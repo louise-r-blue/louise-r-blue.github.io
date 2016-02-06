@@ -13,7 +13,7 @@ p{
 	max-width: 800px;
 }
 .navbar .container{
-margin-left: none;
+margin-left: .15rem;
 border-bottom: .1rem gray;
 padding-bottom: .5rem;
 }
