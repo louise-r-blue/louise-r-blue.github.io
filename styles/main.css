@@ -16,7 +16,8 @@ p{
 }
 div a {
 	background-color: cornflowerblue;
-	height: 20%;
+	max-height: 100px;
+	max-width: 100%;
 }
 /*.flex-container {
     display: -webkit-flex;
