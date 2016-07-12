@@ -21,7 +21,7 @@ p{
     -webkit-flex-direction: column;
     flex-direction: column;
     width: 100%;
-    height: 800px;
+    height: 750px;
     background-color: none;
 }
 
@@ -29,7 +29,19 @@ p{
     background-color: cornflowerblue;
     width: 100%;
     height: 150px;
-    margin: 10px;
+    margin: none;
+}
+#flex1 {
+	background-color: gray;
+}
+#flex2 {
+	background-color: pink;
+}
+#flex3 {
+	background-color: white;
+}
+#flex4 {
+	background-color: yellow;
 }
 /*.panel-title{
 	text-align: center;
