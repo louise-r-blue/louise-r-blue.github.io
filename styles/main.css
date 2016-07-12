@@ -9,6 +9,9 @@ body {
 p{
 	font-size:1.7rem;
 }
+.panel-title{
+	text-align: center;
+}
 
 /*.container {
 	max-width: 100%;
