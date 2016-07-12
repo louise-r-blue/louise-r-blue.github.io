@@ -14,7 +14,24 @@ body {
 p{
 	font-size:1.7rem;
 }
-.panel-title{
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: none;
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 20%;
+    margin: 10px;
+}
+/*.panel-title{
 	text-align: center;
 }
 
@@ -26,7 +43,8 @@ p{
 }
 #accordion {
 	max-width: 100%;
-}
+}*/
+
 /*.panel panel-default {
 	max-width: 100%;
 	max-height: 25%;
