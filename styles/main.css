@@ -81,6 +81,10 @@ padding-bottom: .5rem;
 	margin-top: 8rem;
 	margin-bottom: 1.2rem;
 }*/
+.heading{
+	max-width: 100%;
+	height: 120px;
+}
 h2 {
 	color: #4F5256;
 	background-color: cornflowerblue;
@@ -108,6 +112,9 @@ a:visited {
 a:hover {
 	color: green;
 }*/
+a{
+	text-decoration: none;
+}
 .navbar-item {
 	padding-right: .2rem;
 	margin-right: .9rem;
@@ -122,9 +129,10 @@ a:hover {
 }
 h3 {
 	color: #4F5256;
-	margin-right:20px;
+	background-color: cornflowerblue;
+	margin-right:none;
 	font-family: 'Works+Sans', sans-serif;
-	text-align: left;
+	text-align: center;
 	padding-left: 0;
 	padding-bottom: 2.5rem;
 	margin-left: 0;
