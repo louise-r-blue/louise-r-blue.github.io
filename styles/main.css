@@ -10,7 +10,10 @@ p{
 	font-size:1.7rem;
 }
 .container {
-	max-width: 800px;
+	max-width: 100%;
+}
+#accordion {
+	max-width: 100%;
 }
 .navbar .container{
 margin-left: .15rem;
@@ -35,7 +38,7 @@ h2 {
 	color: #4F5256;
 	margin-right: 350px;
 	font-family: 'Work+Sans', sans-serif;
-	width: 680px; 
+	width: 680px;
 	font-weight: 300;
 	text-align: left;
 	font-size: 3.8rem;
