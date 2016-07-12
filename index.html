@@ -24,14 +24,18 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
   <link rel="stylesheet" type ="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-  <link href = "louise-r-blue.github.io/styles/main.css" rel="stylesheet" type="text/css">
+  <link href = "louise-r-blue.github.io/styles/main.css" rel="stylesheet" type="text/css"> -->
 
 
   <!-- Favicon/image links
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
  <!-- <link rel="icon" type="image/png" href="images/favicon.png">-->
+
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -40,10 +44,23 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <div class ="container">
-    <section class="header">
-      <h2 class = "title">This blog is being redesigned. Thanks for waiting.</h2>
+  <h2 class = "title">This blog is being redesigned. Thanks for waiting.</h2>
 
-    </section>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Collapsible panel</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">Panel Body</div>
+        <div class="panel-footer">Panel Footer</div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <!-- <div class = "navbar-spacer"></div>
     <nav class ="navbar">
