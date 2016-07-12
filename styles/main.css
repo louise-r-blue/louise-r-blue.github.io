@@ -21,7 +21,7 @@ p{
 }
 h2 {
 	color: #4F5256;
-	background-color: cornflowerblue;
+	background-color: none;
 	margin-right: none;
 	font-family: 'Work+Sans', sans-serif;
 	width: 100%;
@@ -31,10 +31,13 @@ h2 {
 	padding-left: 0;
 	letter-spacing: .1rem;
 }
-.cultural{
+h2 #technical{
+	background-color: cornflowerblue;
+}
+h2 #cultural{
 	background-color: gray;
 }
-a h3{
+a h2{
 	text-decoration: none;
 }
 .para-header{
