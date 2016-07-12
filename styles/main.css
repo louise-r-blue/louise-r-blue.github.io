@@ -15,72 +15,6 @@ p{
 	font-size:1.7rem;
 }
 
-/*.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-    height: 750px;
-    background-color: none;
-}
-
-.flex-item {
-    background-color: cornflowerblue;
-    width: 100%;
-    height: 150px;
-    margin: none;
-}
-#flex1 {
-	background-color: gray;
-}
-#flex2 {
-	background-color: pink;
-}
-#flex3 {
-	background-color: white;
-}
-#flex4 {
-	background-color: yellow;
-}*/
-/*.panel-title{
-	text-align: center;
-}*/
-
-.container-fluid {
-	max-height: 100%;
-}
-/*.panel-heading{
-	max-height: 20%;
-}
-#accordion {
-	max-width: 100%;
-}*/
-
-/*.panel panel-default {
-	max-width: 100%;
-	max-height: 25%;
-}*/
-
-/*.navbar .container{
-margin-left: .15rem;
-border-bottom: .1rem gray;
-padding-bottom: .5rem;
-}
-.quote {
-	margin-bottom: 255px;
-	font-size: 50px;
-	opacity: .1;
-	text-align: center;
-	margin-left: 220px;
-}
-.header {
-	max-width: 100%;
-	height: 65px;
-	padding: 5px;
-	margin-top: 8rem;
-	margin-bottom: 1.2rem;
-}*/
 .heading{
 	max-width: 100%;
 	height: 120px;
@@ -97,29 +31,11 @@ h2 {
 	padding-left: 0;
 	letter-spacing: .1rem;
 }
-/*a {
-	font-size: 1.9rem;
-	padding-top: .5rem;
-	padding-bottom: .7rem;
-  text-decoration: none;
+.cultural{
+	background-color: gray;
 }
-a:link {
-	color: #00AFEC;
-}
-a:visited {
-	color: #C017CA;
-}
-a:hover {
-	color: green;
-}*/
-a{
+a h3{
 	text-decoration: none;
-}
-.navbar-item {
-	padding-right: .2rem;
-	margin-right: .9rem;
-	border-right: .2rem black;
-	color: gray;
 }
 .para-header{
 	font-size: 2.1rem;
