@@ -40,7 +40,7 @@ p{
 	height:120px;
 }
 #row-width5{
-	background-color: yellow;
+	background-color: antique-white;
 	max-width: 100%;
 	height:120px;
 }
@@ -59,12 +59,7 @@ h2 {
 a h2{
 	text-decoration: none;
 }
-.para-header{
-	font-size: 2.1rem;
-	letter-spacing: .2rem;
-	font-weight: 300;
-	padding-bottom: 3.2rem;
-}
+
 h3 {
 	color: #4F5256;
 	background-color: none;
@@ -77,22 +72,8 @@ h3 {
 	margin-bottom: none;
 	margin-top: 0;
 }
-.blog-container {
-	margin-top:3.5rem;
-}
-.blog-link-section {
-	padding-bottom: 6rem;
-}
-.first-blog-links .second-blog-links {
-	padding-bottom: 1rem;
-}
-.who-am-i {
-	height: 50px;
-	padding-top: 50px;
-	float:right;
-}
-.footer-home {
-	border-top: 3px solid red;
+textarea {
+	height: 20px;
 }
 /*Bigger than 400 */
 @media (min-width: 400px){}
