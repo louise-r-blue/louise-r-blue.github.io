@@ -14,9 +14,9 @@ body {
 p{
 	font-size:1.7rem;
 }
-div a {
+#row-width {
 	background-color: cornflowerblue;
-	max-height: 100px;
+	height: 150px;
 	max-width: 100%;
 }
 /*.flex-container {
