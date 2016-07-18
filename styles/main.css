@@ -1,17 +1,37 @@
-html {
+/*html {
 	max-height: 100%;
 }
 
 body {
 	max-width: 100%;
 	max-height: 100%;
-	/*font-family: 'Ubuntu', sans-serif;
-	font-family: 'Noto Sans', sans-serif;
-	font-family: 'Duru Sans', sans-serif;*/
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.7rem;
-}
-p{
+}*/
+body {
+		 position: relative;
+ }
+ ul.nav-pills {
+		 top: 20px;
+		 position: fixed;
+ }
+ div.col-sm-9 div {
+		 height: 250px;
+		 font-size: 28px;
+ }
+ #section1 {color: #fff; background-color: #1E88E5;}
+ #section2 {color: #fff; background-color: #673ab7;}
+ #section3 {color: #fff; background-color: #ff9800;}
+ #section41 {color: #fff; background-color: #00bcd4;}
+ #section42 {color: #fff; background-color: #009688;}
+
+ @media screen and (max-width: 810px) {
+	 #section1, #section2, #section3, #section41, #section42  {
+			 margin-left: 150px;
+	 }
+ }
+
+/*p{
 	font-size:1.7rem;
 }
 
@@ -19,31 +39,7 @@ p{
 	max-width: 100%;
 	height: 120px;
 }
-#row-width1{
-	background-color: cornflowerblue;
-	max-width: 100%;
-	height:120px;
-}
-#row-width2{
-	background-color: gray;
-	max-width: 100%;
-	height:120px;
-}
-#row-width3{
-	background-color: pink;
-	max-width: 100%;
-	height:120px;
-}
-#row-width4{
-	background-color: green;
-	max-width: 100%;
-	height:120px;
-}
-#row-width5{
-	background-color: antique-white;
-	max-width: 100%;
-	height:120px;
-}
+
 h2 {
 	color: #4F5256;
 	margin-right: none;
@@ -54,9 +50,9 @@ h2 {
 	font-size: 3.8rem;
 	padding-left: 0;
 	letter-spacing: .1rem;
-}
+}*/
 
-a h2{
+/*a h2{
 	text-decoration: none;
 }
 
@@ -71,19 +67,17 @@ h3 {
 	margin-left: 0;
 	margin-bottom: none;
 	margin-top: 0;
-}
-textarea {
-	height: 20px;
-}
-/*Bigger than 400 */
+}*/
+
+/*Bigger than 400
 @media (min-width: 400px){}
-/* Bigger than 550 */
+ Bigger than 550
 @media (min-width: 550px){
 
-}
-/*Bigger than 750 */
+}*/
+/*Bigger than 750
 @media (min-width: 750px){
-		.navbar-item{
+		/*.navbar-item{
 			position:relative;
 			float:left;
 			margin-bottom: 0;
@@ -107,7 +101,7 @@ textarea {
 			border-top: 1px solid #c0c0c0;
 			padding-right: 4rem;
 			margin-bottom: 0;
-		}
+		}*/
 	}
 /*Bigger than 1000*/
 @media (min-width: 1000px){}
