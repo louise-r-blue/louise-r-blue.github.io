@@ -51,43 +51,55 @@
       <div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
-            <li><a href="#section3">Section 3</a></li>
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <li><a href="#section1">About</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Technical<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#section41">Section 4-1</a></li>
-                <li><a href="#section42">Section 4-2</a></li>
+                <li><a href="#section21">HTML, CSS &amp;.../a></li>
+                <li><a href="#section22">Boxifying Design</a></li>
+              </ul>
+            <li><a href="#section3">Cultural</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Comment<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#section41">Comment</a></li>
+                <li><a href="#section42">Contact</a></li>
               </ul>
             </li>
           </ul>
         </div>
       </div>
     </div>
-  </nav> 
+  </nav>
 
 <div class="row">
   <div class="col-sm-6"></div>
 <div class="col-sm-6">
   <div id="section1" class="container">
-    <h1>Section 1</h1>
-    <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+    <h1>About</h1>
+    <p>This page is under development. Thanks for waiting.</p>
   </div>
-  <div id="section2" class="container">
-    <h1>Section 2</h1>
+  <!-- <div id="section2" class="container">
+    <h1>Technical</h1>
     <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+  </div> -->
+  <div id="section21" class="container">
+    <h1><abbr title="Hypertext Markup Language.">HTML,</abbr><abbr title="Cascadng Style Sheet.">CSS</abbr> &amp; the <abbr title="Document Object Model.">DOM</abbr></h1>
+    <p>This page is under development. Thanks for waiting.</p>
+  </div>
+  <div id="section22" class="container">
+    <h1>Boxifying Design<</h1>
+    <p>This page is under development. Thanks for waiting.</p>
   </div>
   <div id="section3" class="container">
-    <h1>Section 3</h1>
-    <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+    <h1>Cultural</h1>
+    <p>This page is under development. Thanks for waiting.</p>
   </div>
   <div id="section41" class="container">
-    <h1>Section 4 Submenu 1</h1>
-    <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+    <h1>Comment</h1>
+    <p>This page is under development. Thanks for waiting.</p>
   </div>
   <div id="section42" class="container">
-    <h1>Section 4 Submenu 2</h1>
-    <p>Click on the different Section links in the navbar to see the smooth scrolling effect.</p>
+    <h1>Contact</h1>
+    <p>This page is under development. Thanks for waiting.</p>
   </div>
 </div>
 </div>
@@ -111,7 +123,7 @@ $(document).ready(function(){
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 800, function(){
+      }, 1000, function(){
 
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
