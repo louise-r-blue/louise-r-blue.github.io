@@ -11,13 +11,13 @@ body {
 body {
 		position: relative;
 }
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
-#section21 {padding-top:50px;height:500px;color: #fff; background-color: pink;}
-#section22 {padding-top:50px;height:500px;color: #fff; background-color: gray;}
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #CEE6FB;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #B4E2A9;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #fdeef1;}
+#section41 {padding-top:50px;height:500px;color: #fff; background-color: #cfd2cc;}
+#section42 {padding-top:50px;height:500px;color: #fff; background-color: #fbedf1;}
+#section21 {padding-top:50px;height:500px;color: #fff; background-color: #f9f9e1;}
+#section22 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
 /*p{
 	font-size:1.7rem;
 }
