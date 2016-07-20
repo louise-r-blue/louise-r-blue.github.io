@@ -53,15 +53,21 @@ body {
 }
 #section1 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
 #section2 {padding-top:50px;height:500px;color: #fff; background-color: black;}
+#section21 {padding-top:50px;height:500px;color: #fff; background-color: black;}
+#section22 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
 #section3 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
 #section41 {padding-top:50px;height:500px;color: #fff; background-color: black;}
 #section42 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
-#section21 {padding-top:50px;height:500px;color: #fff; background-color: black;}
-#section22 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
 
 .navbar-fixed-side{
   position:fixed;
 }
+.part1 {width: 100%;color: #fff; background-color:black;}
+.part2 {width: 100%;color: #fff; background-color:black;}
+.part3 {width: 100%;color: #fff; background-color:black;}
+.part4 {width: 100%;color: #fff; background-color:black;}
+.part5 {width: 100%;color: #fff; background-color:black;}
+
 /*p{
 	font-size:1.7rem;
 }
