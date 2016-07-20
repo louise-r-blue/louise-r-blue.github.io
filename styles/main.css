@@ -59,6 +59,9 @@ body {
 #section21 {padding-top:50px;height:500px;color: #fff; background-color: black;}
 #section22 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
 
+.navbar-fixed-side{
+  position:fixed;
+}
 /*p{
 	font-size:1.7rem;
 }
