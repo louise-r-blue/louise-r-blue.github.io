@@ -62,11 +62,14 @@ body {
 .navbar-fixed-side{
   position:fixed;
 }
-.part1 {width: 100%;color: #fff; background-color:black;}
-.part2 {width: 100%;color: #fff; background-color:black;}
-.part3 {width: 100%;color: #fff; background-color:black;}
-.part4 {width: 100%;color: #fff; background-color:black;}
-.part5 {width: 100%;color: #fff; background-color:black;}
+#middle-nav{
+  padding-top: 50px;
+}
+.part1 {width: 100%;color: #fff; background-color:black; height:200px;}
+.part2 {width: 100%;color: #fff; background-color:black;height:200px;}
+.part3 {width: 100%;color: #fff; background-color:black;height:200px;}
+.part4 {width: 100%;color: #fff; background-color:black;height:200px;}
+.part5 {width: 100%;color: #fff; background-color:black;height:200px;}
 
 /*p{
 	font-size:1.7rem;
