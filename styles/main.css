@@ -68,7 +68,10 @@ body {
 }
 #middle-nav{
   padding-top: 100px;
-  font-size: 2rem;
+  font-size: 4rem;
+}
+a {
+  text-decoration: none;
 }
 .container-fluid{
   padding-top: 75px;
