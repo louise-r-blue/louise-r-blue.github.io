@@ -67,6 +67,7 @@ body {
   position:fixed;
 }
 #middle-nav{
+  position:fixed;
   padding-top: 100px;
 }
 .container-fluid{
