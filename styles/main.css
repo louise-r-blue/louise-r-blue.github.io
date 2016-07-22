@@ -63,9 +63,17 @@ body {
 #empty-nav{
   position:fixed;
 }
+.navbar-brand {
+  font-size:4rem;
+  width:50%;
+}
 .navbar-fixed-side{
   position:fixed;
   width:50%;
+  }
+  .dropdown {
+    width:50%;
+    text-align:right;
   }
 #middle-nav{
   padding-top: 100px;
