@@ -77,7 +77,7 @@ body {
   }
 .panel-default{
   position:fixed;
-  border-color: none;
+  border: none;
 }
 .div-group{
   padding-top: 6rem;
