@@ -72,40 +72,39 @@
 
 <div class="row" >
 <div class="col-sm-6" id="middle-nav">
-  <div class="div-group">
+  <div class="div-group" id ="accordion">
     <div class="div div-default">
       <div class="div-heading">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
         <div class="div-title">About</div>
       </div>
+
       <div class="div-heading">
         <div class="div-title">
-          <a data-toggle="collapse" href="#collapse1">Technical</a>
+          <a data-toggle="collapse"data-parent="#accordion" href="#collapse2">Technical</a>
         </div>
       </div>
-      <div id="collapse1" class="panel-collapse collapse">
-        <!-- <ul class="list-group"> -->
-        <div class="div-group-item">HTML, CSS &amp;...</div>
+      <div id="collapse2" class="panel-collapse collapse">
+      <div class="div-group-item">HTML, CSS &amp;...</div>
         <div class="div-group-item">Boxifying Design</div>
         <div class="div-group-item">Recursion</div>
-          <!-- <li class="list-group-item">HTML, CSS &amp;...</li>
-          <li class="list-group-item">Boxifying Design</li>
-          <li class="list-group-item">Recursion</li> -->
-        <!-- </ul> -->
-        </div>
+    </div>
         <div class="div-heading">
           <div class="div-title">
-            <a data-toggle="collapse" href="#collapse2">Cuture</a>
+            <a data-toggle="collapse" data-parent="#accordion"href="#collapse3">Cuture</a>
           </div>
         </div>
-        <div id="collapse2" class="panel-collapse collapse">
+        <div id="collapse3" class="panel-collapse collapse">
           <div class="div-group-item">Reflection</div>
             <div class="div-group-item">Empathy</div>
             <div class="div-group-item">Engineered Mindfulness</div>
             </div>
       <div class="div-heading">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
         <div class="div-title">Comment</div>
       </div>
       <div class="div-heading">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
         <div class="div-title">Is this it?</div>
       </div>
     </div>
@@ -115,7 +114,7 @@
 
 
   <div class="col-sm-6">
-    <div id="section1" class="container">
+    <div id="collapase1" class="container">
       <h1>About</h1>
       <p>This page is under development. Thanks for waiting.</p>
     </div>
