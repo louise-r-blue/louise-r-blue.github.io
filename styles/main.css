@@ -73,15 +73,16 @@ body {
   }
 
 #accordion .col-sm-6{
-  padding-top: 100px;
+  padding-top: 6rem;
   font-size: 3rem;
   text-align: right;
   }
 .div-title{
+  text-align:right;
   font-size: 3rem;
 }
 .div-group-item{
-  padding-top: 100px;
+  padding-top: 2px;
   font-size: 3rem;
   text-align: right;
 }
