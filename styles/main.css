@@ -80,6 +80,11 @@ body {
 .div-title{
   font-size: 3rem;
 }
+.div-group-item{
+  padding-top: 100px;
+  font-size: 3rem;
+  text-align: right;
+}
 a {
   font-size: 3rem;
   text-decoration: none;
