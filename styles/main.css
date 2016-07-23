@@ -71,7 +71,8 @@ body {
   position:fixed;
   width:50%;
   }
-.panel-default{
+.panel panel-default{
+  position:fixed;
   border: none;
 }
 .div-group{
