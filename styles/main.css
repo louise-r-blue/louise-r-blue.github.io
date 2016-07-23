@@ -71,9 +71,13 @@ body {
   position:fixed;
   width:50%;
   }
-.panel panel-default{
+.panel{
+    border:none;
+    position:fixed;
+  }
+.panel-default{
   position:fixed;
-  border: none;
+  border-color: none;
 }
 .div-group{
   padding-top: 6rem;
