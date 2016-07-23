@@ -72,8 +72,8 @@ body {
   width:50%;
   }
 
-#accordion .col-sm-6{
-  padding-top: 6rem;
+.div-group{
+  padding-top: 3rem;
   font-size: 3rem;
   text-align: right;
   }
