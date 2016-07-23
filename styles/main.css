@@ -71,12 +71,15 @@ body {
   position:fixed;
   width:50%;
   }
+#side-nav{
+    position:fixed;
+    width:50%;
+  }
 .panel{
     border:none;
-    position:fixed;
+
   }
 .panel-default{
-  position:fixed;
   border: none;
 }
 .div-group{
