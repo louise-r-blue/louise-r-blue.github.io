@@ -71,13 +71,12 @@
   </div> -->
 
 <div class="row" >
+
 <div class="col-sm-6">
+<div class="div-group"id="side-nav">
+<div class="div div-default">
+<div class="panel-group" id="accordion">
 
-  <div class="div-group"id="side-nav">
-  <div class="div div-default" data-target="#myAccordion">
-
-<div id="myAccordion">
-  <div class="panel-group" id="accordion">
       <div class="panel panel-default">
       <div class="div-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">About</a></div>
@@ -117,7 +116,7 @@
   </div>
 </div>
 </div>
-</div>
+
 
 
 
@@ -157,7 +156,7 @@ $(document).ready(function(){
   $('body').scrollspy({target: ".div-group", offset: 50});
 
   // Add smooth scrolling on all links inside the navbar
-  $("#myAccordion a").on('click', function(event) {
+  $("accordion a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
