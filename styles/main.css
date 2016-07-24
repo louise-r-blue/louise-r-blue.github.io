@@ -51,6 +51,10 @@ body {
 body {
 		position: relative;
 }
+#right-scroll{
+  position: relative;
+}
+
 #collapse1 {padding-top:50px;height:500px;color: #fff; background-color: black;}
 #collapse21 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
 #collapse22 {padding-top:50px;height:500px;color: #fff; background-color: black;}
