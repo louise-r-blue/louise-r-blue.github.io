@@ -51,14 +51,12 @@ body {
 body {
 		position: relative;
 }
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: black;}
-#section1a {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
-#section2 {padding-top:50px;height:500px;color: #fff; background-color: black;}
-#section21 {padding-top:50px;height:500px;color: #fff; background-color: black;}
-#section22 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
-#section3 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
-#section41 {padding-top:50px;height:500px;color: #fff; background-color: black;}
-#section42 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
+#collapse1 {padding-top:50px;height:500px;color: #fff; background-color: black;}
+#collapse21 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
+#collapse22 {padding-top:50px;height:500px;color: #fff; background-color: black;}
+#collapse31 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
+#collapse4 {padding-top:50px;height:500px;color: #fff; background-color: black;}
+#collapse5 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
 
 #empty-nav{
   position:fixed;
@@ -75,13 +73,12 @@ body {
     position:fixed;
     width:50%;
   }
-/*.panel{
+.panel-group .panel{
     border:none;
-
-  }
+}
 .panel-default{
   border: none;
-}*/
+}
 .div-group{
   padding-top: 6rem;
   font-size: 3rem;
