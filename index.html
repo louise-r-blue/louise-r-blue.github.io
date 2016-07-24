@@ -47,7 +47,7 @@
           <span class="icon-bar"></span>
         </div> -->
         <!-- <a class="navbar-brand" href="#">Website</a> -->
-    <!--  </div>
+    <!-- </div>
 
       <div class="collapse navbar-collapse" id="myNavbar">
         <div class="info"><a href="#collapse1a">Is this it?</a></div>
@@ -74,8 +74,9 @@
 <div class="col-sm-6">
 
   <div class="div-group"id="side-nav">
-  <div class="div div-default">
+  <div class="div div-default" data-target="#myAccordion">
 
+<div id="myAccordion">
   <div class="panel-group" id="accordion">
       <div class="panel panel-default">
       <div class="div-title">
@@ -116,6 +117,7 @@
   </div>
 </div>
 </div>
+</div>
 
 
 
@@ -152,10 +154,10 @@
 <script>
 $(document).ready(function(){
   // Add scrollspy to <body>
-  $('body').scrollspy({target: ".navbar", offset: 50});
+  $('body').scrollspy({target: ".div-group", offset: 50});
 
   // Add smooth scrolling on all links inside the navbar
-  $("#myNavbar a").on('click', function(event) {
+  $("#myAccordion a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
