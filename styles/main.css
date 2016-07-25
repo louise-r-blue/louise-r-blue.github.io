@@ -108,7 +108,7 @@ body {
 .div-group-item{
   padding-top: 2px;
   font-size: 3rem;
-  text-align: right;
+  /*text-align: right;*/
 }
 a {
   color: black;
