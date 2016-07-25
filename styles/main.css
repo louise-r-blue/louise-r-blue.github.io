@@ -20,8 +20,8 @@
 .navbar
 {
 	max-width:100%;
-	margin-right: 0;
-	margin-left: 0;
+	/*margin-right: 0;
+	margin-left: 0;*/
 }
 
 .navbar-nav,
@@ -85,9 +85,9 @@ body {
 #side-nav{
     position:fixed;
     text-align: right;
-    padding-top: 6rem;
+    /*padding-top: 6rem;*/
     font-size: 3rem;
-    padding-right: 20px;
+    /*padding-right: 20px;*/
   }
 .panel-group .panel{
     border:none;
@@ -106,7 +106,7 @@ body {
   font-size: 3rem;
 }*/
 .div-group-item{
-  padding-top: 2px;
+  /*padding-top: 2px;*/
   /*font-size: 3rem;*/
   /*text-align: right;*/
 }
