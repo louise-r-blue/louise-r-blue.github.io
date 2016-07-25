@@ -53,14 +53,15 @@ body {
 }
 #right-scroll{
   position: relative;
+  width: 50%;
 }
 
-#collapse11 {padding-top:50px;height:500px;color: #fff; background-color: black;}
-#collapse21 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
-#collapse22 {padding-top:50px;height:500px;color: #fff; background-color: black;}
-#collapse31 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
-#collapse4 {padding-top:50px;height:500px;color: #fff; background-color: black;}
-#collapse5 {padding-top:50px;height:500px;color: #fff; background-color: #b4e2a9;}
+#collapse11 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: black;}
+#collapse21 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: #b4e2a9;}
+#collapse22 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: black;}
+#collapse31 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: #b4e2a9;}
+#collapse4 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: black;}
+#collapse5 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: #b4e2a9;}
 
 #empty-nav{
   position:fixed;
@@ -98,6 +99,7 @@ body {
   text-align: right;
 }
 a {
+  color: black;
   font-size: 3rem;
   text-decoration: none;
 }
