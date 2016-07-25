@@ -85,6 +85,9 @@ body {
 #side-nav{
     position:fixed;
     text-align: right;
+    padding-top: 6rem;
+    font-size: 3rem;
+    padding-right: 20px;
   }
 .panel-group .panel{
     border:none;
@@ -92,12 +95,12 @@ body {
 .panel-default{
   border: none;
 }
-.div-group{
+/*.div-group{
   padding-top: 6rem;
   font-size: 3rem;
   padding-right: 20px;
-  text-align: right;
-  }
+
+  }*/
 .div-title{
   text-align:right;
   font-size: 3rem;
