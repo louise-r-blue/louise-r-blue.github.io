@@ -55,24 +55,21 @@ body {
   position: relative;
   }
 
-/*#collapse11 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: black;}
+#collapse11 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: black;}
 #collapse21 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: #b4e2a9;}
 #collapse22 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: black;}
 #collapse31 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: #b4e2a9;}
 #collapse4 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: black;}
-#collapse5 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: #b4e2a9;}*/
+#collapse5 {padding-top:50px;padding-bottom: 20px;color: #fff; background-color: #b4e2a9;}
 
-#collapse11 {color: #fff; background-color: black;}
+/*#collapse11 {color: #fff; background-color: black;}
 #collapse21 {color: #fff; background-color: #b4e2a9;}
 #collapse22 {color: #fff; background-color: black;}
 #collapse31 {color: #fff; background-color: #b4e2a9;}
 #collapse4 {color: #fff; background-color: black;}
-#collapse5 {color: #fff; background-color: #b4e2a9;}
+#collapse5 {color: #fff; background-color: #b4e2a9;}*/
 
-div .container{
-  margin-left: 40vw;
-  margin-right: 10vw;
-}
+
 
 #empty-nav{
   position:fixed;
@@ -87,7 +84,7 @@ div .container{
   }
 #side-nav{
     position:fixed;
-    width:50vw;
+  
 
   }
 .panel-group .panel{
