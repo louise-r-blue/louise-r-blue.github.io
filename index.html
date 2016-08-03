@@ -37,13 +37,35 @@
 
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
 
 <div class="container">
   <div class="row" >
     <div class="col-sm-2"></div>
+    <nav class="col-sm-4" id="myScrollspy">
+     <ul class="nav nav-pills nav-stacked">
+       <li class="active"><a href="#section1">About</a></li>
+      <li class="dropdown">
+         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Technical<span class="caret"></span></a>
+         <ul class="dropdown-menu">
+           <li><a href="#collapse21">HTML, CSS ...</a></li>
+           <li><a href="#collapse22">Boxifying Design</a></li>
+         </ul>
+       </li>
+       <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cultural<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#collapse31">Mindfulness</a></li>
+          </ul>
+        </li>
+        <li><a href="#collapse5">Comment</a></li>
+        <li><a href="#collapse4">Is this if?</a></li>
+      </ul>
+    </nav>
 
-    <div class="col-sm-4">
-      <div class="div-group"id="side-nav">
+
+
+      <!-- <div class="div-group"id="side-nav">
         <div class="div div-default">
           <div class="panel-group" id="accordion">
 
@@ -54,10 +76,10 @@
                   <div class="panel-collapse collapse" id="collapse1">
                     <div class="div-group-item"><a href="#collapse11">About me</a></div>
                   </div>
-                </div>
+                </div> -->
 
                 <!-- <div class="panel-group" id="accordion"> -->
-                <div class="panel panel-default">
+                <!-- <div class="panel panel-default">
                   <div class="div-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1a">Technical<span class="caret"></span></a></div>
                     <div>
@@ -79,18 +101,18 @@
                         <div class="panel panel-default">
                           <div class="div-title">
                             <a data-toggle="collapse" data-parent="#accordion"><a href="#collapse5">Comment</a></div>
-                          </div>
+                          </div> -->
 
-                          <div class="panel panel-default">
+                          <!-- <div class="panel panel-default">
                             <div class="div-title">
                               <a data-toggle="collapse" data-parent="#accordion"><a href="#collapse4">Is this it?</a></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                            </div> -->
+                          <!-- </div> -->
+                        <!-- </div> -->
+                      <!-- </div> -->
+                    <!-- </div> -->
+                  <!-- </div> -->
+
 
 
 
@@ -101,7 +123,7 @@
                   <article> <!--main content (the article) -->
                     <div class="col-sm-6" id="right-scroll">
                       <header>
-                        <h1>Confessions of a dev graduate</h1>
+                        <h1>Confessions of a web dev grad</h1>
                         <!-- <p>Article metadata if any</p> -->
                       </header>
 
@@ -167,9 +189,10 @@
                     </div>
                   </article>
                 </div>
-
               </div>
             </div>
+
+
 
 
 
