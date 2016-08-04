@@ -39,22 +39,17 @@
 
 media screen and (max-width: 720px){
   .content {
-    flex-wrap: wrap;
+  
   }
 }
 
 body {
 		position: relative;
 }
-ul.nav-pills {
-  top: 50px;;
-     position: fixed;
-}
 
 .container {
 }
 .navigation{
-
 }
 .content{
 }
