@@ -37,9 +37,9 @@
 }
 }*/
 
-media screen and (max-width: 720px){
-  .content {
-
+media screen and (max-width: 800px){
+  .container collapse21{
+padding-top: 75px;
   }
 }
 
