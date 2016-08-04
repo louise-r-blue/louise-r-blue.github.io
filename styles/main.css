@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .navbar-collapse {
     height: auto;
     border-top: 0;
@@ -19,12 +19,12 @@
 
 .navbar
 {
-	max-width:100%;
+	max-width:100%;*/
 	/*margin-right: 0;
 	margin-left: 0;*/
 }
 
-.navbar-nav,
+/*.navbar-nav,
 .navbar-nav > li,
 .navbar-left,
 .navbar-right,
@@ -35,11 +35,11 @@
 .navbar-collapse .navbar-nav.navbar-right:last-child {
     margin-right: 0;
 }
-}
+}*/
 
 media screen and (max-width: 720px){
   .content {
-  
+
   }
 }
 
