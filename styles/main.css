@@ -36,9 +36,11 @@
     margin-right: 0;
 }
 }
+
 ul.nav-pills {
      top: 20px;
      position: fixed;
+     width: 100vw;
  }
 /*html {
 	max-height: 100%;
