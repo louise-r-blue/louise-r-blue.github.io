@@ -43,15 +43,33 @@ media screen and (max-width: 800px){
 }
 
 body {
-		position: relative;
+	
 }
 
-.container {
+.navbar-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  font-family: 'Raleway','Work Sans', Helvetica, Arial, sans-serif;
 }
-.navigation{
+.navbar-custom .navbar-brand {
+  font-weight: 800;
 }
-.content{
+.navbar-custom .navbar-header .navbar-toggle {
+  color: #777777;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 12px;
 }
+.navbar-custom .nav li a {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
 #collapse11 {padding-top:50px;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
 #collapse21 {padding-top:50px;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
 #collapse22 {padding-top:50px;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
