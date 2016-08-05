@@ -5,9 +5,11 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Lou's Blog</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="">
-  <meta name="" content="">
+  <meta name="author" content="">
+
+  <title>Lou's Blog</title>
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -15,16 +17,15 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
-  <!--Ubuntu|Noto+Sans|Duru+Sans|Poppins|Nobile:400,400italic,700,700italic-->
   <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-  <!-- CSS
+  <!-- CSS & scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-  <link rel="stylesheet" type ="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"> -->
   <link href = "louise-r-blue.github.io/styles/main.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -37,9 +38,58 @@
 
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<body> <!--data-spy="scroll" data-target="#myNavbar" data-offset="20"> -->
+<body>
 
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <!-- Navigation -->
+     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+         <div class="container-fluid">
+             <!-- Brand and toggle get grouped for better mobile display -->
+             <div class="navbar-header page-scroll">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                     <span class="sr-only">Toggle navigation</span>
+                     Menu <i class="fa fa-bars"></i>
+                 </button>
+                 <a class="navbar-brand" href="#">GOE</a> <!--href="index.html -->"
+             </div>
+
+             <!-- Collect the nav links, forms, and other content for toggling -->
+             <div class="collapse navbar-collapse" id="myNavbar">
+                 <ul class="nav navbar-nav navbar-right">
+                     <li>
+                         <a href="#">Home</a> <!--href="index.html -->
+                     </li>
+                     <li>
+                         <a href="#collapse11">About</a> <!--href="About.html -->
+                     </li>
+                     <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Technical<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#collapse21">HTML, CSS ...</a></li>
+                          <li><a href="#collapse22">Boxifying design</a></li>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cultural<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#collapse31">Mindfulness</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#collapse5">Comment</a></li>
+                      <li><a href="#collapse4">Is this it?</a></li>
+                     <!-- <li>
+                         <a href="post.html">Sample Post</a>
+                     </li>
+                     <li>
+                         <a href="contact.html">Contact</a>
+                     </li> -->
+                 </ul>
+             </div>
+             <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container -->
+     </nav>
+
+  <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -72,7 +122,7 @@
        </div>
      </div>
    </div>
-  </nav>
+  </nav> -->
 
 
 <div class ="row">
