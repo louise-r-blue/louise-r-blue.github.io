@@ -71,6 +71,10 @@ hr.small {
 #collapse4 {padding-top:20px;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
 #collapse5 {padding-top:20px;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
 
+.post-title p {
+  font-size: 20px;
+}
+
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
