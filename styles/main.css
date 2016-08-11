@@ -4,7 +4,7 @@ body {
   color: #333333;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Raleway',sans-serif;
   line-height: 1.55;
   margin: none;
@@ -88,11 +88,11 @@ hr.small {
   margin-bottom: none;
   font-family:'Poppins', sans-serif;
   font-weight:400;
-  font-size: 24px;
+  font-size: 22px;
 }
 .post-preview .post-title p {
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 
