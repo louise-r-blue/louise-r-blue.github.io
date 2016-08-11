@@ -75,9 +75,17 @@ a img:focus {
 #collapse4 {padding-top:none;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
 #collapse5 {padding-top:none;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
 
+.post-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  margin-top: 40px;
+}
 .post-title p {
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
 }
+
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
