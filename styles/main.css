@@ -248,6 +248,12 @@ hr.small {
 .post-preview > a {
   color: #333333;
 }
+h2 .post-title > a:hover,
+h2 .post-title > a:focus {
+  text-decoration: none;
+  color: #0085A1;
+}
+
 .post-preview > a:hover,
 .post-preview .post-title > a:focus {
   text-decoration: none;
