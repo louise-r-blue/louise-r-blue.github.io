@@ -1,104 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
 
-    <!-- Basic Page Needs
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
-    <title>Hello Beautiful Code</title>
-    <meta name="description" content="">
-    <meta name="" content="">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Hello Beautiful Code</title>
+  <meta name="description" content="">
+  <meta name="" content="">
 
-    <!-- Mobile Specific Metas
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- FONT
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
-    <!--alternative font maybes - Ubuntu|Noto+Sans|Duru+Sans|Poppins-->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+  <!--alternative font maybes - Ubuntu|Noto+Sans|Duru+Sans|Poppins-->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-    <!-- CSS
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-    <link rel="stylesheet" type ="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"> -->
-    <link href = "../styles/main.css" rel="stylesheet" type="text/css">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" type ="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"> -->
+  <link href = "../styles/main.css" rel="stylesheet" type="text/css">
 
-  </head>
+</head>
 <body>
-
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top" role="navigation">
+    <div class="row">
+      <div class = "col-sm-2">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><i class="fa fa-home"></i>&nbsp;<abbr title="Lou's website coming soon">Louise</abbr></a>
+        </div>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class ="col-sm-8">
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#collapse11">About</a>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Technical<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#collapse21">HTML, CSS ...</a></li>
+                <li><a href="#collapse22">Boxifying design</a></li>
+                <li><a href="#collapse23">Box model</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cultural<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#collapse31">Mindfulness</a></li>
+              </ul>
+            </li>
+            <li><a href="#collapse5">Contact</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Header -->
+  <!-- Set your background image for this header on the line below. -->
+  <header class="intro-header" style="background-image: url('images/Blue.png')">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <div class="site-heading">
+            <h1>Technical</h1>
+            <hr class="small">
+            <span class="subheading">A technical description told in a non technical way</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
   <a name ="top"></a>
 
-<div class ="container">
-    <section class="header">
-      <h2 class = "title">Udacity Reflection</h2>
+  <div class ="container">
+    <div class ="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <h3 class = "para-header">HTML, CSS &amp; the DOM</h3>
 
-    </section>
+        <p>
+          Have you ever received or given a present - lets say a plain cardboard box with a simple message saying 'To you, please open'. Opening the box you find another plain cardboard box with another message. Open that one &amp; you find two cardboard boxes &amp; so it goes on. This is a lot like html -a markup language for web pages, which forms the basic structure of a web page. We need that plain cardboard box.
+        </p>
+
+        <p>
+          Your friend or you feel a bit embarrassed about the cardboard box &amp; decide/s to get some help with css (cascading style sheets), with the emphasis on style. You or they receive a colorfully wrapped box with pretty labels, bows &amp; ribbons. Tearing the paper of you/they find three more colorfully wrapped boxes with beautiful labels with writing &amp; other goodies attached. The paper is heavily embossed with gold flecks. On opening one of the boxes you find many boxed compartments. One label suggests you go to another box &amp; open it. This goes on &amp; on. How can so many boxes fit in one. That is the wizardry of the DOM - which is the document object model. The DOM is like the mother of all trees. Its many branches have many boxes hanging. It has not stopped growing.
+        </p>
+
+
+        <h3 class = "para-header">Boxifying Design</h3>
+        <p>
+          Everything on a web page is in a box whether it is text, imagery, photography, iconography, video &amp; so on. A Udacity developer described their processes &amp; techniques for designing a web page. Using a visual board with a grid, cut out all the boxes you can see on the paper web site template. These are then placed on the visual board, &amp; can be moved easily about. A Udacity front end developer described his method of design. Using a pencil he simply sketched out the boxes he sees. It helps better to visualize the design this way so you are not going in blindly. It is almost like you are reversing the design process, in fact many designers of different disciplines work this way. One of Udacity's messages is 'break it down'.
+        </p>
 
 
 
-      <div class = "navbar-spacer"></div>
-    <nav class ="navbar">
-      <div class ="container">
-        <ul class ="navbar-list">
-          <li class ="navbar-item">
-            <a class = "navbar-link" href = "/index.html">home</a>
-          </li>
-          <li class ="navbar-item">
-            <a class = "navbar-link" href = "/about.html">about</a>
-          </li>
-          <li class ="navbar-item">
-            <a class = "navbar-link" href = "/contact.html">contact</a>
-          </li>
-           <li class ="navbar-item">
-            <a class = "navbar-link" href = "/extra.html">extra</a>
-          </li>
-        </ul>
+        <h3 class = "para-header">Box Model</h3>
+        <p>
+          The 'box model' is fundamental to designing web pages with CSS. Rectangular boxes with defined content, locations, padding, borders &amp; margins &amp; other styling features govern the design of web pages. Starting in the center is the content which is generally what the viewer or user sees. Moving outward is the padding, then border &amp; finally margin. Some of these boxes will not be visible to the user. The box model is treated as one unit &amp; can be manipulated &amp; engineered to fantastic effect. For example a box can be rotated, skewed, flipped &amp; so on. There is order &amp; standards to the box model. By correctly defining tags, elements, classes &amp; style sheets etc; you can still be adventurous within the confines of the 'box model'.
+        </p>
+
+        <h3 class = "para-header">Responsiveness</h3>
+        <p>
+          A responsive site is one which adjusts and scales appropriately to the users choice of device and screen resolution. The device could be a smart-phone, tablet or desktop and screen resolutions range from 360px x 598px, 600px x 960px to 1280px x 1024px respectively.
+          The 'px' is a pixel - like a cube and is pixels per screen inch. A responsive site uses one set of code to service all the users devices and screen resolutions. A site must also take in to consideration the users viewing environment - such as indoor and  outdoor conditions, slow and fast connection speeds.
+        </p>
+
+        <p>
+          Responsive sites are becoming increasingly important as users are accessing a varied and growing range of devices. One of the challenges for a responsive site is with mobiles and touch screens. Users use fingers as navigational tools on a mobile - choice of button size and position becomes paramount.
+        </p>
+
+
+        <a href="#top">Return to the top of this page</a>
+
+
+        <!-- <div class ="footer-home">
+        <div class = "container">
+        <p class = "who-am-i">Louise Robinson-Blue, Karearea 2016, Dev academy</p>
       </div>
-    </nav>
-
-    <div class = "blog-container">
-    <div class="blog-header">
-      <h3 class = "para-header">HTML, CSS &amp; the DOM</h3></div>
-
-          <p>
-            Have you ever received or given a present - lets say a plain cardboard box with a simple message saying 'To you, please open'. Opening the box you find another plain cardboard box with another message. Open that one &amp; you find two cardboard boxes &amp; so it goes on. This is a lot like html -a markup language for web pages, which forms the basic structure of a web page. We need that plain cardboard box.
-          </p>
-
-          <p>
-            Your friend or you feel a bit embarrassed about the cardboard box &amp; decide/s to get some help with css (cascading style sheets), with the emphasis on style. You or they receive a colorfully wrapped box with pretty labels, bows &amp; ribbons. Tearing the paper of you/they find three more colorfully wrapped boxes with beautiful labels with writing &amp; other goodies attached. The paper is heavily embossed with gold flecks. On opening one of the boxes you find many boxed compartments. One label suggests you go to another box &amp; open it. This goes on &amp; on. How can so many boxes fit in one. That is the wizardry of the DOM - which is the document object model. The DOM is like the mother of all trees. Its many branches have many boxes hanging. It has not stopped growing.
-          </p>
-
-    <div class="blog-header">
-        <h3 class = "para-header">Boxifying Design</h3></div>
-
-          <p>
-            Everything on a web page is in a box whether it is text, imagery, photography, iconography, video &amp; so on. A Udacity developer described their processes &amp; techniques for designing a web page. Using a visual board with a grid, cut out all the boxes you can see on the paper web site template. These are then placed on the visual board, &amp; can be moved easily about. A Udacity front end developer described his method of design. Using a pencil he simply sketched out the boxes he sees. It helps better to visualize the design this way so you are not going in blindly. It is almost like you are reversing the design process, in fact many designers of different disciplines work this way. One of Udacity's messages is 'break it down'.
-          </p>
-
-      <div class="blog-header">
-      <h3 class = "para-header">Box Model</h3></div>
-
-          <p>
-            The 'box model' is fundamental to designing web pages with CSS. Rectangular boxes with defined content, locations, padding, borders &amp; margins &amp; other styling features govern the design of web pages. Starting in the center is the content which is generally what the viewer or user sees. Moving outward is the padding, then border &amp; finally margin. Some of these boxes will not be visible to the user. The box model is treated as one unit &amp; can be manipulated &amp; engineered to fantastic effect. For example a box can be rotated, skewed, flipped &amp; so on. There is order &amp; standards to the box model. By correctly defining tags, elements, classes &amp; style sheets etc; you can still be adventurous within the confines of the 'box model'.
-          </p>
-
-           <a href="#top">Return to the top of this page</a>
-
-         <div class ="footer-home">
-                <div class = "container">
-                      <p class = "who-am-i">Louise Robinson-Blue, Karearea 2016, Dev academy</p>
-                </div>
-              </div>
-             </div>
-
-    </div>
-         <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    </div> -->
+  </div>
+</div>
+</div>
+<!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
