@@ -43,9 +43,12 @@
 
   <!-- Navigation -->
      <nav class="navbar navbar-default navbar-custom navbar-fixed-top" role="navigation">
-         <div class="container-fluid">
+         <!-- <div class="container-fluid"> -->
+           <div class="row">
+               <div class = "col-sm-2">
              <!-- Brand and toggle get grouped for better mobile display -->
-             <div class="navbar-header page-scroll">
+             <!-- <div class="navbar-header page-scroll"> -->
+               <div class="navbar-header">
                  <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                      <span class="sr-only">Toggle navigation</span>
                      Menu <i class="fa fa-bars"></i>
@@ -58,10 +61,13 @@
                 </button>
                  <a class="navbar-brand" href="#"><i class="fa fa-home"></i>&nbsp;<abbr title="Lou's website coming soon">Louise</abbr></a> <!--href="index.html -->
              </div>
+           </div>
 
              <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class ="col-sm-8">
              <div class="collapse navbar-collapse" id="myNavbar">
-                 <ul class="nav navbar-nav navbar-right">
+                 <!-- <ul class="nav navbar-nav navbar-right"> -->
+                    <ul class="nav navbar-nav">
                      <li>
                          <a href="#">Home</a> <!--href="index.html -->
                      </li>
@@ -83,19 +89,15 @@
                       </li>
                       <li><a href="#collapse4">Is this it?</a></li>
                       <li><a href="#collapse5">Contact</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.navbar-collapse -->
+                </div>
+              </div>
+              <!-- /.container -->
+            </nav>
 
-                     <!-- <li>
-                         <a href="post.html">Sample Post</a>
-                     </li>
-                     <li>
-                         <a href="contact.html">Contact</a>
-                     </li> -->
-                 </ul>
-             </div>
-             <!-- /.navbar-collapse -->
-         </div>
-         <!-- /.container -->
-     </nav>
+
 
      <!-- Page Header -->
         <!-- Set your background image for this header on the line below. -->
@@ -113,39 +115,48 @@
             </div>
         </header>
 
+        <!-- <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        Man must explore, and this is exploration at its greatest
+                    </h2>
+                    <h3 class="post-subtitle">
+                        Problems look mighty small from 150 miles up
+                    </h3>
+                </a>
+                <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
+            </div>
+            <hr> -->
+
 <div class ="container">
 <div class ="row">
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
   <!-- <div class="col-sm-3"></div> -->
   <!-- <div class="col-sm-7"> -->
-    <div class="main"> <!-- wrapper for CSS styling and no title so not section -->
-      <article class="content"> <!--main content (the article) -->
+    <!-- <div class="main"> wrapper for CSS styling and no title so not section -->
+      <!-- <article class="content"> main content (the article) -->
+      <!-- <section id ="collapse11" class="post-title">
+      <h2 class="section-heading">About me</h2>
+      <p>This page is under development. Thanks for waiting.</p>
+    </section> -->
+ <div class ="post-preview">
+   <a href="t2-html-css-dom-p1.html">
 
-          <header>
-            <h1></h1> <!-- image canvas or something here -->
-            <!-- <p>Article metadata if any</p> -->
-          </header>
-
-
-          <section id ="collapse11" class="post-title">
-            <h2 class="section-heading">About me</h2>
-            <p>This page is under development. Thanks for waiting.</p>
-          </section>
-
-          <section id ="collapse21"class="post-title">
-            <h2 class="section-heading"><abbr title="Hypertext Markup Language.">HTML,</abbr>&nbsp;<abbr title="Cascadng Style Sheet.">CSS</abbr> &amp; the <abbr title="Document Object Model.">DOM</abbr></h2>
-            <p>This page is under development. Thanks for waiting.</p><br>
+          <h2 id ="collapse21"class="post-title"><abbr title="Hypertext Markup Language.">HTML,</abbr>&nbsp;<abbr title="Cascadng Style Sheet.">CSS</abbr> &amp; the <abbr title="Document Object Model.">DOM</abbr></h2>
+          <h3 class="post-subtitle">
+              A non technical explanation
+          </h3>
             <p>
               Have you ever received or given a present - lets say a plain cardboard box with a simple message saying 'To you, please open'. Opening the box you find another plain cardboard box with another message. Open that one &amp; you find two cardboard boxes &amp; so it goes on. This is a lot like html -a markup language for web pages, which forms the basic structure of a web page. We need that plain cardboard box.
             </p>
-            <p>
-              Your friend or you feel a bit embarrassed about the cardboard box &amp; decide/s to get some help with css (cascading style sheets), with the emphasis on style. You or they receive a colorfully wrapped box with pretty labels, bows &amp; ribbons. Tearing the paper of you/they find three more colorfully wrapped boxes with beautiful labels with writing &amp; other goodies attached. The paper is heavily embossed with gold flecks. On opening one of the boxes you find many boxed compartments. One label suggests you go to another box &amp; open it. This goes on &amp; on. How can so many boxes fit in one. That is the wizardry of the DOM - which is the document object model. The DOM is like the mother of all trees. Its many branches have many boxes hanging. It has not stopped growing.
-            </p>
-          </section>
+          </a>
+          <p class="post-meta">Posted by <a href="#">Louise</a> on November, 2015</p>
+          <hr>
+        </div>
 
           <section id="collapse22"class="post-title">
             <h2 class="section-heading">Boxifying Design</h2>
-            <p>This page is under development. Thanks for waiting.</p><br>
+
             <p>
               Everything on a web page is in a box whether it is text, imagery, photography, iconography, video &amp; so on. A Udacity developer described their processes &amp; techniques for designing a web page. Using a visual board with a grid, cut out all the boxes you can see on the paper web site template. These are then placed on the visual board, &amp; can be moved easily about. A Udacity front end developer described his method of design. Using a pencil he simply sketched out the boxes he sees. It helps better to visualize the design this way so you are not going in blindly. It is almost like you are reversing the design process, in fact many designers of different disciplines work this way. One of Udacity's messages is 'break it down'.
             </p>
@@ -153,7 +164,7 @@
 
           <section id="collapse31"class="post-title">
             <h2 class="section-heading">The Relationship Between Mindfulness &amp; Self-awareness</h2>
-            <p>This page is under development. Thanks for waiting.</p><br>
+
             <p>
               Both mindfulness &amp; self-awareness have similar traits.
             </p>

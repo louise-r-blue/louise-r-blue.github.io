@@ -64,12 +64,12 @@ hr.small {
   letter-spacing: 1px;
 }
 
-#collapse11 {padding-top:20px;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
-#collapse21 {padding-top:20px;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
-#collapse22 {padding-top:20px;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
-#collapse31 {padding-top:20px;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
-#collapse4 {padding-top:20px;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
-#collapse5 {padding-top:20px;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
+#collapse11 {padding-top:none;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
+#collapse21 {padding-top:none;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
+#collapse22 {padding-top:none;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
+#collapse31 {padding-top:none;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
+#collapse4 {padding-top:none;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
+#collapse5 {padding-top:none;padding-bottom: 20px;color: #333333; background-color: #ffffff;}
 
 .post-title p {
   font-size: 20px;
