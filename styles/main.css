@@ -6,8 +6,8 @@ body {
 p {
   font-size: 16px;
   font-family: 'Raleway',sans-serif;
-  line-height: 1.45;
-  margin: 30px 0;
+  line-height: 1.55;
+  margin: none;
 }
 /*p a {
   text-decoration: underline;
@@ -39,12 +39,12 @@ a img:focus {
   font-style: italic;
 }*/
 
-/*hr.small {
+hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
   border-color: white;
-}*/
+}
 .navbar-custom {
   position: absolute;
   top: 0;
@@ -84,9 +84,10 @@ a img:focus {
   margin-bottom: 10px;
 }
 .post-preview >a>.post-subtitle{
-  margin: 0,0,10px;
+  margin-top: 10px;
+  margin-bottom: none;
   font-family:'Poppins', sans-serif;
-  font-weight:300;
+  font-weight:400;
   font-size: 24px;
 }
 .post-preview .post-title p {
@@ -247,8 +248,8 @@ a img:focus {
 .post-preview > a {
   color: #333333;
 }
-.post-preview > a:hover,
-.post-preview > a:focus {
+.post-preview .post-title > a:hover,
+.post-preview .post-title > a:focus {
   text-decoration: none;
   color: #0085A1;
 }
@@ -282,11 +283,7 @@ a img:focus {
     font-size: 36px;
   }
 }
-.section-heading {
-  font-size: 36px;
-  margin-top: 60px;
-  font-weight: 700;
-}
+
 /*.caption {
   text-align: center;
   font-size: 14px;
