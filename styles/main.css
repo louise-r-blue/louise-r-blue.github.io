@@ -22,7 +22,7 @@ h6 {
   font-weight: 400;
 }
 
-/*a {
+a {
   color: #333333;
 }
 a:hover,
@@ -32,7 +32,7 @@ a:focus {
 a img:hover,
 a img:focus {
   cursor: zoom-in;
-}*/
+}
 
 /*blockquote {
   color: #777777;
@@ -248,12 +248,13 @@ hr.small {
 .post-preview > a {
   color: #333333;
 }
-.post-preview .post-title > a:hover,
+.post-preview > a:hover,
 .post-preview .post-title > a:focus {
   text-decoration: none;
   color: #0085A1;
 }
-/*.post-preview > a > .post-title {
+
+.post-preview > a > .post-title {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -262,7 +263,8 @@ hr.small {
   margin: 0;
   font-weight: 300;
   margin-bottom: 10px;
-}*/
+}
+
 .post-preview > .post-meta {
   color: #777777;
   font-size: 18px;
