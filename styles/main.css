@@ -115,11 +115,11 @@ hr.small {
     /*color: white;*/
     padding: 20px;
   }
-  /*.navbar-custom .nav li a:hover,
+  .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
     color: rgba(255, 255, 255, 0.8);
   }
-}*/
+}
 
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
@@ -254,11 +254,6 @@ h2, h3, .post-title,a:focus {
   text-decoration: none;
   color: #0085A1;
 }*/
-
-h2 .post-title, h3 .post-subtitle :hover{
-  text-decoration: none;
-  color: #0085A1;
-}
 
 .post-preview > a:hover,
 .post-preview .post-title > a:focus {
