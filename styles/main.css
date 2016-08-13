@@ -249,8 +249,13 @@ hr.small {
 .post-preview > a {
   color: #333333;
 }
-h2, h3, a:hover,
-h2, h3, a:focus {
+/*h2, h3, .post-title, a:hover,
+h2, h3, .post-title,a:focus {
+  text-decoration: none;
+  color: #0085A1;
+}*/
+
+h2 .post-title, h3 .post-subtitle :hover{
   text-decoration: none;
   color: #0085A1;
 }
