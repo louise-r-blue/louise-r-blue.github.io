@@ -28,6 +28,7 @@ a {
 a:hover,
 a:focus {
   color: #0085A1;
+  text-decoration: none;
 }
 a img:hover,
 a img:focus {
@@ -105,10 +106,10 @@ hr.small {
     color: white;
     padding: 20px;
   }
-  /*.navbar-custom .navbar-brand:hover,
+  .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
     color: rgba(255, 255, 255, 0.8);
-  }*/
+  }
   .navbar-custom .nav li a {
     color: #555;
     /*color: white;*/
@@ -248,8 +249,8 @@ hr.small {
 .post-preview > a {
   color: #333333;
 }
-h2, a:hover,
-h2, a:focus {
+h2, h3, a:hover,
+h2, h3, a:focus {
   text-decoration: none;
   color: #0085A1;
 }
