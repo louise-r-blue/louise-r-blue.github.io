@@ -30,8 +30,7 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
-a #collapse22:hover,
-a #collapse22:focus {
+a .post-title:hover{
   color: #0085A1;
   text-decoration: none;
 }
