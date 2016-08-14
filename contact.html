@@ -5,9 +5,11 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Hello Beautiful Code</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="">
-  <meta name="" content="">
+  <meta name="author" content="">
+
+  <title>Lou's Blog</title>
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -15,104 +17,82 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
 
-  <!--Ubuntu|Noto+Sans|Duru+Sans|Poppins|Nobile:400,400italic,700,700italic-->
-  <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,600italic,300,500,600,700,800|Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
 
-  <!-- CSS
+<!-- CSS & scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-  <link rel="stylesheet" type ="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-  <link href = "louise-r-blue.github.io/styles/main.css" rel="stylesheet" type="text/css">
- 
 
-  <!-- Favicon/image links
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
- <!-- <link rel="icon" type="image/png" href="images/favicon.png">-->
+  <link href = "../styles/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- [if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif] -->
 
 </head>
+
+<!-- Primary Page Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<a name ="top"></a>
-
-  <div class ="container">
-    <section class="header">
-      <h2 class = "title">Contact Me</h2>
-    
-    </section>
-
-    <div class = "navbar-spacer"></div>
-    <nav class ="navbar">
-      <div class ="container">
-        <ul class ="navbar-list"> 
-          <li class ="navbar-item">
-            <a class = "navbar-link" href = "/index.html">home</a>
-          </li>
-          <li class ="navbar-item">
-            <a class = "navbar-link" href = "/about.html">about</a>
-          </li>
-          <li class ="navbar-item">
-            <a class = "navbar-link" href = "/contact.html">contact</a>
-          </li>
-           <li class ="navbar-item">
-            <a class = "navbar-link" href = "/extra.html">extra</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-   <!-- </section> -->
-          
-      <!-- left fixed panel for image? approx 80px -->
-      <div class="blog-header">
-      <h3 class = "contact">Contact &amp; Comments</h3></div>
-  
-     <p>
-       This page is under development. Thanks for waiting.
-     </p>
-     
-        
-        <!-- right section for image? approx 80px-->
-      <p><a href="#top">Return to the top of this page</p>
-
-      <div class ="footer-home">
-        <div class = "container">
-              <p class = "who-am-i">Louise Robinson-Blue, Karearea 2016, Dev academy</p>
+<!-- Navigation -->
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top" role="navigation">
+    <div class="row">
+      <div class = "col-sm-2">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
       </div>
-     </div>      
-  
-    <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+      <div class ="col-sm-8">
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="../index.html">Home</a>
+            </li>
+         </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Header -->
+  <!-- Set  background image for this header. -->
+  <header class="intro-header" style="background-image: url('../images/pink.png')">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <div class="site-heading">
+            <h1>Contact Me</h1>
+            <hr class="small">
+            <span class="subheading">Or Write a Comment</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- main content -->
+  <div class ="container">
+    <div class ="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <h2 class="post-heading">This Page is Being Developed - Thanks.</h2>
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
-      
-          
-
-
-       
-            
-        
-      
-        
-      
-  
-            
-          
-
-     
-      
-
-         
-
-     
-      
-      
-     
-     
-   
-
