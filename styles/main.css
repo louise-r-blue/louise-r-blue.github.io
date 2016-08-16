@@ -251,6 +251,11 @@ hr.small {
     font-size: 36px;
   }
 }
+.section-heading {
+  font-size: 36px;
+  margin-top: 60px;
+  font-weight: 700;
+}
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
