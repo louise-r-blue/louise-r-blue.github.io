@@ -30,10 +30,11 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
-a .post-title:hover{
+.post-title > a:hover,
+.post-title > a:focus{
   color: #0085A1;
   text-decoration: none;
-}
+  }
 hr.small {
   max-width: 100px;
   margin: 15px auto;
