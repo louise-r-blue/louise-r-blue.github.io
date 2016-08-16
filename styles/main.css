@@ -35,6 +35,11 @@ a img:focus {
   color: #0085A1;
   text-decoration: none;
   }
+.post-title > .post-subtitle > a:hover,
+.post-title > .post-subtitle > a:focus{
+  color: #0085A1;
+  text-decoration: none;
+  }
 hr.small {
   max-width: 100px;
   margin: 15px auto;
