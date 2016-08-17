@@ -69,8 +69,13 @@ hr.small {
   font-weight: 700;
   letter-spacing: 1px;
 }
-.navbar-default {
-  background-color: transparent;
+.navbar-fixed-top {
+  background: transparent;
+  color: whitesmoke;
+  border: none;
+}
+.navbar-default{
+  background: transparent;
   color: whitesmoke;
   border: none;
 }
