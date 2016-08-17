@@ -85,6 +85,7 @@ hr.small {
 #collapse31,
 #collapse4,
 #collapse5 {padding-top:none;padding-bottom:none;color: #333333; background-color: #ffffff;}
+
 .post-title{
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -118,8 +119,8 @@ hr.small {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: #555;
-    /*color: white;*/
+    /*color: #555;*/
+    color: white;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
