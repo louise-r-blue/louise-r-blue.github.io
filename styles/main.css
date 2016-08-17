@@ -69,6 +69,11 @@ hr.small {
   font-weight: 700;
   letter-spacing: 1px;
 }
+.navbar-default {
+  background-color: transparent;
+  color: whitesmoke;
+  border: none;
+}
 #collapse11,
 #collapse21,
 #collapse22,
