@@ -61,11 +61,11 @@ hr.small {
   /*color: #777777*/
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -104,7 +104,9 @@ hr.small {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
-
+.post-preview {
+  padding-top: 40px;
+}
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
@@ -267,16 +269,16 @@ hr.small {
   margin-top: 60px;
   font-weight: 700;
 }
-.navbar-fixed-top {
+.navbar navbar-default navbar-custom navbar-fixed-top{
   background: transparent;
   color: whitesmoke;
   border: none;
 }
-.navbar-default{
+/*.navbar-default{
   background: transparent;
   color: whitesmoke;
   border: none;
-}
+}*/
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
