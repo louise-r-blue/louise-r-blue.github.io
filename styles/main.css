@@ -119,14 +119,14 @@ hr.small {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    /*color: #555;*/
-    color: white;
+    color: #555;
+    /*color: white;*/
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: #555;
-    /*color: rgba(255, 255, 255, 0.8);*/
+    /*color: #555;*/
+    color: rgba(255, 255, 255, 0.8);
   }
 }
 
