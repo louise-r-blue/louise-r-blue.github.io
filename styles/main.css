@@ -127,12 +127,12 @@ hr.small {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    /*color: #555;*/
-    color: rgba(255, 255, 255, 0.8);
+    color: #555;
+    /*color: rgba(255, 255, 255, 0.8);*/
   }
 }
 
-@media only screen and (min-width: 1170px) {
+/*@media only screen and (min-width: 1170px) {*/
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
@@ -269,7 +269,7 @@ hr.small {
   margin-top: 60px;
   font-weight: 700;
 }
-.navbar navbar-default navbar-custom navbar-fixed-top{
+.navbar-default navbar-custom navbar-fixed-top{
   background: transparent;
   color: whitesmoke;
   border: none;
