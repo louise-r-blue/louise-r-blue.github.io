@@ -7,7 +7,6 @@ p {
   font-size: 18px;
   font-family: 'Raleway',sans-serif;
   line-height: 1.65;
-  margin: none;
 }
 h1,
 h2,
@@ -84,7 +83,7 @@ hr.small {
 #collapse22,
 #collapse31,
 #collapse4,
-#collapse5 {padding-top:none;padding-bottom:none;color: #333333; background-color: #ffffff;}
+#collapse5 {color:#333333; background-color: #ffffff;}
 
 .post-title{
   font-family: 'Poppins', sans-serif;
@@ -95,7 +94,6 @@ hr.small {
 }
 .post-preview >a>.post-subtitle{
   margin-top: 10px;
-  margin-bottom: none;
   font-family:'Poppins', sans-serif;
   font-weight:400;
   font-size: 22px;
@@ -132,7 +130,7 @@ hr.small {
   }
 }
 
-/*@media only screen and (min-width: 1170px) {*/
+@media only screen and (min-width: 1170px) {
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
@@ -179,6 +177,7 @@ hr.small {
     transform: translate3d(0, 100%, 0);
   }
 }
+
 .intro-header {
   background-color: #777777;
   background: no-repeat center center;
