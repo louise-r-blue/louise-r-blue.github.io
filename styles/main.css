@@ -1,3 +1,7 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+  display: block;
+}
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
@@ -277,16 +281,7 @@ hr.small {
   margin-top: 60px;
   font-weight: 700;
 }
-.navbar-default navbar-custom navbar-fixed-top{
-  background: transparent;
-  color: whitesmoke;
-  border: none;
-}
-/*.navbar-default{
-  background: transparent;
-  color: whitesmoke;
-  border: none;
-}*/
+
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
