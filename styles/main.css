@@ -105,7 +105,7 @@ hr.small {
 .post-preview {
   padding-top: 40px;
 }
-.navbar.transparent.navbar-default.navbar-custom .navbar-fixed-top{
+/*.navbar.transparent.navbar-default.navbar-custom .navbar-fixed-top{
     border-width: 0px;
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
@@ -113,7 +113,7 @@ hr.small {
     background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
     background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
     background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-  }
+  }*/
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
