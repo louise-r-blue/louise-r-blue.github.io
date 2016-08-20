@@ -281,7 +281,10 @@ hr.small {
   margin-top: 60px;
   font-weight: 700;
 }
-
+.navbar-default {
+    background-color: transparent;
+    
+  }
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
