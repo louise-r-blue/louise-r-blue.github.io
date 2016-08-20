@@ -23,7 +23,7 @@ ul.topnav li a:hover {background-color: #555;}
 
 ul.topnav li.icon {display: none;}
 
-.container {
+.nav-container {
         /*width: 100%;*/
         /*height: 90px;*/
         margin: 0 auto;
