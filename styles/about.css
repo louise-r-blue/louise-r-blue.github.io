@@ -10,7 +10,7 @@ ul.topnav li {float: right;}
 
 ul.topnav li a {
   display: inline-block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -22,9 +22,6 @@ ul.topnav li a:hover {background-color: #555;}
 
 ul.topnav li.icon {display: none;}
 
-.nav-container {
-        background: rgba(76, 175, 80, 0.2);
-}
 
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
