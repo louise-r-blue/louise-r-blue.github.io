@@ -36,18 +36,17 @@
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <body>
-  <div class = "container">
-  <div class ="row">
-    <div class="col-sm-12">
-  <ul style ="float:right">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a class="active" href="#about">About</a></li>
-  </ul>
-</div>
-</div>
-</div>
+
+  <ul class="topnav" id="myTopnav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
+
 <!-- Navigation -->
   <!-- <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="row">
@@ -81,7 +80,7 @@
 
   <!-- Page Header -->
   <!-- Set  background image for this header. -->
-  <header class="intro-header" style="background-image: url('../images/orange_sky.png'); background-repeat:no-repeat;">
+  <!-- <header class="intro-header" style="background-image: url('../images/orange_sky.png'); background-repeat:no-repeat;">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -93,18 +92,29 @@
         </div>
       </div>
     </div>
-  </header>
+  </header> -->
 
   <!-- main content -->
-  <div class ="container">
+  <!-- <div class ="container">
     <div class ="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           <h2 class="post-heading">This Page is Being Developed - Thanks.</h2>
       </div>
     </div>
-  </div>
+  </div>  -->
 
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 </body>
 </html>
