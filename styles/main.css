@@ -283,6 +283,9 @@ hr.small {
   .navbar-default{
     background: rgba(0,0,0,0.2);
   }
+  .dropdown-menu a{
+    background: rgba(0,0,0,0.6);
+  }
   .post-preview{
     padding-top: 20px;
   }
