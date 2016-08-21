@@ -127,7 +127,7 @@ hr.small {
   }
   .navbar-custom .nav li a {
     color: whitesmoke;
-    background: rgba(0,0,0,0.2);
+    /*background: rgba(0,0,0,0.2);*/
     /*color: white;*/
     padding: 20px;
   }
