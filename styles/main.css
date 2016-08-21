@@ -123,7 +123,7 @@ hr.small {
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
     color: whitesmoke;
-    background:  rgba(0,0,0,0.4);
+    /*background:  rgba(0,0,0,0.4);*/
   }
   .navbar-custom .nav li a {
     color: whitesmoke;
@@ -273,7 +273,7 @@ hr.small {
     font-size: 36px;
   }
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 768px) {
   .navbar-default{
     background: rgba(0,0,0,0.2);
   }
