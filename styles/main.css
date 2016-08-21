@@ -122,7 +122,8 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: whitesmoke;
+    background:  rgba(0,0,0,0.4);
   }
   .navbar-custom .nav li a {
     color: whitesmoke;
@@ -131,7 +132,7 @@ hr.small {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: #555;
+    color: whitesmoke;
     background: rgba(0,0,0,0.4);
     /*color: rgba(255, 255, 255, 0.8);*/
   }
@@ -170,10 +171,12 @@ hr.small {
   }
   .navbar-custom.is-fixed .nav li a {
     color: whitesmoke;
+    background: rgba(0,0,0,0.2);
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085A1;
+    color: whitesmoke;
+    background: rgba(0,0,0,0.4);
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
