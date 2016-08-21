@@ -125,13 +125,14 @@ hr.small {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: #555;
+    color: whitesmoke;
     /*color: white;*/
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
     color: #555;
+    background: rgba(0,0,0,0.4);
     /*color: rgba(255, 255, 255, 0.8);*/
   }
 }
@@ -168,7 +169,7 @@ hr.small {
     color: #0085A1;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #333333;
+    color: whitesmoke;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
