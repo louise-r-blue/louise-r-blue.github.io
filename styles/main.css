@@ -233,7 +233,7 @@ hr.small {
 }
 .intro-header .photo-title {
   position: absolute;
-  left: 2px;
+  right: 2px;
   bottom: 5px;
 }
 @media only screen and (min-width: 768px) {
