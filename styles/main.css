@@ -26,7 +26,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085A1;
+  /*color: #0085A1;*/
+  color: pink;
   text-decoration: none;
 }
 a img:hover,
@@ -281,12 +282,17 @@ hr.small {
   }
 }
 @media only screen and (min-width: 768px) {
-  .navbar-default{
-    background: rgba(0,0,0,0.2);
+  .navbar-default, .dropdown-menu a{
+    background: rgba(0,0,0,0.4);
   }
-  .dropdown-menu a{
-    background: rgba(0,0,0,0.2);
+  li > a:hover,
+  li > a:active,
+  li > a:focus {
+    color: pink;
   }
+  /*.dropdown-menu a{
+    background: rgba(0,0,0,0.2);
+  }*/
   .post-preview{
     padding-top: 20px;
   }
