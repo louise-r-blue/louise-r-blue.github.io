@@ -65,6 +65,7 @@ hr.small {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 12px;
+  background: rgba(0,0,0,0.2);
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
@@ -295,13 +296,13 @@ hr.small {
   margin-top: 40px;
   font-weight: 600;
 }
-.navbar-default,  .dropdown-menu {
+/*.navbar-default,  .dropdown-menu {
     background: rgba(0,0,0,0.2);
+}*/
+.collapse, .navbar-collapse  {
+    background: rgba(0,0,0,0.2);
+}
 
-  }
-  button:active {
-    background: rgba(0,0,0,0.2);
-  }
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
