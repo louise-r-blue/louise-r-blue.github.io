@@ -281,7 +281,7 @@ hr.small {
     font-size: 36px;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 320px) {
   .navbar-default, .dropdown-menu a{
     background: rgba(0,0,0,0.4);
   }
