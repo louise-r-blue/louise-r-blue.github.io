@@ -285,7 +285,7 @@ hr.small {
     background: rgba(0,0,0,0.2);
   }
   .dropdown-menu a{
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.4);
   }
   .post-preview{
     padding-top: 20px;
@@ -296,12 +296,12 @@ hr.small {
   margin-top: 40px;
   font-weight: 600;
 }
-/*.navbar-default,  .dropdown-menu {
-    background: rgba(0,0,0,0.2);
-}*/
-.collapse, .navbar-collapse  {
+.navbar-default,  .dropdown-menu {
     background: rgba(0,0,0,0.2);
 }
+/*.collapse, .navbar-collapse  {
+    background: rgba(0,0,0,0.2);
+}*/
 
 body {
   -webkit-tap-highlight-color: #0085A1;
