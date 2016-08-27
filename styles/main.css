@@ -21,7 +21,7 @@ h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
-.clearfix {
+/*.clearfix {
   *zoom: 1;
 }
 .clearfix:before,
@@ -32,7 +32,7 @@ h6 {
 }
 .clearfix:after {
   clear: both;
-}
+}*/
 a {
   color: #333333;
 }
@@ -294,7 +294,7 @@ hr.small {
   }
 }
  /*this is new nav*/
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
 	body{
 		padding: 0 .5em;
 	}
@@ -317,7 +317,7 @@ hr.small {
 	h1{
 		padding: .5em 0;
 	}
-}
+}*/
 
 @media only screen and (min-width: 320px) {
   .navbar-default, .dropdown-menu a{
