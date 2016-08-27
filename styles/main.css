@@ -21,6 +21,18 @@ h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
 a {
   color: #333333;
 }
@@ -281,6 +293,32 @@ hr.small {
     font-size: 36px;
   }
 }
+ /*this is new nav*/
+@media (max-width: 480px) {
+	body{
+		padding: 0 .5em;
+	}
+	.container{
+		width: 90%;
+	}
+	nav{
+		height: 0;
+		overflow: hidden;
+		-webkit-transition: all .3s ease;
+	}
+	input[type="checkbox"]:checked + nav{
+		height: 205px;
+	}
+	nav>a{
+		padding: 0 1em;
+		display: block;
+		border-bottom: solid 1px rgba(255,255,255,.1);
+	}
+	h1{
+		padding: .5em 0;
+	}
+}
+
 @media only screen and (min-width: 320px) {
   .navbar-default, .dropdown-menu a{
     background: rgba(0,0,0,0.4);

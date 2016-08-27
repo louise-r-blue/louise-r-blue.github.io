@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href = "louise-r-blue.github.io/styles/testNav.css" rel="stylesheet" type="text/css">
+  <link href = "louise-r-blue.github.io/styles/main.css" rel="stylesheet" type="text/css">
   <!-- [if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif] -->
@@ -87,7 +87,7 @@
 
 
   <!-- test nav 1 -->
-  <header class="clearfix">
+  <!-- <header class="clearfix">
     <div class="container">
 			<div class="header-left">
 				<h1 href="index.html">LRB</h1>
@@ -106,21 +106,58 @@
 				</nav>
 			</div>
 		</div>
-	</header>
-<section class="clearfix" style="background-image:url('images/BlueDay.png')">
+	</header> -->
+
+  <div class="clearfix">
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="row">
+      <div class = "col-sm-2">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">LRB</a>
+        </div>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class ="col-sm-8">
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="comment.html">Comment</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+    </div>
+    <!-- /.container -->
+  </nav>
+</div>
+
+<!-- <section class="clearfix" style="background-image:url('images/BlueDay.png')">
 		<div class="container">
 			<div class="section-left">
 				<h1 class="section-title">Is This IT?</h1>
 				<h5 class="section-tagline">A Blog by Louise.R.Blue.</h5>
 			</div>
-			<!-- <div class="section-right">
+			<div class="section-right">
 				<button class="learn-more">Learn more</button>
-			</div> -->
+			</div>
 		</div>
-	</section>
+	</section> -->
 
   <!-- Set your background image for this header on the line below. -->
-  <!-- <header class="intro-header" style="background-image: url('images/BlueDay.png')">
+  <div class="clearfix">
+  <header class="intro-header" style="background-image: url('images/BlueDay.png')">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -133,47 +170,8 @@
         </div>
       </div>
     </div>
-  </header> -->
-
-<script>
-
-// Sticky Header
-// $(window).scroll(function() {
-
-//   if ($(window).scrollTop() > 100) {
-//       $('.main_h').addClass('sticky');
-//   } else {
-//       $('.main_h').removeClass('sticky');
-//   }
-// });
-
-// Mobile Navigation
-// $('.mobile-toggle').click(function() {
-//   if ($('.main_h').hasClass('open-nav')) {
-//       $('.main_h').removeClass('open-nav');
-//   } else {
-//       $('.main_h').addClass('open-nav');
-//   }
-// });
-//
-// $('.main_h li a').click(function() {
-//   if ($('.main_h').hasClass('open-nav')) {
-//       $('.navigation').removeClass('open-nav');
-//       $('.main_h').removeClass('open-nav');
-//   }
-// });
-//
-// // Navigation Scroll - ljepo radi materem
-// $('nav a').click(function(event) {
-//   var id = $(this).attr("href");
-//   var offset = 70;
-//   var target = $(id).offset().top - offset;
-//   $('html, body').animate({
-//       scrollTop: target
-//   }, 500);
-//   event.preventDefault();
-// });
-</script>
+  </header>
+</div>
 
 
          <!-- End Document
