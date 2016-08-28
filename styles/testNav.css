@@ -1,4 +1,15 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+  display: block;
+}
 body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+/*body {
   margin: 0;
   padding: 0;
   font-family: "Helvetica", "Arial", sans-serif;
@@ -6,7 +17,7 @@ body {
   font-style: normal;
   font-size: 12px;
   line-height: 1.5;
-}
+}*/
 
 .navbar-default {
   background-color: #ffffff;
@@ -114,7 +125,22 @@ body {
   color: #ffffff;
   background-color: #337ab7;
 }
-
+.intro-header {
+  background-color: #777777;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
+}
+hr.small {
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 4px;
+  border-color: white;
+}
 .m-pub {
   display: inline-block;
   margin: 3px 40px 0;
