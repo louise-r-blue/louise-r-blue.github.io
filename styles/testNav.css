@@ -45,6 +45,8 @@ font-size: 14px;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  margin: 0px;
+  padding: 0px;
   margin-bottom: 50px;
 }
 .intro-header .site-heading,
