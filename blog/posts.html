@@ -18,7 +18,7 @@
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <link href='https://fonts.googleapis.com/css?family=Raleway:400,600italic,300,500,600,700,800%7CPoppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,600italic,300,500,600,700,800|Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
 
 <!-- CSS & scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href = "../styles/main.css" rel="stylesheet" type="text/css">
+  <link href = "../styles/main.css" rel="stylesheet">
   <!-- [if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif] -->
@@ -37,31 +37,19 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <body>
 
-  <!-- <ul class="topnav" id="myTopnav">
-    <div class="nav-container">
-      <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-  <li class="icon">
-    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-  </li>
-</div>
-</ul> -->
-
 <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top" role="navigation">
     <div class="row">
       <div class = "col-sm-2">
-            <!-- Brand and toggle get grouped for better mobile display -->
-         <div class="navbar-header">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="sr-only">Toggle Navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">LRB</a>
+          <a class="navbar-brand" href="../index.html">LRB</a>
         </div>
       </div>
 
@@ -70,55 +58,45 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
             <!-- <li>
-              <a href="index.html">Home</a>
+              <a href="../index.html">Home</a>
             </li> -->
          </ul>
         </div>
-                  <!-- /.navbar-collapse -->
       </div>
     </div>
-        <!-- /.container -->
+    <!-- /.container -->
   </nav>
 
   <!-- Page Header -->
   <!-- Set  background image for this header. -->
-  <header class="intro-header" style="background-image: url('../images/orange_sky.png'); background-repeat:no-repeat;">
+  <header class="intro-header" style="background-image: url('../images/pink.png')">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           <div class="site-heading">
-            <h1>About Me</h1>
+            <h1>Intern 1.0.0</h1>
             <hr class="small">
-            <span class="subheading">Who Am I?</span>
+            <h2 class="subheading">Waiting for the next patch</h2>
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- main content -->
+  <!-- post content -->
+  <article>
   <div class ="container">
     <div class ="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          <h2 class="post-heading">This Page is Being Developed - Thanks.</h2>
-          <br>
-          <p>The plan is to follow basic current web standards. Intend implementing a Aurelia js framework with a Node.js on the backend. Any content is currently placeholder text but is my own. Responsive navigation needs attention:)</p>
+        <h2 class="section-heading">Intern 1.0.0</h2>
+        <p>
+          Have you ever...
       </div>
     </div>
   </div>
+</article>
 
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-<!-- <script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script> -->
 </body>
 </html>
