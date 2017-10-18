@@ -248,6 +248,18 @@ hr.small {
   font-weight: 300;
   margin: 10px 0 0;
 }
+header > h2 > .subheading{
+  color: whitesmoke;
+
+}
+header > h2 > .subheading a:hover{
+  color: #0085A1;
+  text-decoration: none;
+}
+header > h2 > .subheading a:focus{
+  color: #0085A1;
+  text-decoration: none;
+}
 .intro-header .photo-title {
   position: absolute;
   right: 2px;
