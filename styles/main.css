@@ -269,6 +269,7 @@ header > h2 > .subheading a:focus{
 }
 footer{
   background-color: #2d3638;
+  color:whitesmoke;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
