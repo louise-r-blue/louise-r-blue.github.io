@@ -267,7 +267,7 @@ header > h2 > .subheading a:focus{
   bottom: 5px;
 }
 footer{
-  background-color: #0085A1;
+  background-color: #2d3638;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
