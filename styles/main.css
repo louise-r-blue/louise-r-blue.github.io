@@ -3,8 +3,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 html {
-  background: url(../images/DSCF2554_big_copy.png) no-repeat center fixed;
-  background-size: cover;
+  background-color: #2d3638;
+  /*background: url(../images/DSCF2554_big_copy.png) no-repeat center fixed;
+  background-size: cover;*/
 }
 body {
   font-family: 'Raleway', sans-serif;
