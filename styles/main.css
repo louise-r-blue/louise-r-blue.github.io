@@ -208,6 +208,12 @@ hr.small {
     -o-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
+  footer{
+    font-weight: 500;
+    font-size: 36;
+    text-align: right;
+    padding-top: 20px;
+  }
 }
 
 .intro-header {
@@ -233,6 +239,9 @@ hr.small {
   .intro-header .post-heading,
   .intro-header .page-heading {
     padding: 150px 0;
+  }
+  footer{
+    text-align: right;
   }
 }
 .intro-header .site-heading,
@@ -274,7 +283,7 @@ footer{
 font-weight: 500;
 font-size: 30;
 text-align: right;
-padding-top: 20px;
+padding-top: 10px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -363,7 +372,10 @@ padding-top: 20px;
     padding-top: 20px;
   }
   footer{
+    font-weight: 500;
+    font-size: 30;
     text-align: center;
+    padding-top: 20px;;
   }
 }
 .section-heading {
