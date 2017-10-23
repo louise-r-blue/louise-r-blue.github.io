@@ -3,7 +3,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 html {
-  background-color: #2d3638;
+  background-color: whitesmoke;
   /*background: url(../images/DSCF2554_big_copy.png) no-repeat center fixed;
   background-size: cover;*/
 }
@@ -11,7 +11,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: #333333;
-  background-color: #2d3638;
+  /*background-color: #2d3638;*/
 }
 p {
   font-size: 18px;
@@ -269,8 +269,11 @@ header > h2 > .subheading a:focus{
   bottom: 5px;
 }
 footer{
-  background-color: #2d3638;
-  color:whitesmoke;
+color: #2d3638;
+font-weight: 500;
+font-size: 30;
+text-align: right;
+
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
