@@ -11,7 +11,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: #333333;
-  /*background-color: #2d3638;*/
+  background-color: whitesmoke;
 }
 p {
   font-size: 18px;
@@ -269,12 +269,13 @@ header > h2 > .subheading a:focus{
   bottom: 5px;
 }
 footer{
-color: #2d3638;
+/*color: #2d3638;*/
 font-weight: 500;
 font-size: 30;
 text-align: right;
-
+padding-top: 20px;
 }
+
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
