@@ -26,6 +26,7 @@ h5,
 h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  padding-bottom: 20px;
 }
 /*.clearfix {
   *zoom: 1;
@@ -360,6 +361,9 @@ padding-top: 20px;
   }*/
   .post-preview{
     padding-top: 20px;
+  }
+  footer{
+    text-align: center;
   }
 }
 .section-heading {
