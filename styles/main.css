@@ -14,7 +14,7 @@ body {
   background-color: whitesmoke;
 }
 p {
-  font-size: 18px;
+  /*font-size: 18px;*/
   font-family: 'Raleway',sans-serif;
   line-height: 1.65;
 }
@@ -26,7 +26,7 @@ h5,
 h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 /*.clearfix {
   *zoom: 1;
