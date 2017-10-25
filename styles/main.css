@@ -132,7 +132,11 @@ hr.small {
   padding-top: 40px;
 }
 .caret {
-  text-align: center;
+  position: center;
+}
+.panel-group {
+  background-color: whitesmoke;
+  border:none;
 }
 
 @media only screen and (min-width: 768px) {
