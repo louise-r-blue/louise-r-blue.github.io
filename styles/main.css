@@ -4,15 +4,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 html {
   background-color: whitesmoke;
-  height: 100%;
-  /*background: url(../images/DSCF2554_big_copy.png) no-repeat center fixed;
-  background-size: cover;*/
 }
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: #333333;
   background-color: whitesmoke;
+}
+.container{
+  max-height: 100%;
+}
+.intro-header{
+  max-height: 80;
+}
+footer{
+  max-height: 20%;
 }
 p {
   /*font-size: 18px;*/
@@ -54,7 +60,7 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
-.post-title > a:hover,
+/*.post-title > a:hover,
 .post-title > a:focus{
   color: #0085A1;
   text-decoration: none;
@@ -63,7 +69,7 @@ a img:focus {
 .post-title > .post-subtitle > a:focus{
   color: #0085A1;
   text-decoration: none;
-  }
+  }*/
 hr.small {
   max-width: 100px;
   margin: 15px auto;
@@ -112,7 +118,7 @@ hr.small {
 #collapse4,
 #collapse5 {color:#333333; background-color: #ffffff;}
 
-.post-title{
+/*.post-title{
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 36px;
@@ -131,7 +137,7 @@ hr.small {
 }
 .post-preview {
   padding-top: 40px;
-}
+}*/
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -269,9 +275,6 @@ hr.small {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
-}
-header{
-  max-height: 80%;
 }
 header > h2 > .subheading{
   color: pink;
