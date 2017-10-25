@@ -10,12 +10,10 @@ body {
   font-size: 16px;
   color: #333333;
   background-color: whitesmoke;
-}
-.container{
   max-height: 100%;
 }
 .intro-header{
-  max-height: 80;
+  max-height: 75%;
 }
 footer{
   max-height: 20%;
