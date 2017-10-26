@@ -411,6 +411,9 @@ text-align: right;
 .navbar-brand {
   color: whitesmoke;
 }
+.navbar-right{
+  background: rgba(0,0,0,2);
+}
 /*.collapse, .navbar-collapse  {
     background: rgba(0,0,0,0.2);
 }*/
