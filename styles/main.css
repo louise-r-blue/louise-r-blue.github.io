@@ -12,6 +12,9 @@ body {
   background-color: whitesmoke;
   /*max-height: 100%;*/
 }
+article{
+  padding-top: 60px;
+}
 /*footer{
   max-height: 20%;
 }*/
@@ -241,21 +244,19 @@ hr.small {
   /*margin-bottom: 50px;*/
 }
 /*background: url(../images/DSCF2596.JPG) no-repeat center fixed;*/
-.intro-header .site-heading,
-.intro-header .post-heading,
-.intro-header .page-heading {
+
+/*.intro-header .post-heading,*/
+/*.intro-header .page-heading */
+.intro-header .site-heading
+{
   padding: 100px 0 50px;
-  color: white;
+  color: whitesmoke;
 }
+
 @media only screen and (min-width: 768px) {
-  .intro-header .site-heading,
-  .intro-header .post-heading,
-  .intro-header .page-heading {
+  .intro-header .site-heading{
     padding: 150px 0;
   }
-  /*footer{
-    text-align: right;
-  }*/
 }
 .intro-header .site-heading,
 .intro-header .page-heading {
@@ -266,8 +267,7 @@ hr.small {
   margin-top: 0;
   font-size: 50px;
 }
-.intro-header .site-heading .subheading,
-.intro-header .page-heading .subheading {
+.intro-header .site-heading .subheading{
   font-size: 24px;
   line-height: 1.1;
   display: block;
@@ -310,44 +310,6 @@ text-align: right;
     font-size: 80px;
   }
 }
-/*.post-preview > a {
-  color: #333333;
-}*/
-/*.post-preview > a:hover,
-.post-preview .post-title > a:focus {
-  text-decoration: none;
-  color: #0085A1;
-}*/
-/*.post-preview > a > .post-title {
-  font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-.post-preview > a > .post-subtitle {
-  margin: 0;
-  font-weight: 300;
-  margin-bottom: 10px;
-}*/
-/*.post-preview > .post-meta {
-  color: #777777;
-  font-size: 18px;
-  font-style: italic;
-  margin-top: 0;
-}
-.post-preview > .post-meta > a {
-  text-decoration: none;
-  color: #333333;
-}
-.post-preview > .post-meta > a:hover,
-.post-preview > .post-meta > a:focus {
-  color: #0085A1;
-  text-decoration: underline;
-}
-@media only screen and (min-width: 768px) {
-  .post-preview > a > .post-title {
-    font-size: 36px;
-  }
-}*/
 
  /*this is new nav*/
 /*@media (max-width: 480px) {
@@ -412,7 +374,7 @@ text-align: right;
   color: whitesmoke;
 }
 .navbar-right{
-  background: rgba(0,0,0,2);
+  background: rgba(0,0,0,0.2);
 }
 /*.collapse, .navbar-collapse  {
     background: rgba(0,0,0,0.2);
