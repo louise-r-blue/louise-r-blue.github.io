@@ -13,11 +13,14 @@ body {
   max-height: 100%;
 }
 .intro-header{
-  max-height: 75%;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
-footer{
+/*footer{
   max-height: 20%;
-}
+}*/
 p {
   /*font-size: 18px;*/
   font-family: 'Raleway',sans-serif;
