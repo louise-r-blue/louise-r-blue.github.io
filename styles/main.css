@@ -107,12 +107,13 @@ hr.small {
   color: whitesmoke;
   border: none;
 }*/
-#collapse11,
+
+/*#collapse11,
 #collapse21,
 #collapse22,
 #collapse31,
 #collapse4,
-#collapse5 {color:#333333; background-color: #ffffff;}
+#collapse5 {color:#333333; background-color: #ffffff;}*/
 
 /*.post-title{
   font-family: 'Poppins', sans-serif;
@@ -236,7 +237,7 @@ hr.small {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
+
   /*margin-bottom: 50px;*/
 }
 /*background: url(../images/DSCF2596.JPG) no-repeat center fixed;*/

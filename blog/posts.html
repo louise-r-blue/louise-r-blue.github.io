@@ -38,11 +38,11 @@
 <body>
 
 <!-- Navigation -->
-  <!-- <nav class="navbar navbar-default navbar-custom navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top" role="navigation">
     <div class="row">
-      <div class = "col-sm-2">-->
+      <div class = "col-sm-2">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <!-- <div class="navbar-header">
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="sr-only">Toggle Navigation</span>
             <span class="icon-bar"></span>
@@ -51,25 +51,27 @@
           </button>
           <a class="navbar-brand" href="../index.html">LRB</a>
         </div>
-      </div> -->
-
+      </div>
 <!-- Collect the nav links, forms, and other content for toggling -->
-      <!-- <div class ="col-sm-8">
+      <div class ="col-sm-8">
         <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right"> -->
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a class="dropdown-toggle" id = "nyListNav" data-toggle="dropdown" href="#">Is this it?<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#collapse21">the Interview</a></li>
+                  <li><a href="#collapse22">FAQ</a></li>
+                  <li><a href="#collapse23">Random facts</a></li>
+                  <li><a href="#collapse24">Be mindful</a></li>
+                </ul>
+              </li>
 
-            <!-- <li>
-              <a href="../index.html">Home</a>
-            </li> -->
-
-         <!-- </ul>
+         </ul>
         </div>
       </div>
-    </div> -->
-
+    </div>
     <!-- /.container -->
-
-  <!-- </nav> -->
+  </nav>
 
 
 
@@ -91,7 +93,7 @@
         <p>What I can discuss here is some of my wide range of experiences that I know so very well.</p>
         <p>There is no writing plan of endless notes I have taken - I have an excellent memory.</p>
 
-        <h2 class="section-heading">the Interview</h2>
+        <h2 class="section-heading" id="collapse21">the Interview</h2>
         <h5><span class="glyphicon glyphicon-time"></span>&#32;By LRB Oct 2017.</h5>
         <hr>
         <p>These are actual interviews I have had the honor of attendling. To reiterate 'the Man' is either a man or women, an organization or could be more than one person.</p>
@@ -146,7 +148,7 @@
         <p>Most of us will know the behavioural (response of an organism to a stimulus) type interview question like the ones above. To help us we could have an assistant like 'Man behave'.</p>
         <h3>'Man behave'</h3>
         <p>'Man behave' is an app made for users - people like you and me. 'Man behave' has a feature that deciphers particular words or whole sentences posed as questions. All the user has to do is input answers to all the behavioural questions ever asked. We the user will supply a few answers per question. We will also describe the why. 'Man behave' has the answers queued so only needs to pop one off or do a random selection. 'Man behave' speaks the answsers aloud so you don't have to. At the interview you make 'the Man' aware of 'Man behave' - does 'the Man' mind if you trial this new app?</p>
-        <h2 class="section-heading">Some random facts you won't find on my cv.</h2>
+        <h2 class="section-heading" id="collapse23">Some random facts you won't find on my cv.</h2>
         <h5><span class="glyphicon glyphicon-time"></span>&#32;By LRB Oct 2017.</h5>
         <hr>
         <p>A smart brother said to me - your cv is a sales document - you need to sell yourself. Fact one - I couldn't act to sell or save myself.</p>
@@ -179,7 +181,7 @@
             Now and again I need to practice mindfulness.
           </li>
         </ul>
-        <h2 class="section-heading">Be mindful</h2>
+        <h2 class="section-heading" id="collapse24">Be mindful</h2>
         <h5><span class="glyphicon glyphicon-time"></span>&#32;By LRB Oct 2017.</h5>
         <hr>
         <h3>Thinking can be dangerous</h3>
@@ -197,6 +199,17 @@
   </div>
 </article>
 
+<script type="text/javascript" src="../collapse.js"></script>
+<script>
+$(".dropdown-toggle").on("click",function(){
+  $(this).css({"background":"rgba(0,0,0,0.2)", "color":"whitesmoke"});
+});
+
+    // $(".navbar-toggle").click(function() {
+    // $(".intro-header").toggle();
+    // });
+
+</script>
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
