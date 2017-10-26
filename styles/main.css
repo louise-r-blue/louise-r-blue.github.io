@@ -230,7 +230,7 @@ hr.small {
 .intro-header {
   background-color: #777777;
   /*background: url(../images/DSCF2567_copy.png);*/
-  background: no-repeat center center;
+  background: no-repeat center fixed;
   background-attachment:fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -287,6 +287,7 @@ header > h2 > .subheading a:focus{
 }
 .copy-right{
   text-align: left;
+  position: absolute;
 }
 .intro-header .photo-title {
   position: absolute;
