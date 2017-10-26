@@ -10,7 +10,7 @@ body {
   font-size: 16px;
   color: #333333;
   background-color: whitesmoke;
-  max-height: 100%;
+  /*max-height: 100%;*/
 }
 /*footer{
   max-height: 20%;
@@ -231,11 +231,12 @@ hr.small {
   background-color: #777777;
   /*background: url(../images/DSCF2567_copy.png);*/
   background: no-repeat center center;
-  background-attachment:fixed;
+  /*background-attachment:fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+
   /*margin-bottom: 50px;*/
 }
 /*background: url(../images/DSCF2596.JPG) no-repeat center fixed;*/
