@@ -372,19 +372,19 @@ text-align: right;
   border-bottom: #6d94a7;
 }
 
-.navbar-right, #post-menu .dropdown-menu
+.navbar-right .dropdown-menu #post-menu 
 {
   background: whitesmoke;
   color: #6d94a7;
   border-bottom: #6d94a7;
 }
-
-.navbar-right, #post-nav .dropdown-toggle 
+/*
+.navbar-right, #post-nav .dropdown-toggle
 {
   background: whitesmoke;
   color: #6d94a7;
   border-bottom: #6d94a7;
-}
+}*/
 /*.collapse, .navbar-collapse  {
     background: rgba(0,0,0,0.2);
 }*/
