@@ -92,12 +92,13 @@ hr.small {
   text-transform: uppercase;
   font-size: 12px;
   background: rgba(0,0,0,0.2);
+    /*background: whitesmoke;*/
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
-  color: whitesmoke;
+  color: black;
   letter-spacing: 1px;
 }
 /*.navbar-fixed-top {
@@ -372,7 +373,7 @@ text-align: right;
   border-bottom: #6d94a7;
 }
 
-.post-list
+li .post-list
 {
   background: whitesmoke;
   color: #6d94a7;
