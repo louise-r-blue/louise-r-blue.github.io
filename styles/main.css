@@ -360,6 +360,10 @@ text-align: right;
   color: navy;
   border-bottom: green;
 }
+#post-brand{
+  background: whitesmoke;
+  color: navy;
+}
 /*.collapse, .navbar-collapse  {
     background: rgba(0,0,0,0.2);
 }*/
