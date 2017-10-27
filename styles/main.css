@@ -91,7 +91,7 @@ hr.small {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 12px;
-  background: rgba(0,0,0,0.2);
+  background: transparent;
     /*background: whitesmoke;*/
 }
 .navbar-custom .nav li a {
@@ -133,19 +133,19 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: whitesmoke;
+    color: gray;
     /*background:  rgba(0,0,0,0.4);*/
   }
   .navbar-custom .nav li a {
-    color: whitesmoke;
+    color: gray;
     /*background: rgba(0,0,0,0.2);*/
     /*color: white;*/
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: whitesmoke;
-    background: rgba(0,0,0,0.2);
+    color: gray;
+    background: transparent;
     /*color: rgba(255, 255, 255, 0.8);*/
   }
 }
@@ -190,13 +190,15 @@ hr.small {
     color: #0085A1;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: whitesmoke;
-    background: rgba(0,0,0,0.2);
+    color: gray;
+    background: transparent;
+    /*rgba(0,0,0,0.2)*/
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: whitesmoke;
-    background: rgba(0,0,0,0.4);
+    color: gray;
+    background: transparent;
+    /*rgba(0,0,0,0.4*/
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -322,7 +324,7 @@ text-align: right;
 
 @media only screen and (min-width: 320px) {
   .navbar-default, .dropdown-menu a{
-    background: rgba(0,0,0,0.4);
+    background: whitesmoke;
   }
   li > a:hover,
   li > a:active,
@@ -357,7 +359,7 @@ text-align: right;
   color: whitesmoke;
 }
 .navbar-right{
-  background: whitesmoke;;
+  background: transparent;
   color:#6d94a7;
 }
 /*.navbar-default #post-row{
@@ -366,20 +368,20 @@ text-align: right;
   border-bottom: #6d94a7;;
 }*/
 #post-brand{
-  background: whitesmoke;
+  background: transparent;
   color: #6d94a7;
 }
 
 .navbar-default #post-row
 {
-  background: whitesmoke;
+  background: transparent;
   color: #6d94a7;
   border-bottom: #6d94a7;
 }
 
-.post-list a
+li > a
 {
-  background: whitesmoke;
+  background: transparent;
   color: gray;
   /*border-bottom: #6d94a7;*/
 }
@@ -387,10 +389,10 @@ text-align: right;
   width: 100%;
   text-align: center;
 }
-.post-list a:hover,
-.post-list a:focus{
+li > a:hover,
+li > a:focus{
   color: gray;
-  background: whitesmoke;
+  background: transparent;
   text-decoration: none;
   border-bottom: red;
 }
