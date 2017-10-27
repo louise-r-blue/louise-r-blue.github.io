@@ -118,27 +118,6 @@ hr.small {
 #collapse4,
 #collapse5 {color:#333333; background-color: #ffffff;}*/
 
-/*.post-title{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 36px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-.post-preview >a>.post-subtitle{
-  margin-top: 10px;
-  font-family:'Poppins', sans-serif;
-  font-weight:400;
-  font-size: 22px;
-}
-.post-preview .post-title p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-}
-.post-preview {
-  padding-top: 40px;
-}*/
-
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
@@ -375,6 +354,11 @@ text-align: right;
 }
 .navbar-right{
   background: rgba(0,0,0,0.2);
+}
+#post-row {
+  background: whitesmoke;
+  color: navy;
+  border-bottom: green;
 }
 /*.collapse, .navbar-collapse  {
     background: rgba(0,0,0,0.2);
