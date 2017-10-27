@@ -371,14 +371,14 @@ text-align: right;
   border-bottom: #6d94a7;
 }
 
-.navbar-right #myNavbar
+#myNavbar
 {
   background: whitesmoke;
   border-bottom: #6d94a7;
 }
-.glyphicon glyphicon-chevron-up {
+/*.glyphicon glyphicon-chevron-up {
   text-align: center;
-}
+}*/
 /*
 .navbar-right, #post-nav .dropdown-toggle
 {
