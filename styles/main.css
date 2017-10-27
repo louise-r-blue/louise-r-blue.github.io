@@ -364,9 +364,23 @@ text-align: right;
   background: whitesmoke;
   color: #6d94a7;
 }
-.navbar-default #post-row,
-.dropdown-menu #post-menu,
-.dropdown-toggle #post-nav{
+
+.navbar-default #post-row
+{
+  background: whitesmoke;
+  color: #6d94a7;
+  border-bottom: #6d94a7;
+}
+
+.navbar-right, #post-menu .dropdown-menu
+{
+  background: whitesmoke;
+  color: #6d94a7;
+  border-bottom: #6d94a7;
+}
+
+.navbar-right, #post-nav .dropdown-toggle 
+{
   background: whitesmoke;
   color: #6d94a7;
   border-bottom: #6d94a7;
