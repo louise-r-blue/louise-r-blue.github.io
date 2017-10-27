@@ -101,10 +101,10 @@ hr.small {
   /*color: black;*/
   letter-spacing: 1px;
 }
-a .post-list{
+/*a .post-list{
   background: whitesmoke;
   color: gray;
-}
+}*/
 /*.navbar-fixed-top {
   background: transparent;
   color: whitesmoke;
@@ -377,16 +377,24 @@ text-align: right;
   border-bottom: #6d94a7;
 }
 
-li .post-list
+.post-list a
 {
   background: whitesmoke;
-  color: #6d94a7;
-  border-bottom: #6d94a7;
+  color: gray;
+  /*border-bottom: #6d94a7;*/
 }
 .chevron-up {
   width: 100%;
   text-align: center;
 }
+.post-list a:hover,
+.post-list a:focus{
+  color: gray;
+  background: whitesmoke;
+  text-decoration: none;
+  border-bottom: red;
+}
+
 /*
 .navbar-right, #post-nav .dropdown-toggle
 {
