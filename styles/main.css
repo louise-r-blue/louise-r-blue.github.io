@@ -111,11 +111,11 @@ hr.small {
   border: none;
 }*/
 
-#collapse21,
+/*#collapse21,
 #collapse22,
 #collapse23,
 #collapse24
-{color:#6d94a7; background: whitesmoke;}
+{color:#6d94a7; background: whitesmoke;}*/
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -374,6 +374,7 @@ text-align: right;
 .post-list
 {
   background: whitesmoke;
+  color: #6d94a7;
   border-bottom: #6d94a7;
 }
 /*.glyphicon glyphicon-chevron-up {
