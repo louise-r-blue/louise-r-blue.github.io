@@ -98,8 +98,12 @@ hr.small {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
-  color: black;
+  /*color: black;*/
   letter-spacing: 1px;
+}
+a .post-list{
+  background: whitesmoke;
+  color: gray;
 }
 /*.navbar-fixed-top {
   background: transparent;
@@ -379,9 +383,10 @@ li .post-list
   color: #6d94a7;
   border-bottom: #6d94a7;
 }
-/*.glyphicon glyphicon-chevron-up {
+.chevron-up {
+  width: 100%;
   text-align: center;
-}*/
+}
 /*
 .navbar-right, #post-nav .dropdown-toggle
 {
