@@ -355,7 +355,7 @@ text-align: right;
 .navbar-right{
   background: rgba(0,0,0,0.2);
 }
-#post-row {
+#post-row #post-nav{
   background: whitesmoke;
   color: navy;
   border-bottom: green;
