@@ -355,14 +355,21 @@ text-align: right;
 .navbar-right{
   background: rgba(0,0,0,0.2);
 }
-#post-row #post-nav{
+/*.navbar-default #post-row{
   background: whitesmoke;
-  color: navy;
-  border-bottom: green;
-}
+  color: #6d94a7;
+  border-bottom: #6d94a7;;
+}*/
 #post-brand{
   background: whitesmoke;
-  color: navy;
+  color: #6d94a7;
+}
+.navbar-default #post-row,
+.dropdown-menu #post-menu,
+.dropdown-toggle #post-nav{
+  background: whitesmoke;
+  color: #6d94a7;
+  border-bottom: #6d94a7;
 }
 /*.collapse, .navbar-collapse  {
     background: rgba(0,0,0,0.2);
