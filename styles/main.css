@@ -352,6 +352,7 @@ text-align: right;
   /*margin-top: 40px;*/
   margin-top: 20px;
   font-weight: 600;
+  color: firebrick;
 }
 /*.navbar-default,  .dropdown-menu {
     background: rgba(0,0,0,0.2);
@@ -373,7 +374,7 @@ text-align: right;
 }*/
 #post-brand{
   background: transparent;
-  color: #6d94a7;
+  color: gray;
 }
 
 .navbar-default #post-row
