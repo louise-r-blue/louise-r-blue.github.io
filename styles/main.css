@@ -137,7 +137,7 @@ hr.small {
     /*background:  rgba(0,0,0,0.4);*/
   }
   .navbar-custom .nav li a {
-    color: gray;
+    color: firebrick;
     /*background: rgba(0,0,0,0.2);*/
     /*color: white;*/
     padding: 20px;
@@ -146,6 +146,7 @@ hr.small {
   .navbar-custom .nav li a:focus {
     color: gray;
     background: transparent;
+    border-bottom: firebrick;
     /*color: rgba(255, 255, 255, 0.8);*/
   }
 }
@@ -190,7 +191,7 @@ hr.small {
     color: #0085A1;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: gray;
+    color: firebrick;
     background: transparent;
     /*rgba(0,0,0,0.2)*/
   }
@@ -356,13 +357,13 @@ text-align: right;
     background: rgba(0,0,0,0.2);
 }*/
 .navbar-default{
-    background-color: whitesmoke;
+    background-color: transparent;
 }
 .navbar-brand {
   color: whitesmoke;
 }
 .navbar-right{
-  background: transparent;
+  background-color: transparent;
   color:#6d94a7;
 }
 /*.navbar-default #post-row{
@@ -377,15 +378,15 @@ text-align: right;
 
 .navbar-default #post-row
 {
-  background: transparent;
+  background-color: transparent;
   color: #6d94a7;
-  border-bottom: #6d94a7;
+  border-bottom: firebrick;
 }
 
 li > a
 {
-  background: transparent;
-  color: gray;
+  background-color:  transparent;
+  color: firebrick;
   /*border-bottom: #6d94a7;*/
 }
 .chevron-up {
@@ -395,9 +396,9 @@ li > a
 li > a:hover,
 li > a:focus{
   color: gray;
-  background: transparent;
+  background-color: transparent;
   text-decoration: none;
-  border-bottom: red;
+  border-bottom: firebrick;
 }
 
 /*
