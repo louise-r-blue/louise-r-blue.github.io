@@ -355,7 +355,7 @@ text-align: right;
 /*.navbar-default,  .dropdown-menu {
     background: rgba(0,0,0,0.2);
 }*/
-.navbar-default,  .dropdown-menu {
+.navbar-default{
     background-color: whitesmoke;
 }
 .navbar-brand {
