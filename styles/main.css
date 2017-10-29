@@ -4,7 +4,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 html {
   background-color: whitesmoke;
-  background: url(images/wavebreaker07a.png) no-repeat center fixed;
+  background: url(../images/wavebreaker07a.png) no-repeat center fixed;
     background-size: cover;
 }
 body {
