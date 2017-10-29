@@ -13,9 +13,9 @@ body {
   color: #333333;
   /*max-height: 100%;*/
 }
-body .img-cover{
+/*body .img-cover{
   background-color: none !important;
-}
+}*/
 article{
   padding-top: 60px;
 }
@@ -419,6 +419,9 @@ li > a:focus{
 
 body {
   -webkit-tap-highlight-color: #0085A1;
+  }
+  body .img-cover{
+    background-color: none !important;
   }
 /*body .img-cover{
   background-color: transparent !important;
