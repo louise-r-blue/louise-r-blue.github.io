@@ -3,9 +3,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 html {
-  background-color: whitesmoke;
-  /*background: url(/images/wavebreaker07a.png) no-repeat center fixed;
-  background-size: cover;*/
+  background-color: transparent;
+  background: url(/images/wavebreaker07a.png) no-repeat center fixed;
+  background-size: cover;
 }
 body {
   font-family: 'Raleway', sans-serif;
@@ -220,7 +220,7 @@ hr.small {
 }
 
 .intro-header {
-  background-color: #777777;
+  background-color: transparent;
   /*background: url(../images/DSCF2567_copy.png);*/
   background: no-repeat center fixed;
   background-attachment:fixed;
