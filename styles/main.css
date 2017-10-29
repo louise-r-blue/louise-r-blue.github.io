@@ -4,8 +4,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 html {
   background-color: whitesmoke;
-  /*background: url(/images/wavebreaker07a.png) no-repeat center fixed;*/
-  /*background-size: cover;*/
+  /*background: url(/images/wavebreaker07a.png) no-repeat center fixed;
+  background-size: cover;*/
 }
 body {
   font-family: 'Raleway', sans-serif;
@@ -15,7 +15,7 @@ body {
   max-height: 100%;
   /*max-height: 100%;*/
 }
-div .img-cover{
+.img-cover{
   background: url(/images/wavebreaker07a.png) no-repeat center fixed;
   background-size: cover;
 }
