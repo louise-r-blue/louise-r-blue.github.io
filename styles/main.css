@@ -3,7 +3,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 html {
-  background-color: transparent;
+  background-color: whitesmoke;
   background: url(/images/wavebreaker07a.png) no-repeat center fixed;
   background-size: cover;
 }
@@ -11,7 +11,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: #333333;
-  /*background-color: whitesmoke;*/
   /*max-height: 100%;*/
 }
 article{
@@ -418,6 +417,6 @@ li > a:focus{
 body {
   -webkit-tap-highlight-color: #0085A1;
   }
-.img-cover{
+body .img-cover{
   background-color: transparent !important;
 }
