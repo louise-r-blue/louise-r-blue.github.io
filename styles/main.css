@@ -141,7 +141,7 @@ div > h2 > .subheading a:focus{
   text-decoration: none;
 }
 
-.photo-title {
+span .photo-title {
   text-align: right;
   right: 2px;
   bottom: 5px;
