@@ -75,12 +75,11 @@ hr.small {
   max-width: 100px;
   /*margin: 15px auto;*/
 
-  /*border-width: 4px;*/
-  /*border-color: whitesmoke;*/
-  color: whitesmoke;
+  border-width: 4px;
+  border-color: whitesmoke;
   display: block;
-  height: 4px;
-  border: 0;
+  /*height: 4px;*/
+  /*border: 0;*/
   /*border-top: 1px solid #ccc;*/
   margin: 1em 0;
   padding: 0;
