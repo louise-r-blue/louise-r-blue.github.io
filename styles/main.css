@@ -84,7 +84,7 @@ a img:focus {
   height: 8px;
   display: block;
   /*margin: 1em 0;*/
-  padding: 0;
+  padding-bottom: 10px;
   text-align: right;
   font-weight: 400;
 }
@@ -119,6 +119,7 @@ color: whitesmoke;
 }
 .site-heading h1{
   margin-top: 0;
+  margin-bottom: 10px;
   font-size: 50px;
 }
 .site-heading .subheading{
@@ -152,6 +153,13 @@ span .photo-title {
 .site-heading h1{
     font-size: 80px;
     text-align: center;
+  }
+  .photo-title {
+    text-align: right;
+    right: 2px;
+    bottom: 5px;
+    font-weight: 400;
+    color:whitesmoke;
   }
 }
 
