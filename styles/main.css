@@ -38,7 +38,7 @@ p {
   font-family: 'Raleway',sans-serif;
   line-height: 1.65;
 }
-h1,
+
 h2,
 h3,
 h4,
@@ -48,8 +48,12 @@ h6 {
   font-weight: 400;
   padding-bottom: 10px;
 }
- h1 .header-one{
+.header-one{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   margin-bottom: 10px;
+  padding: none;
+
 }
 /*.clearfix {
   *zoom: 1;
