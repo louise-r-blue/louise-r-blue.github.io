@@ -43,7 +43,7 @@ h6 {
   font-weight: 400;
   padding-bottom: 15px;
 }
-.site-heading h1{
+ h1{
   padding-bottom: none;
 }
 /*.clearfix {
@@ -73,7 +73,7 @@ a img:focus {
 }
 hr.small {
   max-width: 100px;
-  margin: 15px auto;
+  /*margin: 15px auto;*/
   border-width: 4px;
   border-color: whitesmoke;
 }
