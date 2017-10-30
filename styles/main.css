@@ -93,7 +93,7 @@ hr.small {
 
 /*.intro-header .post-heading,*/
 /*.intro-header .page-heading */
-.intro-header .site-heading
+ .site-heading
 {
   padding: 100px 0 50px;
   color: whitesmoke;
@@ -103,17 +103,15 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading{
     padding: 150px 0;
-    text-align: center;
+    /*text-align: center;*/
   }
 }
-.intro-header .site-heading{
-  text-align: center;
-}
-.intro-header .site-heading h1{
+
+.site-heading h1{
   margin-top: 0;
   font-size: 50px;
 }
-.intro-header .site-heading .subheading{
+.site-heading .subheading{
   font-size: 30px;
   line-height: 1.1;
   display: block;
@@ -143,7 +141,7 @@ div > h2 > .subheading a:focus{
   bottom: 5px;
 }
 @media only screen and (min-width: 768px) {
-  .intro-header .site-heading h1{
+.site-heading h1{
     font-size: 80px;
     text-align: center;
   }
