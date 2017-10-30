@@ -90,7 +90,7 @@ a img:focus {
   /*margin: 1em 0;*/
   padding-bottom: 10px;
   text-align: right;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -132,7 +132,7 @@ color: whitesmoke;
   display: block;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  margin: 10px 0 0;
+  margin: 10px 0 10px;
   color: firebrick;
 
 }
