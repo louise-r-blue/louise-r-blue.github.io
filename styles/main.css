@@ -72,8 +72,8 @@ a img:focus {
   cursor: zoom-in;
 }
 hr.small {
-  max-width: 100px;
-  margin: 5px auto;
+  max-width: 98px;
+  margin: auto;
   border: 4px solid whitesmoke;
   border-color: whitesmoke;
   display: block;
