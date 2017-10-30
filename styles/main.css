@@ -48,6 +48,9 @@ h6 {
   font-weight: 400;
   padding-bottom: 15px;
 }
+.site-heading h1{
+  padding-bottom: none;
+}
 /*.clearfix {
   *zoom: 1;
 }
