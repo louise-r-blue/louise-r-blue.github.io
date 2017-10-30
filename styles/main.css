@@ -60,23 +60,12 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
-/*.post-title > a:hover,
-.post-title > a:focus{
-  color: #0085A1;
-  text-decoration: none;
-  }
-.post-title > .post-subtitle > a:hover,
-.post-title > .post-subtitle > a:focus{
-  color: #0085A1;
-  text-decoration: none;
-  }*/
 hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
   border-color: white;
 }
-
 
 @media only screen and (min-width: 768px) {
 }
@@ -103,19 +92,19 @@ hr.small {
 {
   padding: 100px 0 50px;
   color: whitesmoke;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading{
     padding: 150px 0;
+    text-align: center;
   }
 }
-.intro-header .site-heading,
-.intro-header .page-heading {
+.intro-header .site-heading{
   text-align: center;
 }
-.intro-header .site-heading h1,
-.intro-header .page-heading h1 {
+.intro-header .site-heading h1{
   margin-top: 0;
   font-size: 50px;
 }
@@ -126,6 +115,7 @@ hr.small {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
+  text-align: center;
 }
 .intro-header > h2 > .subheading{
   color: firebrick;
@@ -143,14 +133,14 @@ div > h2 > .subheading a:focus{
   position: absolute;
 }
 .intro-header .photo-title {
-  position: absolute;
+  text-align: right;
   right: 2px;
   bottom: 5px;
 }
 @media only screen and (min-width: 768px) {
-  .intro-header .site-heading h1,
-  .intro-header .page-heading h1 {
+  .intro-header .site-heading h1{
     font-size: 80px;
+    text-align: center;
   }
 }
 
