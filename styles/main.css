@@ -43,8 +43,8 @@ h6 {
   font-weight: 400;
   padding-bottom: 15px;
 }
- h1{
-  padding-bottom: none;
+ h1 .header-one{
+  margin-bottom: 20px;
 }
 /*.clearfix {
   *zoom: 1;
@@ -71,21 +71,17 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
-/*hr.small {
+hr.small {
   max-width: 100px;
   /*margin: 15px auto;*/
-
-  /*border-width: 4px;*/
-  /*border-width: thick;
   border-color: whitesmoke;
+  border-top: 2px solid whitesmoke;
+  border-bottom: : 2px solid whitesmoke;
   display: block;
-  /*height: 4px;
-  /*border: 0;
-  /*border-top: 1px solid #ccc;
-  /*margin: 1em 0;
+  margin: 1em 0;
   padding: 0;
   text-align: center;
-}*/
+}
 
 @media only screen and (min-width: 768px) {
 }
