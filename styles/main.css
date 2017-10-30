@@ -46,7 +46,7 @@ h5,
 h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
  h1 .header-one{
   margin-bottom: 10px;
@@ -153,6 +153,7 @@ span .photo-title {
 .site-heading h1{
     font-size: 80px;
     text-align: center;
+    margin-bottom: 10px;
   }
   .photo-title {
     text-align: right;
