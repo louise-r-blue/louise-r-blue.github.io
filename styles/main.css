@@ -75,12 +75,13 @@ hr.small {
   max-width: 100px;
   /*margin: 15px auto;*/
   border-color: whitesmoke;
-  border-top: 2px solid whitesmoke;
-  border-bottom: : 2px solid whitesmoke;
+  border-top: 4px solid whitesmoke;
+  border-bottom: : 4px solid whitesmoke;
   display: block;
   margin: 1em 0;
   padding: 0;
-  text-align: center;
+  /*text-align: center;*/
+  align-content: center;
 }
 
 @media only screen and (min-width: 768px) {
