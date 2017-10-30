@@ -1,10 +1,10 @@
-/*article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
 {
   display: block;
-}*/
-* {
-    box-sizing: border-box;
 }
+/** {
+    box-sizing: border-box;
+}*/
 html{
   background-color: whitesmoke;
   background: url(/images/wavebreaker07a.png) no-repeat center fixed;
