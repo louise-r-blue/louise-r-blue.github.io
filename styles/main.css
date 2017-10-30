@@ -19,12 +19,15 @@ body {
   /*max-height: 100%;*/
 }
 .col-2 {width: 16.66%;}
-.col-8 {width: 66.66%;}
-.row::after {
+.col-8 {
+  width: 66.66%;
+ text-align: center;
+}
+/*.row::after {
     content: "";
     clear: both;
     display: table;
-}
+}*/
 p {
   /*font-size: 18px;*/
   font-family: 'Raleway',sans-serif;
@@ -97,7 +100,7 @@ hr.small {
 {
   padding: 100px 0 50px;
   color: whitesmoke;
-  text-align: center;
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -118,7 +121,7 @@ hr.small {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
-  text-align: center;
+
 }
 .intro-header > h2 > .subheading{
   color: firebrick;
@@ -135,7 +138,7 @@ div > h2 > .subheading a:focus{
   text-align: left;
   position: absolute;
 }
-.intro-header .photo-title {
+.site-heading .photo-title {
   text-align: right;
   right: 2px;
   bottom: 5px;
