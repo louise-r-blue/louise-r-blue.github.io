@@ -49,7 +49,7 @@ h6 {
   padding-bottom: 15px;
 }
  h1 .header-one{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 /*.clearfix {
   *zoom: 1;
@@ -136,8 +136,9 @@ a img:focus {
   line-height: 1.1;
   display: block;
   font-family: 'Poppins', sans-serif;
-  /*font-weight: 300;*/
+  font-weight: 500;
   margin: 10px 0 0;
+  color: firebrick;
 
 }
 .intro-header > h2 > .subheading{
@@ -156,11 +157,13 @@ div > h2 > .subheading a:focus{
   text-align: left;
   position: absolute;
 }*/
-/*.site-heading .photo-title {
+.site-heading .photo-title {
   text-align: right;
   right: 2px;
   bottom: 5px;
-}*/
+  font-weight: 300;
+  color:whitesmoke;
+}
 @media only screen and (min-width: 768px) {
 .site-heading h1{
     font-size: 80px;
