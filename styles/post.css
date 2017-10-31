@@ -406,7 +406,9 @@ li > a:focus{
 /*.collapse, .navbar-collapse  {
     background: rgba(0,0,0,0.2);
 }*/
-
+.navbar .navbar-default{
+  background-color: whitesmoke;
+}
 body {
   -webkit-tap-highlight-color: #0085A1;
   }
