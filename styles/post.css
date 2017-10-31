@@ -414,8 +414,8 @@ li > a:focus{
 /*.collapse, .navbar-collapse  {
     background: rgba(0,0,0,0.2);
 }*/
-.navbar-default{
-  background-color: whitesmoke;
+.navbar-default > .navbar-custom{
+  background-color: whitesmoke!important;
   background-image: none;
   background-repeat: no-repeat;
 }

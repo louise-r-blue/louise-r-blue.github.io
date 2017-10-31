@@ -144,16 +144,16 @@ div > h2 > .subheading a:hover{
 a:link{
   text-decoration: none;
 }
- a:hover{
-  font-weight: 600;
+ a .subheading:hover{
+  font-weight: 700;
   text-decoration: none;
 }
 /*div > h2 > .subheading a:focus{
   font-weight: 600;
   text-decoration: none;
 }*/
-a:focus{
-  font-weight: 600;
+a .subheading:focus{
+  font-weight:700;
   text-decoration: none;
 }
 span .photo-title {
