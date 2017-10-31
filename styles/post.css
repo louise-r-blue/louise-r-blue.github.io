@@ -90,6 +90,11 @@ a img:focus {
   font-weight: 700;
   /*color: black;*/
   letter-spacing: 1px;
+  color:firebrick;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus{
+  border-bottom: solid 1px gray;
 }
 #nav-background{
   background-color: whitesmoke;
