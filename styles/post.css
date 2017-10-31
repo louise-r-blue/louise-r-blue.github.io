@@ -15,13 +15,7 @@ body {
   max-height: 100%;
   /*max-height: 100%;*/
 }
-/*.img-cover{
-  background: url(/images/wavebreaker07a.png) no-repeat center fixed;
-  background-size: cover;
-}*/
-/*body .img-cover{
-  background-color: none !important;
-}*/
+
 article{
   padding-top: 60px;
 }
@@ -68,22 +62,8 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
-/*.post-title > a:hover,
-.post-title > a:focus{
-  color: #0085A1;
-  text-decoration: none;
-  }
-.post-title > .post-subtitle > a:hover,
-.post-title > .post-subtitle > a:focus{
-  color: #0085A1;
-  text-decoration: none;
-  }*/
-hr.small {
-  max-width: 100px;
-  margin: 15px auto;
-  border-width: 4px;
-  border-color: white;
-}
+
+
 
 .navbar-custom {
   position: absolute;
@@ -110,6 +90,9 @@ hr.small {
   font-weight: 700;
   /*color: black;*/
   letter-spacing: 1px;
+}
+#nav-background{
+  background-color: whitesmoke;
 }
 /*a .post-list{
   background: whitesmoke;
