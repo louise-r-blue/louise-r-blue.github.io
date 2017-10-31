@@ -94,7 +94,7 @@ a img:focus {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus{
-  border-bottom: solid 1px gray;
+  border-bottom: 1px solid gray;
 }
 #nav-background{
   background-color: whitesmoke;
@@ -131,7 +131,7 @@ a img:focus {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: gray;
+    color: darkgray;
     background-color: whitesmoke;
     /*background:  rgba(0,0,0,0.4);*/
   }
@@ -145,7 +145,7 @@ a img:focus {
   .navbar-custom .nav li a:focus {
     color: firebrick;
     background: whitesmoke;
-    border-bottom: firebrick;
+    border-bottom: 1px solid gray;
     /*color: rgba(255, 255, 255, 0.8);*/
   }
 }
@@ -407,7 +407,7 @@ li > a:focus{
     background: rgba(0,0,0,0.2);
 }*/
 .navbar .navbar-default{
-  background-color: whitesmoke;
+  background-color: whitesmoke !important;
 }
 body {
   -webkit-tap-highlight-color: #0085A1;
