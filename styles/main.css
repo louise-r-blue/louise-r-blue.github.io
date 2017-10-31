@@ -136,16 +136,26 @@ color: whitesmoke;
   color: firebrick;
 
 }
-
+/*
 div > h2 > .subheading a:hover{
   font-weight: 600;
   text-decoration: none;
+}*/
+a:link{
+  text-decoration: none;
 }
-div > h2 > .subheading a:focus{
+ a:hover{
   font-weight: 600;
   text-decoration: none;
 }
-
+/*div > h2 > .subheading a:focus{
+  font-weight: 600;
+  text-decoration: none;
+}*/
+a:focus{
+  font-weight: 600;
+  text-decoration: none;
+}
 span .photo-title {
   text-align: right;
   right: 2px;
