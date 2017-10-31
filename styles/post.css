@@ -122,7 +122,7 @@ a img:focus {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-  .navbar-custom.navbar-fixed-top{
+  .navbar-custom.is-fixed{
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
@@ -222,7 +222,7 @@ li > a:focus{
   text-decoration: none;
   border-bottom: firebrick;
 }
-.navbar-default > .navbar-custom > .navbar-fixed-top{
+.navbar-default > .navbar-custom{
   background-color: whitesmoke!important;
   background-image: none;
   background-repeat: no-repeat;
