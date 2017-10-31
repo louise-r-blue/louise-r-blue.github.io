@@ -82,8 +82,11 @@ a img:focus {
   text-transform: uppercase;
   font-size: 12px;
   background-color: whitesmoke;
-  color:firebrick;
+  border-color: firebrick;
     /*background: whitesmoke;*/
+}
+.icon-bar{
+  color:firebrick;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
