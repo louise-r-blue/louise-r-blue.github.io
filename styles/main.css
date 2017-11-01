@@ -130,8 +130,8 @@ color: whitesmoke;
   a .subheading:link,
   a .subheading:hover,
   a .subheading:focus{
-    font-size: 100px;
-    font-weight:800;
+    font-size: 40px;
+    font-weight:700;
   }
 }
 @media only screen and (min-width: 320px) {
@@ -143,8 +143,8 @@ color: whitesmoke;
   a .subheading:link,
   a .subheading:hover,
   a .subheading:focus{
-    font-size: 100px;
-    font-weight:800;
+    font-size: 40px;
+    font-weight:700;
   }
 }
 .site-heading h1{
