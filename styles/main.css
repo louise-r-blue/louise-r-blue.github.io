@@ -126,6 +126,16 @@ span .photo-title {
     font-weight:700;
   }
 }
+@media only screen and (min-width: 375px) {
+  .intro-header .site-heading{
+    padding: 80px 0;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .intro-header .site-heading{
+    padding: 110px 0;
+  }
+}
 @media only screen and (min-width: 480px) {
   .intro-header .site-heading{
     padding: 100px 0;
@@ -161,9 +171,26 @@ span .photo-title {
 @media only screen and (min-width: 1170px) {
 }
 @media only screen and (min-width: 1440px) {
+  .intro-header .site-heading{
+    padding: 150px 0;
+  }
+  .header-one{
+    font-size: 100px;
+  }
+  .subheading{
+    font-size: 40px;
+  }
 }
 @media only screen and (min-width: 2560px) {
-
+  .intro-header .site-heading{
+    padding: 200px 0;
+  }
+  .header-one{
+    font-size: 150px;
+  }
+  .subheading{
+    font-size: 60px;
+  }
 }
 
 html, body {
