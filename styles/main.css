@@ -172,24 +172,30 @@ span .photo-title {
 }
 @media only screen and (min-width: 1440px) {
   .intro-header .site-heading{
-    padding: 150px 0;
+    padding: 200px 0;
   }
-  .header-one{
-    font-size: 100px;
+  h1{
+    font-size: 120px;
   }
   .subheading{
+    font-size: 80px;
+  }
+  .photo-title{
     font-size: 40px;
   }
 }
 @media only screen and (min-width: 2560px) {
   .intro-header .site-heading{
-    padding: 200px 0;
+    padding: 250px 0;
   }
-  .header-one{
+  h1{
     font-size: 150px;
   }
   .subheading{
-    font-size: 60px;
+    font-size: 100px;
+  }
+  .photo-title{
+    font-size: 50px;
   }
 }
 
