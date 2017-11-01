@@ -115,7 +115,7 @@ span .photo-title {
 }
 @media only screen and (min-width: 320px) {
   .intro-header .site-heading{
-    padding: 60px 0;
+    padding: 40px 0;
     color: whitesmoke;
     /*text-align: center;*/
   }
@@ -128,12 +128,12 @@ span .photo-title {
 }
 @media only screen and (min-width: 375px) {
   .intro-header .site-heading{
-    padding: 80px 0;
+    padding: 60px 0;
   }
 }
 @media only screen and (min-width: 425px) {
   .intro-header .site-heading{
-    padding: 110px 0;
+    padding: 80px 0;
   }
 }
 @media only screen and (min-width: 480px) {
@@ -181,7 +181,7 @@ span .photo-title {
     font-size: 80px;
   }
   .photo-title{
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 @media only screen and (min-width: 2560px) {
@@ -189,13 +189,13 @@ span .photo-title {
     padding: 250px 0;
   }
   h1{
-    font-size: 150px;
+    font-size: 200px;
   }
   .subheading{
-    font-size: 100px;
+    font-size: 140px;
   }
   .photo-title{
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 

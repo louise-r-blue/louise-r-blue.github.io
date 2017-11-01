@@ -67,7 +67,7 @@ a img:focus {
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   /*color: black;*/
   letter-spacing: 1px;
