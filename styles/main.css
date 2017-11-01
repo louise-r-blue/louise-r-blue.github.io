@@ -127,10 +127,24 @@ color: whitesmoke;
     color: whitesmoke;
     /*text-align: center;*/
   }
-  a:link,
-  a:hover,
-  a:focus{
+  a .subheading:link,
+  a .subheading:hover,
+  a .subheading:focus{
     font-size: 100px;
+    font-weight:800;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .intro-header .site-heading{
+    padding: 80px 0;
+    color: whitesmoke;
+    /*text-align: center;*/
+  }
+  a .subheading:link,
+  a .subheading:hover,
+  a .subheading:focus{
+    font-size: 100px;
+    font-weight:800;
   }
 }
 .site-heading h1{
@@ -190,9 +204,6 @@ span .photo-title {
   }
 }
 
-@media only screen and (min-width: 320px) {
-
-}
 html, body {
   margin: 0;
   height: 100%;
