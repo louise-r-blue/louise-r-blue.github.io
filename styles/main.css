@@ -127,6 +127,11 @@ color: whitesmoke;
     color: whitesmoke;
     /*text-align: center;*/
   }
+  a:link,
+  a:hover,
+  a:focus{
+    font-size: 100px;
+  }
 }
 .site-heading h1{
   margin-top: 0;
