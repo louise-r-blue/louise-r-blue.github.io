@@ -121,6 +121,13 @@ color: whitesmoke;
     /*text-align: center;*/
   }
 }
+@media only screen and (min-width: 480px) {
+  .intro-header .site-heading{
+    padding: 30px 0;
+    color: whitesmoke;
+    /*text-align: center;*/
+  }
+}
 .site-heading h1{
   margin-top: 0;
   margin-bottom: 10px;
