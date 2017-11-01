@@ -130,7 +130,7 @@ color: whitesmoke;
   a .subheading:link,
   a .subheading:hover,
   a .subheading:focus{
-    font-size: 40px;
+    /*font-size: 40px;*/
     font-weight:700;
   }
 }
@@ -143,7 +143,7 @@ color: whitesmoke;
   a .subheading:link,
   a .subheading:hover,
   a .subheading:focus{
-    font-size: 40px;
+    /*font-size: 40px;*/
     font-weight:700;
   }
 }
