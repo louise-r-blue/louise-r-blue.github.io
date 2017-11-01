@@ -1,10 +1,6 @@
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
-{
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
   display: block;
 }
-/** {
-    box-sizing: border-box;
-}*/
 html{
   background-color: whitesmoke;
   background: url(/images/wavebreaker07a.png) no-repeat center fixed;
@@ -14,7 +10,7 @@ html{
   -o-background-size: cover;
   background-size: cover;
 }
-body {
+body{
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: #333333;
@@ -22,23 +18,19 @@ body {
   max-height: 100%;
   /*max-height: 100%;*/
 }
-
 .col-12 {
   width: 100%;
- text-align: center;
+  text-align: center;
 }
-
 /*.row::after {
     content: "";
     clear: both;
     display: table;
 }*/
 p {
-  /*font-size: 18px;*/
   font-family: 'Raleway',sans-serif;
   line-height: 1.65;
 }
-
 h2,
 h3,
 h4,
@@ -68,15 +60,6 @@ h6 {
   clear: both;
 }*/
 
-/*a {
-  color: #333333;
-}
-a:hover,
-a:focus {
-  color: #0085A1;
-  color: #0085A1;
-  text-decoration: none;
-}*/
 a img:hover,
 a img:focus {
   cursor: zoom-in;
@@ -93,32 +76,54 @@ a img:focus {
   /*font-weight: 300;*/
 }
 
-@media only screen and (min-width: 1170px) {
-}
-
-/*.intro-header {
-  background-color: transparent;
-  background: url(/images/wavebreaker07a.png) no-repeat center fixed;
-  background: no-repeat center fixed;
-  background-attachment:fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  margin-bottom: 50px;
-}*/
-
 .site-heading{
 padding: 140px 0;
 color: whitesmoke;
 }
 
-@media only screen and (min-width: 768px) {
+.site-heading h1{
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+.site-heading .subheading{
+  font-size: 30px;
+  line-height: 1.1;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin: 10px 0 10px;
+  color: firebrick;
+}
+a:link{
+  text-decoration: none;
+}
+ a .subheading:hover{
+  font-weight: 700;
+  text-decoration: none;
+}
+a .subheading:focus{
+  font-weight:700;
+  text-decoration: none;
+}
+span .photo-title {
+  text-align: right;
+  right: 2px;
+  bottom: 5px;
+  font-weight: 400;
+  color:whitesmoke;
+}
+@media only screen and (min-width: 320px) {
   .intro-header .site-heading{
-    padding: 140px 0;
+    padding: 60px 0;
     color: whitesmoke;
     /*text-align: center;*/
+  }
+  a .subheading:link,
+  a .subheading:hover,
+  a .subheading:focus{
+    /*font-size: 40px;*/
+    font-weight:700;
   }
 }
 @media only screen and (min-width: 480px) {
@@ -134,61 +139,6 @@ color: whitesmoke;
     font-weight:700;
   }
 }
-@media only screen and (min-width: 320px) {
-  .intro-header .site-heading{
-    padding: 80px 0;
-    color: whitesmoke;
-    /*text-align: center;*/
-  }
-  a .subheading:link,
-  a .subheading:hover,
-  a .subheading:focus{
-    /*font-size: 40px;*/
-    font-weight:700;
-  }
-}
-.site-heading h1{
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 50px;
-}
-.site-heading .subheading{
-  font-size: 30px;
-  line-height: 1.1;
-  display: block;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  margin: 10px 0 10px;
-  color: firebrick;
-
-}
-/*
-div > h2 > .subheading a:hover{
-  font-weight: 600;
-  text-decoration: none;
-}*/
-a:link{
-  text-decoration: none;
-}
- a .subheading:hover{
-  font-weight: 700;
-  text-decoration: none;
-}
-/*div > h2 > .subheading a:focus{
-  font-weight: 600;
-  text-decoration: none;
-}*/
-a .subheading:focus{
-  font-weight:700;
-  text-decoration: none;
-}
-span .photo-title {
-  text-align: right;
-  right: 2px;
-  bottom: 5px;
-  font-weight: 400;
-  color:whitesmoke;
-}
 @media only screen and (min-width: 768px) {
 .site-heading h1{
     font-size: 80px;
@@ -202,6 +152,18 @@ span .photo-title {
     font-weight: 400;
     color:whitesmoke;
   }
+   .site-heading{
+    padding: 140px 0;
+    color: whitesmoke;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+}
+@media only screen and (min-width: 1440px) {
+}
+@media only screen and (min-width: 2560px) {
+
 }
 
 html, body {
