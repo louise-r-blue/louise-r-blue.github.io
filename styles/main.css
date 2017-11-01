@@ -186,16 +186,20 @@ span .photo-title {
 }
 @media only screen and (min-width: 2560px) {
   .intro-header .site-heading{
-    padding: 250px 0;
+    padding: 400px 0;
   }
   h1{
     font-size: 200px;
   }
-  .subheading{
+  .site-heading .subheading{
     font-size: 140px;
   }
   .photo-title{
     font-size: 40px;
+  }
+  div .small{
+    height: 14px;
+    width: 160px;
   }
 }
 
