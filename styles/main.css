@@ -128,7 +128,7 @@ span .photo-title {
 }
 @media only screen and (min-width: 375px) {
   .intro-header .site-heading{
-    padding: 60px 0;
+    padding: 40px 0;
   }
   .site-heading .subheading{
     padding-bottom: none;
