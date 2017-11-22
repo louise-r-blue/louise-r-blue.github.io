@@ -1,9 +1,9 @@
 $(document).ready(function(){
   // Add scrollspy to <body>
-  $('body').scrollspy({target: ".chevron-up, .chevron-up-last", offset: 50}); //chevron-up
+  $('body').scrollspy({target: ".chevron-up || .chevron-up-last", offset: 50}); //chevron-up
 
   // Add smooth scrolling on all links inside the navbar //chevron-up a
-  $(".chevron-up  a, .chevron-up-last a").on('click', function(event) {
+  $(".chevron-up  a || .chevron-up-last a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
