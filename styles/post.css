@@ -202,16 +202,14 @@ li > a{
   width: 100%;
   text-align: center;
 }
-.chevron-up-last {
+#chevron-up-last {
   width: 100%;
   text-align: center;
   padding-bottom: 40px;
 }
-.chevron-up-last:hover,
 .chevron-up:hover{
   color:firebrick;
 }
-.chevron-up-last:focus,
 .chevron-up:focus{
   color:firebrick;
 }
