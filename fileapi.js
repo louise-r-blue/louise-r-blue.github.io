@@ -33,6 +33,14 @@
     var reader = new FileReader();
     reader.onload = (function(aImg) { return function(e) { aImg.src = e.target.result; }; })(img);
     reader.readAsDataURL(file);
+		
+    // create an array to hold image data src
+		var imageArr = [];
+		for(i =0; i < img.length; i++){
+			imageArr.push[i];
+			console.log(imageArr);
+		}
+
   }
 }
 // function drag(ev) {
