@@ -1,0 +1,73 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="lrb">
+    <!-- <link rel="icon" href="../../../../favicon.ico"> -->
+    <link rel="shortcut icon" href="/favcon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>| File API</title>
+
+    <!-- Bootstrap core CSS/js -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="styles/main.css" rel="stylesheet">
+    <!-- <link href="styles/flip.css" rel="stylesheet"> -->
+
+  </head>
+  <body>
+    <div class="container">
+	    <div class="row" >
+		   <div class="col-lg-12 number" >
+         <h1>Load Photo/s</h1>
+         <input type="file" id="fileElem" multiple accept="image/*" style="display:none" onclick="convertImageToCanvas(this.img)" onchange="handleFiles(this.files)">
+         <a href="#" id="fileSelect">Select some files</a>
+         <hr>
+    <div id="preview">
+      <!-- <div id="preview" ondrop="drop(event)" ondragover="allowDrop(event)"> -->
+       <!--images will be inserted here-->
+     </div>
+   </div>
+ </div>
+ </div>
+
+
+ <!-- <div class="container">
+     <div class="row" >
+     <div class="col-lg-12 number" >
+           canvas for flip book
+     <div id="book">
+       <canvas id="pageflip-canvas"></canvas>
+         <div id="pages">
+           <section>
+               <div>
+                   <img class ="images" src="images/wavebreak.png" alt=" "/>
+               </div>
+           </section>
+           <section>
+               <div>
+                   <img class ="images" src="images/wavebreak2.png" alt=" "/>
+               </div>
+           </section>
+           <section>
+               <div>
+                   <img class ="images" src="images/wavebreak3.png" alt=" "/>
+               </div>
+           </section>
+         </div>
+     </div>
+</div>
+ </div>
+ </div> -->
+ <script type="text/javascript" src="fileapi.js"></script>
+  <!-- <script type="text/javascript" src="pageflip.js"></script> -->
+    <!-- <script type="text/javascript" src="fliptest.js"></script> -->
+ <!-- <script type="text/javascript" src="dragdrop.js"></script> -->
+  </body>
+  </html>
