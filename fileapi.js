@@ -45,6 +45,7 @@
 		}
 	}
 	document.getElementById("result").innerHTML=imgString;
+	console.log(imgString + ': ')
 
     var reader = new FileReader();
     reader.onload = (function(aImg) {
