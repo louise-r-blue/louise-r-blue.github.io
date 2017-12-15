@@ -29,23 +29,24 @@
        // Assuming that "preview" is the div output where the content will be displayed.
 		var preview = document.getElementById("preview");
 		preview.appendChild(img);
+		console.log("image source: " + img.src);
 
-     // find the div with id preview
-		var imgString = "";
-   var imgHolder = document.getElementById('preview');
-
- // find all images in imgHolder
- for (var i = 0; i < imgHolder.length; i++) {
-		var imgs = imghHolder[i].getElementsByTagName('img');
-
-		// print out src
-		for (var j = 0; j < imgs.length; j++) {
-			var img = imgs[j];
-			imgString+=img.src + "<br />";
-		}
-	}
-	document.getElementById("result").innerHTML=imgString;
-	console.log(imgString + ': ')
+ //     // find the div with id preview
+ // 	var imgString = "";
+ //   var imgHolder = document.getElementById('preview');
+ //
+ // // find all images in imgHolder
+ // for (var i = 0; i < imgHolder.length; i++) {
+ // 	var imgs = imghHolder[i].getElementsByTagName('img');
+ //
+ // 	// print out src
+ // 	for (var j = 0; j < imgs.length; j++) {
+ // 		var img = imgs[j];
+ // 		imgString+=img.src + "<br />";
+ // 	}
+ // }
+ // document.getElementById("result").innerHTML=imgString;
+ // console.log(imgString + ': ')
 
     var reader = new FileReader();
     reader.onload = (function(aImg) {
