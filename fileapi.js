@@ -30,8 +30,28 @@
 		var preview = document.getElementById("preview");
 		preview.appendChild(img);
 
+     // find the div with id preview
+		var imgString = "";
+   var imgHolder = document.getElementById('preview');
+
+ // find all images in imgHolder
+ for (var i = 0; i < imgHolder.length; i++) {
+		var imgs = imghHolder[i].getElementsByTagName('img');
+
+		// print out src
+		for (var j = 0; j < imgs.length; j++) {
+			var img = imgs[j];
+			imgString+=img.src + "<br />";
+		}
+	}
+	document.getElementById("result").innerHTML=imgString;
+
     var reader = new FileReader();
-    reader.onload = (function(aImg) { return function(e) { aImg.src = e.target.result; }; })(img);
+    reader.onload = (function(aImg) {
+			return function(e) {
+				aImg.src = e.target.result;
+			};
+		})(img);
     reader.readAsDataURL(file);
 
     // create an array to hold image data src
