@@ -25,11 +25,12 @@
     img.classList.add("obj");
 		// img.setAttribute("id", "drag-img");
 		// img.setAttribute("draggable", "true");
+		// var source = img.src;
     img.file = file;
        // Assuming that "preview" is the div output where the content will be displayed.
 		var preview = document.getElementById("preview");
 		preview.appendChild(img);
-		console.log("image source: " + img.src);
+		console.log("image source: " + img);
 
  //     // find the div with id preview
  // 	var imgString = "";
@@ -52,10 +53,11 @@
     reader.onload = (function(aImg) {
 			return function(e) {
 				aImg.src = e.target.result;
+				console.log("aImage Source: " + aImg.src);
 			};
 		})(img);
     reader.readAsDataURL(file);
-
+console.log("Reader file: " + file)
     // create an array to hold image data src
 		// var imageArr = [];
 		// for(i =0; i < img.length; i++){
