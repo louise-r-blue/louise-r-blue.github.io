@@ -26,8 +26,10 @@
 	    <div class="row" >
 		   <div class="col-lg-12 number" >
          <h1>Load Photo/s</h1>
-         <input type="file" id="fileElem" multiple accept="image/*" style="display:none" onchange="handleFiles(this.files)">
-         <a href="#" id="fileSelect">Select some files</a>
+         <!-- <input type="file" id="fileElem" multiple accept="image/*" style="display:none" onchange="handleFiles(this.files)"> -->
+         <p>Select images to preview them:</p>
+         <input type="file"accept="image/*" multiple />
+         <!-- <a href="#" id="fileSelect">Select some files</a> -->
          <hr>
     <div id="preview">
       <!-- <div id="preview" ondrop="drop(event)" ondragover="allowDrop(event)"> -->
@@ -68,7 +70,7 @@
 </div>
  </div>
  </div> -->
- <script type="text/javascript" src="fileapi.js"></script>
+ <script type="text/javascript" src="fileapi2.js"></script>
   <!-- <script type="text/javascript" src="pageflip.js"></script> -->
     <!-- <script type="text/javascript" src="fliptest.js"></script> -->
  <!-- <script type="text/javascript" src="dragdrop.js"></script> -->

@@ -114,7 +114,7 @@ span .photo-title {
   font-weight: 400;
   color:whitesmoke;
 }
-.obj{
+/*.obj{
   position:relative;
   border:1px solid #ddd;border-radius:4px;
   padding: 5px;
@@ -122,6 +122,15 @@ span .photo-title {
   width:150px;
   height:110px;
   object-fit:cover;
+}*/
+ /*for createObjectUrl*/
+#preview img {
+    max-height: 100px;
+    max-width: 100px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
 }
 @media only screen and (min-width: 320px) {
   .intro-header .site-heading{
