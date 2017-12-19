@@ -27,8 +27,12 @@
 		   <div class="col-lg-12 number" >
          <h1>Load Photo/s</h1>
          <!-- <input type="file" id="fileElem" multiple accept="image/*" style="display:none" onchange="handleFiles(this.files)"> -->
-         <p>Select images to preview them:</p>
-         <input type="file"accept="image/*" multiple />
+         <!-- <p>Select images to preview them:</p>
+         <input type="file"accept="image/*" multiple /> -->
+         <div class="upload-btn-wrapper">
+           <button class="btn">Upload photo/s</button>
+           <input type="file" name="myfile"accept="image/*" multiple  />
+         </div>
          <!-- <a href="#" id="fileSelect">Select some files</a> -->
          <hr>
     <div id="preview">
@@ -43,33 +47,7 @@
  </div>
 
 
- <!-- <div class="container">
-     <div class="row" >
-     <div class="col-lg-12 number" >
-           canvas for flip book
-     <div id="book">
-       <canvas id="pageflip-canvas"></canvas>
-         <div id="pages">
-           <section>
-               <div>
-                   <img class ="images" src="images/wavebreak.png" alt=" "/>
-               </div>
-           </section>
-           <section>
-               <div>
-                   <img class ="images" src="images/wavebreak2.png" alt=" "/>
-               </div>
-           </section>
-           <section>
-               <div>
-                   <img class ="images" src="images/wavebreak3.png" alt=" "/>
-               </div>
-           </section>
-         </div>
-     </div>
-</div>
- </div>
- </div> -->
+
  <script type="text/javascript" src="fileapi2.js"></script>
   <!-- <script type="text/javascript" src="pageflip.js"></script> -->
     <!-- <script type="text/javascript" src="fliptest.js"></script> -->

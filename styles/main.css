@@ -123,14 +123,43 @@ span .photo-title {
   height:110px;
   object-fit:cover;
 }*/
- /*for createObjectUrl*/
+ /*for file upload createObjectUrl*/
+ .upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
 #preview img {
-    max-height: 100px;
+  position:relative;
+  border:1px solid #ddd;border-radius:4px;
+  padding: 5px;
+  margin: 15px;
+  width:150px;
+  height:110px;
+  object-fit:cover;
+    /*max-height: 100px;
     max-width: 100px;
     margin: 5px;
     padding: 5px;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc;*/
 }
 @media only screen and (min-width: 320px) {
   .intro-header .site-heading{
