@@ -129,6 +129,7 @@ span .photo-title {
   overflow: hidden;
   display: inline-block;
 }
+
 .btn {
   border: 2px solid gray;
   color: gray;
@@ -146,6 +147,7 @@ span .photo-title {
   top: 0;
   opacity: 0;
 }
+
 #preview img {
   position:relative;
   border:1px solid #ddd;border-radius:4px;
