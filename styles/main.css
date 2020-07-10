@@ -18,6 +18,11 @@ body{
   max-height: 100%;
   /*max-height: 100%;*/
 }
+
+footer.footer {
+  background-color: #e7e7e7;
+}
+
 .col-12 {
   width: 100%;
   text-align: center;

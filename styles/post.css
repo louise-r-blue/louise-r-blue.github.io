@@ -15,6 +15,7 @@ body {
 }
 article{
   padding-top: 60px;
+  margin-bottom: 2.55em;
 }
 p {
   font-family: 'Raleway',sans-serif;
@@ -42,6 +43,15 @@ a:focus {
 a img:hover,
 a img:focus {
   cursor: zoom-in;
+}
+
+footer.footer {
+  background-color: #e7e7e7;
+  margin-top: 3.75em;
+}
+
+.navbar {
+  margin-bottom: 1.25em;
 }
 
 .navbar-custom {
