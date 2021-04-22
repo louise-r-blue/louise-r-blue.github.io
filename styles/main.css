@@ -3,7 +3,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 html{
   background-color: whitesmoke;
-  background: url(/images/wavebreaker07a.png) no-repeat center fixed;
+  background: url(/images/wavebreaker_front.png) no-repeat center fixed;
   /*background-attachment:fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
